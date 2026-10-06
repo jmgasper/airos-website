@@ -1,0 +1,10 @@
+[
+  {"title":"Summit","file":"summit.png","category":"Apps","description":"The web, in a native browser. WebKit rendering with Haiku window controls.","source":"https://github.com/jmgasper/summit/tree/main/docs/screenshots"},
+  {"title":"AirShot","file":"airshot.png","category":"Apps","description":"The capture editor, with drawing tools, colours, crop and clipboard export.","source":"https://github.com/jmgasper/airShot"},
+  {"title":"AirTime","file":"airtime.jpg","category":"Apps","description":"HEVC 10-bit playback on Raspberry Pi 4. Film: Big Buck Bunny, Blender Foundation (CC BY 3.0).","source":"https://peach.blender.org/about/"},
+  {"title":"Amp","file":"amp.png","category":"Apps","description":"A familiar music library, with playlists and Music Assistant integration.","source":"https://github.com/jmgasper/amp"},
+  {"title":"Burrow","file":"burrow.png","category":"Apps","description":"A connected test VPN profile, with connection details, traffic and routes.","source":"https://github.com/jmgasper/burrow/tree/master/docs/screenshots"},
+  {"title":"Turbo Chook","file":"turbo-chook.png","category":"Apps","description":"A branch graph and searchable history in a sample repository.","source":"https://github.com/jmgasper/turbo_chook"},
+  {"title":"Developer tools","file":"summit-devtools.png","category":"Features","description":"Inspect network requests in Summit’s built-in developer tools.","source":"https://github.com/jmgasper/summit/tree/main/docs/screenshots"},
+  {"title":"A desktop on Raspberry Pi","file":"raspberry-pi.jpg","category":"Features","description":"Native applications and Summit’s WebGL check on a Raspberry Pi 4 development image.","source":"https://github.com/jmgasper/haiku/blob/master/docs/rpi4/STATUS.md"}
+]

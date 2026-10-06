@@ -1,0 +1,23 @@
+{
+  "owner": "jmgasper",
+  "domain": "airos.works",
+  "haiku_base": "b42b90f5ec2839f8074400c849ee025b50d0f7f1",
+  "apps": [
+    {"name":"Summit","repo":"summit","description":"A native web browser with a modern WebKit engine, extensions and developer tools.","note":"Install both Summit and summit_webkit for your architecture."},
+    {"name":"AirShot","repo":"airShot","description":"Capture a screen, window or region. Add arrows, labels and markup, then save or copy."},
+    {"name":"AirTime","repo":"airTime","description":"A native movie player with a classic feel and hardware video decoding on supported devices."},
+    {"name":"Amp","repo":"amp","description":"Your music library, playlists and Music Assistant streams in a native desktop player."},
+    {"name":"Burrow","repo":"burrow","description":"A native OpenVPN and AWS Client VPN client, including browser-based single sign-on."},
+    {"name":"Turbo Chook","repo":"turbo_chook","description":"A native Git client for working copies, branches, history, diffs and everyday development."},
+    {"name":"Clipper","repo":"clipper","description":"Clipboard history at your fingertips, running quietly in the Deskbar."}
+  ],
+  "extra_repos": [
+    {"name":"Kiri","repo":"kiri","description":"Native code editor, Git tools and terminal."},
+    {"name":"Natter","repo":"natter","description":"Native Slack client."},
+    {"name":"AirPins","repo":"airpins","description":"GPIO configuration, pin controls and waveforms for Raspberry Pi."},
+    {"name":"Aurora","repo":"aurora","description":"A native runtime for Electron applications on Haiku."},
+    {"name":"LCD Monitor","repo":"lcdmonitor","description":"LCD system monitor dashboard."},
+    {"name":"Claude on Haiku","repo":"claude-haiku","description":"Runtime shims and build tooling."},
+    {"name":"Build tools","repo":"buildtools","description":"Haiku cross compiler and build tools.","upstream":"haiku/buildtools"}
+  ]
+}

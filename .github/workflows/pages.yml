@@ -1,0 +1,59 @@
+name: Build and deploy airos.works
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+  repository_dispatch:
+    types: [source-updated]
+  schedule:
+    - cron: '23 */6 * * *'
+permissions:
+  contents: read
+  pages: read
+concurrency:
+  group: pages
+  cancel-in-progress: false
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Configure Pages
+        id: pages
+        uses: actions/configure-pages@v5
+      - name: Cache full source histories
+        uses: actions/cache@v4
+        with:
+          path: .cache
+          key: github-sources-v1-${{ github.run_id }}
+          restore-keys: github-sources-v1-
+      - name: Refresh public Git history and downloads
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python3 scripts/sync.py
+      - name: Build and validate
+        env:
+          BASE_PATH: ${{ steps.pages.outputs.base_path }}
+          SITE_URL: ${{ steps.pages.outputs.base_url }}
+        run: |
+          python3 scripts/build.py
+          python3 scripts/check.py
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Publish
+        id: deployment
+        uses: actions/deploy-pages@v4
