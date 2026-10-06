@@ -2,8 +2,8 @@
 
 Repository: `jmgasper/airos-website` (public). Publishing source: **GitHub Actions**.
 The workflow `.github/workflows/pages.yml` builds and validates the site before
-deploying to the `github-pages` environment. All source API access is read-only.
-Only the deployment job needs permission to publish Pages.
+deploying to the `github-pages` environment. Access to other repositories is read-only. The build job can save the refreshed
+public snapshot to this website repository; the deployment job can publish Pages.
 
 Until DNS is connected, the preview can run at
 `https://jmgasper.github.io/airos-website/`. Its asset paths are generated from

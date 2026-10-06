@@ -129,7 +129,16 @@ def main():
         sources = list(pool.map(collect, sources))
         apps = list(pool.map(release, CONFIG['apps']))
     images = []
-    releases = api('repos/jmgasper/haiku/releases?per_page=100')
+    releases = []
+    page = 1
+    while True:
+        batch = api(f'repos/jmgasper/haiku/releases?per_page=100&page={page}')
+        releases.extend(batch)
+        # Do not silently lose a target whose latest build is older than the
+        # first page of other architectures' releases.
+        if len(batch) < 100:
+            break
+        page += 1
     for target in ['x86_64', 'arm64', 'rpi4']:
         candidates = [r for r in releases if not r['draft'] and r['tag_name'].startswith(f'image-{target}-')]
         result = max(candidates, key=lambda r: r['published_at']) if candidates else None

@@ -68,8 +68,11 @@ unchanged histories without hiding force-pushed changes. Private repositories
 are never exported. The source page links directly to full upstream history.
 
 The public snapshot in `data/github.json` is a local-development fallback.
-Scheduled deployments refresh it in the Actions workspace; they do not commit
-machine-generated changes to main. Hardware claims and screenshots need human
+Scheduled and manual refreshes save the validated snapshot to main before
+deployment. This keeps local builds current and avoids GitHub disabling the
+public repository’s schedule after 60 days of inactivity. Snapshot pushes use
+the repository’s GITHUB_TOKEN and do not trigger recursive workflow runs.
+A concurrent editor push is never overwritten; the next run can save it. Hardware claims and screenshots need human
 review when new test evidence arrives; the site does not infer support from
 commit messages.
 
