@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-06T06:40:43+00:00",
+  "updated": "2026-10-06T06:45:40+00:00",
   "ci_head": "8829429fe8e6d8bfae7383d2a05fe97828638e4f",
   "sources": [
     {
@@ -7616,7 +7616,7 @@
       "base": "b42b90f5ec2839f8074400c849ee025b50d0f7f1",
       "group": "Operating system",
       "description": "Active device or release branch; includes work awaiting integration into master.",
-      "head": "f1b4d84fd4fed58dd6156ac99791ef5ae0b914ec",
+      "head": "dc0096652e93f1c6c936f61a4265cf4f3762ef67",
       "commits": [
         {
           "sha": "84b77e2accf45608b498de8e945d1d29e138a6fc",
@@ -11559,6 +11559,12 @@
           "url": "https://github.com/jmgasper/haiku/commit/f1b4d84fd4fed58dd6156ac99791ef5ae0b914ec",
           "date": "2026-10-06T06:32:39Z",
           "subject": "rpi4: enable validated cached GPU textures by default"
+        },
+        {
+          "sha": "dc0096652e93f1c6c936f61a4265cf4f3762ef67",
+          "url": "https://github.com/jmgasper/haiku/commit/dc0096652e93f1c6c936f61a4265cf4f3762ef67",
+          "date": "2026-10-06T06:41:59Z",
+          "subject": "rpi4: reject directory targets in application timing probe"
         }
       ],
       "url": "https://github.com/jmgasper/haiku/tree/rpi4"
@@ -21037,26 +21043,26 @@
     },
     {
       "target": "arm64",
-      "release": "https://github.com/jmgasper/haiku/releases/tag/image-arm64-20261006030728-3528aa6eb0",
-      "published": "2026-10-06T06:36:40Z",
+      "release": "https://github.com/jmgasper/haiku/releases/tag/image-arm64-20261006064212-d194f63973",
+      "published": "2026-10-06T06:44:31Z",
       "assets": [
         {
           "name": "airos-arm64.iso.xz",
-          "size": 255526268,
-          "browser_download_url": "https://github.com/jmgasper/haiku/releases/download/image-arm64-20261006030728-3528aa6eb0/airos-arm64.iso.xz",
-          "digest": "sha256:49f7067537525ec255ea515538d1b2c7c5f4faff4797e32618cface03f69ff0c"
+          "size": 255527756,
+          "browser_download_url": "https://github.com/jmgasper/haiku/releases/download/image-arm64-20261006064212-d194f63973/airos-arm64.iso.xz",
+          "digest": "sha256:9d2fd13b9eb6b1abb40afd57297b6bfcf777bc4dd49b23c05928f7ee97a65d36"
         },
         {
           "name": "airos-arm64.iso.xz.sha256",
           "size": 85,
-          "browser_download_url": "https://github.com/jmgasper/haiku/releases/download/image-arm64-20261006030728-3528aa6eb0/airos-arm64.iso.xz.sha256",
-          "digest": "sha256:1c83dc7b6664e8a2194195d0a4f02dddbaef71af8153ce3ab17ab83857fe0c96"
+          "browser_download_url": "https://github.com/jmgasper/haiku/releases/download/image-arm64-20261006064212-d194f63973/airos-arm64.iso.xz.sha256",
+          "digest": "sha256:6674120b98001fbe7d5cc47c89619f17b690ac8ade32f79f5eed46d428bd0584"
         },
         {
           "name": "manifest.json",
           "size": 4267,
-          "browser_download_url": "https://github.com/jmgasper/haiku/releases/download/image-arm64-20261006030728-3528aa6eb0/manifest.json",
-          "digest": "sha256:2dd2f24db52a408accb24060ac06ace21dc8e0c4b14ee57788b8a317ffced20a"
+          "browser_download_url": "https://github.com/jmgasper/haiku/releases/download/image-arm64-20261006064212-d194f63973/manifest.json",
+          "digest": "sha256:188110bf2d39a122483f185073bc47f214cd13a8bb47e4773675e835d7f5b37d"
         }
       ]
     },
