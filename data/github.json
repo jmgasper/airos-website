@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-06T12:44:35+00:00",
+  "updated": "2026-10-06T18:39:15+00:00",
   "ci_head": "7e6e26a019c6b9fc9ab017e3dcaaf802290f31f6",
   "sources": [
     {
@@ -7622,7 +7622,7 @@
       "base": "b42b90f5ec2839f8074400c849ee025b50d0f7f1",
       "group": "Operating system",
       "description": "Active device or release branch; includes work awaiting integration into master.",
-      "head": "6ea25d94d58cbdb28c8f63dedf962220d13c04bf",
+      "head": "2f91ef68badc9ab4baa804a76bab988aab2487da",
       "commits": [
         {
           "sha": "84b77e2accf45608b498de8e945d1d29e138a6fc",
@@ -11649,6 +11649,48 @@
           "url": "https://github.com/jmgasper/haiku/commit/6ea25d94d58cbdb28c8f63dedf962220d13c04bf",
           "date": "2026-10-06T12:41:02Z",
           "subject": "rpi4: enable firmware-supported CPU boost after native endurance testing"
+        },
+        {
+          "sha": "63f5e1e916c41369d9464a062f20a23912fe8ee6",
+          "url": "https://github.com/jmgasper/haiku/commit/63f5e1e916c41369d9464a062f20a23912fe8ee6",
+          "date": "2026-10-06T12:47:06Z",
+          "subject": "rpi4: retain shared V3D hardware state between applications"
+        },
+        {
+          "sha": "15567049d7c76f8a15f50a137be6f76ee29d7ab6",
+          "url": "https://github.com/jmgasper/haiku/commit/15567049d7c76f8a15f50a137be6f76ee29d7ab6",
+          "date": "2026-10-06T13:16:05Z",
+          "subject": "rpi4: qualify file-cache preparation in CPU clock comparisons"
+        },
+        {
+          "sha": "0bcad604bc1eeed3ae60e893c2e8d8a7e0b405a6",
+          "url": "https://github.com/jmgasper/haiku/commit/0bcad604bc1eeed3ae60e893c2e8d8a7e0b405a6",
+          "date": "2026-10-06T13:57:43Z",
+          "subject": "rpi4: record flashed performance candidate and native acceptance results"
+        },
+        {
+          "sha": "34af80a0b47ddf1d409aa15aacd7a0c6ec504508",
+          "url": "https://github.com/jmgasper/haiku/commit/34af80a0b47ddf1d409aa15aacd7a0c6ec504508",
+          "date": "2026-10-06T14:01:58Z",
+          "subject": "rpi4: distinguish current component results from historical bring-up notes"
+        },
+        {
+          "sha": "670991b16e99964734a14447a223c39dbf215d0e",
+          "url": "https://github.com/jmgasper/haiku/commit/670991b16e99964734a14447a223c39dbf215d0e",
+          "date": "2026-10-06T14:45:51Z",
+          "subject": "rpi4: document the supplicant dialog blocking subsequent join requests"
+        },
+        {
+          "sha": "97ee951b5fc5703948aec71725d6c88a999cbf54",
+          "url": "https://github.com/jmgasper/haiku/commit/97ee951b5fc5703948aec71725d6c88a999cbf54",
+          "date": "2026-10-06T15:06:14Z",
+          "subject": "rpi4: finish flashed-image endurance and clean-boot qualification"
+        },
+        {
+          "sha": "2f91ef68badc9ab4baa804a76bab988aab2487da",
+          "url": "https://github.com/jmgasper/haiku/commit/2f91ef68badc9ab4baa804a76bab988aab2487da",
+          "date": "2026-10-06T15:11:49Z",
+          "subject": "rpi4: verify traffic after Wi-Fi recovery and clarify validation scope"
         }
       ],
       "url": "https://github.com/jmgasper/haiku/tree/rpi4"
@@ -21204,76 +21246,76 @@
   "images": [
     {
       "target": "x86_64",
-      "release": "https://github.com/jmgasper/haiku/releases/tag/image-x86_64-20261006065001-d194f63973",
-      "published": "2026-10-06T06:52:02Z",
+      "release": "https://github.com/jmgasper/haiku/releases/tag/image-x86_64-20261006153715-d194f63973",
+      "published": "2026-10-06T15:39:24Z",
       "assets": [
         {
           "name": "airos-x86_64.iso.xz",
-          "size": 747372156,
-          "browser_download_url": "https://github.com/jmgasper/haiku/releases/download/image-x86_64-20261006065001-d194f63973/airos-x86_64.iso.xz",
-          "digest": "sha256:1c4eea4e5c20e6a6cb469cf234059addb860b679d9e0d8a6ec49e8cacf0102c5"
+          "size": 747588736,
+          "browser_download_url": "https://github.com/jmgasper/haiku/releases/download/image-x86_64-20261006153715-d194f63973/airos-x86_64.iso.xz",
+          "digest": "sha256:6359a39b2dc2264364c4be62ee071328f90038adb376cf3509c2eea0ba257463"
         },
         {
           "name": "airos-x86_64.iso.xz.sha256",
           "size": 86,
-          "browser_download_url": "https://github.com/jmgasper/haiku/releases/download/image-x86_64-20261006065001-d194f63973/airos-x86_64.iso.xz.sha256",
-          "digest": "sha256:30e85ea620d6bf5eca0817d934e68cb5c5f1d4f10ae14e26db60f9d801aac0cb"
+          "browser_download_url": "https://github.com/jmgasper/haiku/releases/download/image-x86_64-20261006153715-d194f63973/airos-x86_64.iso.xz.sha256",
+          "digest": "sha256:21ca9df155dfd47d73fb53360c254cdac85cfe2044aaa9bae7c47dce88c27f87"
         },
         {
           "name": "manifest.json",
           "size": 4206,
-          "browser_download_url": "https://github.com/jmgasper/haiku/releases/download/image-x86_64-20261006065001-d194f63973/manifest.json",
-          "digest": "sha256:a6871163eb48baf03e6bf5eedfc983cee5af678e2fc9fbfc1c947676b40cb575"
+          "browser_download_url": "https://github.com/jmgasper/haiku/releases/download/image-x86_64-20261006153715-d194f63973/manifest.json",
+          "digest": "sha256:f6d80118703dcdf70f3273f000c41de47645caf8c0fe7f3bc1c2fdb0ead3facf"
         }
       ]
     },
     {
       "target": "arm64",
-      "release": "https://github.com/jmgasper/haiku/releases/tag/image-arm64-20261006064212-d194f63973",
-      "published": "2026-10-06T06:44:31Z",
+      "release": "https://github.com/jmgasper/haiku/releases/tag/image-arm64-20261006154208-d194f63973",
+      "published": "2026-10-06T15:44:24Z",
       "assets": [
         {
           "name": "airos-arm64.iso.xz",
-          "size": 255527756,
-          "browser_download_url": "https://github.com/jmgasper/haiku/releases/download/image-arm64-20261006064212-d194f63973/airos-arm64.iso.xz",
-          "digest": "sha256:9d2fd13b9eb6b1abb40afd57297b6bfcf777bc4dd49b23c05928f7ee97a65d36"
+          "size": 255608876,
+          "browser_download_url": "https://github.com/jmgasper/haiku/releases/download/image-arm64-20261006154208-d194f63973/airos-arm64.iso.xz",
+          "digest": "sha256:2ae0a9dd21c31cc5d5caf8102086aeef5ab4b1084615a481d465a4ef2a128145"
         },
         {
           "name": "airos-arm64.iso.xz.sha256",
           "size": 85,
-          "browser_download_url": "https://github.com/jmgasper/haiku/releases/download/image-arm64-20261006064212-d194f63973/airos-arm64.iso.xz.sha256",
-          "digest": "sha256:6674120b98001fbe7d5cc47c89619f17b690ac8ade32f79f5eed46d428bd0584"
+          "browser_download_url": "https://github.com/jmgasper/haiku/releases/download/image-arm64-20261006154208-d194f63973/airos-arm64.iso.xz.sha256",
+          "digest": "sha256:35e9bc996aa7dd87b6f1a97fdc257924f9fb847c0633566dcfdb194dd235ae3f"
         },
         {
           "name": "manifest.json",
           "size": 4267,
-          "browser_download_url": "https://github.com/jmgasper/haiku/releases/download/image-arm64-20261006064212-d194f63973/manifest.json",
-          "digest": "sha256:188110bf2d39a122483f185073bc47f214cd13a8bb47e4773675e835d7f5b37d"
+          "browser_download_url": "https://github.com/jmgasper/haiku/releases/download/image-arm64-20261006154208-d194f63973/manifest.json",
+          "digest": "sha256:569a0bb16cd63bcb0209b984336fc1211f6811a5dfb64fb7babdb72fffc5fd21"
         }
       ]
     },
     {
       "target": "rpi4",
-      "release": "https://github.com/jmgasper/haiku/releases/tag/image-rpi4-20261006065449-d194f63973",
-      "published": "2026-10-06T06:55:42Z",
+      "release": "https://github.com/jmgasper/haiku/releases/tag/image-rpi4-20261006153035-d194f63973",
+      "published": "2026-10-06T15:31:29Z",
       "assets": [
         {
           "name": "airos-rpi4.img.xz",
-          "size": 257891020,
-          "browser_download_url": "https://github.com/jmgasper/haiku/releases/download/image-rpi4-20261006065449-d194f63973/airos-rpi4.img.xz",
-          "digest": "sha256:b873d6205e663899c9c05a124836a1bb3c51671cb3b52cc4ea660ef09fdc1b67"
+          "size": 258284984,
+          "browser_download_url": "https://github.com/jmgasper/haiku/releases/download/image-rpi4-20261006153035-d194f63973/airos-rpi4.img.xz",
+          "digest": "sha256:ec05891cd404d97c52f116bd2c2c5431fb6f248d238fd9bb6909e413173034eb"
         },
         {
           "name": "airos-rpi4.img.xz.sha256",
           "size": 84,
-          "browser_download_url": "https://github.com/jmgasper/haiku/releases/download/image-rpi4-20261006065449-d194f63973/airos-rpi4.img.xz.sha256",
-          "digest": "sha256:68119a56bbc726f4d7d085e6f7f0d74a10eac323ccf1604964174ca350a48dca"
+          "browser_download_url": "https://github.com/jmgasper/haiku/releases/download/image-rpi4-20261006153035-d194f63973/airos-rpi4.img.xz.sha256",
+          "digest": "sha256:f9de6e3b5d036629e3ccf802479365173d98b43fe571dc73eeae263be6145f1d"
         },
         {
           "name": "manifest.json",
           "size": 4265,
-          "browser_download_url": "https://github.com/jmgasper/haiku/releases/download/image-rpi4-20261006065449-d194f63973/manifest.json",
-          "digest": "sha256:65d7dfa72abcf8634ccedb9e20db393c8c6b1a48a46b10bd2a7472d68898bb8e"
+          "browser_download_url": "https://github.com/jmgasper/haiku/releases/download/image-rpi4-20261006153035-d194f63973/manifest.json",
+          "digest": "sha256:e0816a1cd2f80c0ba5428130d3d2158d1d52b4b3b3f086839c16db5aba0df729"
         }
       ]
     }
