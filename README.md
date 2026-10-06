@@ -86,7 +86,9 @@ release notes. Any app without a public release is explicitly unavailable.
 
 OS images are discovered from public `jmgasper/haiku` prereleases named
 `image-{x86_64,arm64,rpi4}-...`. The newest published release for each target
-wins. `airos-ci/images/publish-github.py` verifies smoke results and compressed
+wins. The downloads page also refreshes these image links when opened, so a
+build published between scheduled site updates appears immediately. If the
+public API is unavailable, the complete static download links remain. `airos-ci/images/publish-github.py` verifies smoke results and compressed
 and uncompressed hashes, uploads to a draft, verifies the server's digests,
 then publishes. The site includes the image, SHA-256 file and package manifest.
 The repository and Pages deployment contain no OS images or application binaries.

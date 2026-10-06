@@ -85,7 +85,7 @@ def downloads():
     titles = {'x86_64': ('x86-64', 'Intel & AMD PCs', 'ISO image · UEFI / BIOS'), 'arm64': ('ARM64', 'ROCK 5 ITX & UEFI ARM64', 'ISO image · UEFI'), 'rpi4': ('Raspberry Pi 4', 'A desktop on an SD card', 'SD card image · Pi 4')}
     for im in D['images']:
         title, subtitle, format = titles[im['target']]
-        body += f'<article class="image-card"><span class="section-number">{format}</span><h3>{title}</h3><p>{subtitle}</p>'
+        body += f'<article class="image-card" data-target="{im["target"]}"><span class="section-number">{format}</span><h3>{title}</h3><p>{subtitle}</p><div class="image-download">'
         assets = im['assets']
         image = next((a for a in assets if a['name'].endswith(('.iso.xz', '.img.xz'))), None)
         if image:
@@ -97,7 +97,7 @@ def downloads():
             body += link(im['release'], 'Release notes ↗') + '</div>'
         else:
             body += '<p class="availability">Public image coming soon</p>' + link('https://github.com/jmgasper/haiku/actions/workflows/airos-images.yml', 'Build status ↗')
-        body += '</article>'
+        body += '</div></article>'
     body += '</div><aside class="note"><strong>Before installing.</strong> These are experimental development builds. Check the <a href="'+url('hardware/')+'">hardware notes</a> and back up your data. x86 means 64-bit x86 (x86-64); there is no 32-bit image. Extract the ISO images before writing them to USB. For Pi 4, flash the SD image with a tool that supports .xz, such as Etcher.</aside>'
     body += '<div class="section-heading apps-heading"><h2>Native applications</h2><span>Haiku .hpkg packages</span></div><div class="app-grid">'
     for i, app in enumerate(D['apps']):
