@@ -32,6 +32,18 @@ nameservers and an apex parking/redirect address. Keep unrelated MX/TXT records.
    Optionally add the four GitHub IPv6 AAAA records:
    `2606:50c0:8000::153`, `2606:50c0:8001::153`,
    `2606:50c0:8002::153`, `2606:50c0:8003::153`.
+
+   In Namecheap, open **Domain List → Manage** beside `airos.works`, then
+   **Advanced DNS → Host records**. Remove the existing `@` URL Redirect
+   Record and change the `www` CNAME from `parkingpage.namecheap.com` to
+   `jmgasper.github.io`. Add the four `@` A records above, choose Automatic
+   TTL, and save each change. Leave mail and verification records in place.
+
+   A Namecheap URL Redirect also creates an A record that can be hidden in
+   Advanced DNS. Remove the redirect itself; adding the GitHub A records
+   alongside it can leave the parking address active. See Namecheap's
+   [GitHub Pages guide](https://www.namecheap.com/support/knowledgebase/article.aspx/9645/2208/how-do-i-link-my-domain-to-github-pages/)
+   and [URL redirect notes](https://www.namecheap.com/support/knowledgebase/article.aspx/385/2237/how-to-set-up-a-url-redirect-for-a-domain/).
 4. Run the Pages workflow once after changing the custom domain, then verify
    both the apex and `www` through DNS and HTTP.
 5. Once GitHub issues its certificate, enable **Enforce HTTPS** and verify
