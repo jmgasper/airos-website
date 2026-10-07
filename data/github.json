@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-07T01:11:51+00:00",
-  "ci_head": "19f4111bb742e74fd4904a32763ff0366e4a860c",
+  "updated": "2026-10-07T06:50:26+00:00",
+  "ci_head": "2f18a6c948366e6500b877f8f0c2bc699bb04377",
   "sources": [
     {
       "name": "Haiku / airOS",
@@ -9,7 +9,7 @@
       "base": "b42b90f5ec2839f8074400c849ee025b50d0f7f1",
       "group": "Operating system",
       "description": "Haiku kernel, desktop, drivers and airOS integration.",
-      "head": "d194f63973041683f36ede1df59aff85ab0da602",
+      "head": "c2e8b8ece8efaccf9d28f40bd65bc75a1e56f2fa",
       "commits": [
         {
           "sha": "84b77e2accf45608b498de8e945d1d29e138a6fc",
@@ -4134,6 +4134,90 @@
           "subject": "Record fractional scaling validation and X399 deployment"
         },
         {
+          "sha": "5d97bc271dbc3fb50b8d6112daa9df3afc2c17b3",
+          "url": "https://github.com/jmgasper/haiku/commit/5d97bc271dbc3fb50b8d6112daa9df3afc2c17b3",
+          "date": "2026-10-06T03:33:07Z",
+          "subject": "rpi4: add repeatable application and boot timing probes"
+        },
+        {
+          "sha": "b2863a9151e4b0c554d068d7ccbccbd8a2b9ec15",
+          "url": "https://github.com/jmgasper/haiku/commit/b2863a9151e4b0c554d068d7ccbccbd8a2b9ec15",
+          "date": "2026-10-06T03:41:12Z",
+          "subject": "rpi4: keep PIO transfers from resuming SDMA after CMD6"
+        },
+        {
+          "sha": "3370000b6b816bf6528d2a603cb93b414c8529fe",
+          "url": "https://github.com/jmgasper/haiku/commit/3370000b6b816bf6528d2a603cb93b414c8529fe",
+          "date": "2026-10-06T03:59:32Z",
+          "subject": "arm64: speed symbol lookup and defer hidden window clipping"
+        },
+        {
+          "sha": "64e792b22ca646e662e1c66c9188cd7cbe0e75f9",
+          "url": "https://github.com/jmgasper/haiku/commit/64e792b22ca646e662e1c66c9188cd7cbe0e75f9",
+          "date": "2026-10-06T04:12:33Z",
+          "subject": "rpi4: make full-image emulator and KVM checks reliable"
+        },
+        {
+          "sha": "3ab8c46c6f23ae077a83a2e3cf53ed23cd8b5a94",
+          "url": "https://github.com/jmgasper/haiku/commit/3ab8c46c6f23ae077a83a2e3cf53ed23cd8b5a94",
+          "date": "2026-10-06T04:17:25Z",
+          "subject": "rpi4: persist V3D shaders across OpenGL application launches"
+        },
+        {
+          "sha": "97fabef919a215c5a190386784b6acb19e1cccc6",
+          "url": "https://github.com/jmgasper/haiku/commit/97fabef919a215c5a190386784b6acb19e1cccc6",
+          "date": "2026-10-06T04:22:44Z",
+          "subject": "runtime_loader: bound GNU Bloom shifts and exercise both hash formats"
+        },
+        {
+          "sha": "b554dc75e041ebb444f9d4c136981bee695bdb29",
+          "url": "https://github.com/jmgasper/haiku/commit/b554dc75e041ebb444f9d4c136981bee695bdb29",
+          "date": "2026-10-06T04:34:28Z",
+          "subject": "rpi4: shorten USB-first boot wait while preserving KVM recovery"
+        },
+        {
+          "sha": "cb1a0d13a0082c67c5c406f5639d783eac97140a",
+          "url": "https://github.com/jmgasper/haiku/commit/cb1a0d13a0082c67c5c406f5639d783eac97140a",
+          "date": "2026-10-06T04:49:10Z",
+          "subject": "runtime_loader: expose opt-in phase timings and preserve redirected diagnostics"
+        },
+        {
+          "sha": "3c82070fac3a7087d7acc26aaaaae810e095eaaa",
+          "url": "https://github.com/jmgasper/haiku/commit/3c82070fac3a7087d7acc26aaaaae810e095eaaa",
+          "date": "2026-10-06T05:20:17Z",
+          "subject": "vm: bound speculative file mapping prefetch to 1 MiB"
+        },
+        {
+          "sha": "9c8880afa25e5ed7361d4cb5549aefa779f9a212",
+          "url": "https://github.com/jmgasper/haiku/commit/9c8880afa25e5ed7361d4cb5549aefa779f9a212",
+          "date": "2026-10-06T05:26:43Z",
+          "subject": "rpi4: reduce WebKit dynamic exports and cold startup cost"
+        },
+        {
+          "sha": "14f7920062947d3d15ad1b2f2d228d6313ac6786",
+          "url": "https://github.com/jmgasper/haiku/commit/14f7920062947d3d15ad1b2f2d228d6313ac6786",
+          "date": "2026-10-06T05:58:57Z",
+          "subject": "tcp: clean up failed passive connection setup"
+        },
+        {
+          "sha": "7c4e7c21fc8e7c37eb2295ef9ee1535a671cb694",
+          "url": "https://github.com/jmgasper/haiku/commit/7c4e7c21fc8e7c37eb2295ef9ee1535a671cb694",
+          "date": "2026-10-06T06:12:40Z",
+          "subject": "v3d: add explicit CPU ownership for cached texture buffers"
+        },
+        {
+          "sha": "ad2cc573029ce91507ad494a08eca9bc6962e9f4",
+          "url": "https://github.com/jmgasper/haiku/commit/ad2cc573029ce91507ad494a08eca9bc6962e9f4",
+          "date": "2026-10-06T06:19:56Z",
+          "subject": "libroot: use pipelined ARM64 memory copies and moves"
+        },
+        {
+          "sha": "f1b4d84fd4fed58dd6156ac99791ef5ae0b914ec",
+          "url": "https://github.com/jmgasper/haiku/commit/f1b4d84fd4fed58dd6156ac99791ef5ae0b914ec",
+          "date": "2026-10-06T06:32:39Z",
+          "subject": "rpi4: enable validated cached GPU textures by default"
+        },
+        {
           "sha": "dacd8afbd86451ed08583342ef00830846498b23",
           "url": "https://github.com/jmgasper/haiku/commit/dacd8afbd86451ed08583342ef00830846498b23",
           "date": "2026-10-06T06:39:05Z",
@@ -4144,6 +4228,174 @@
           "url": "https://github.com/jmgasper/haiku/commit/d194f63973041683f36ede1df59aff85ab0da602",
           "date": "2026-10-06T06:39:37Z",
           "subject": "Merge public image publishing for airos.works"
+        },
+        {
+          "sha": "dc0096652e93f1c6c936f61a4265cf4f3762ef67",
+          "url": "https://github.com/jmgasper/haiku/commit/dc0096652e93f1c6c936f61a4265cf4f3762ef67",
+          "date": "2026-10-06T06:41:59Z",
+          "subject": "rpi4: reject directory targets in application timing probe"
+        },
+        {
+          "sha": "8b124f2c541a68192fd5c44a8981d13a7ee52842",
+          "url": "https://github.com/jmgasper/haiku/commit/8b124f2c541a68192fd5c44a8981d13a7ee52842",
+          "date": "2026-10-06T06:47:34Z",
+          "subject": "rpi_hevc: convert column surfaces in cache-sized row groups"
+        },
+        {
+          "sha": "efc88be7c0fca6a09c81dfcf9322982f88154a35",
+          "url": "https://github.com/jmgasper/haiku/commit/efc88be7c0fca6a09c81dfcf9322982f88154a35",
+          "date": "2026-10-06T07:39:18Z",
+          "subject": "tcp: remove reused connections before changing their hash key"
+        },
+        {
+          "sha": "bdcf783a0e5aedd9adeb436adfca156cf40656d5",
+          "url": "https://github.com/jmgasper/haiku/commit/bdcf783a0e5aedd9adeb436adfca156cf40656d5",
+          "date": "2026-10-06T07:58:51Z",
+          "subject": "rpi4: accelerate large GPU readbacks and adapt Summit banding"
+        },
+        {
+          "sha": "9946e4c4c8f50de2dab0439e2cd0c091386e80d5",
+          "url": "https://github.com/jmgasper/haiku/commit/9946e4c4c8f50de2dab0439e2cd0c091386e80d5",
+          "date": "2026-10-06T08:18:05Z",
+          "subject": "arm64: accelerate user memory fills with guarded Arm implementation"
+        },
+        {
+          "sha": "f412d6d0f323b86e3bad51362b1a196f941e922b",
+          "url": "https://github.com/jmgasper/haiku/commit/f412d6d0f323b86e3bad51362b1a196f941e922b",
+          "date": "2026-10-06T08:51:30Z",
+          "subject": "rpi4: enable Zstandard packages for faster demand paging"
+        },
+        {
+          "sha": "81fa9945670d624bdf93f198321e35701ca2dd4b",
+          "url": "https://github.com/jmgasper/haiku/commit/81fa9945670d624bdf93f198321e35701ca2dd4b",
+          "date": "2026-10-06T08:59:11Z",
+          "subject": "openbsd_wlan: translate absolute RSSI without unsigned wrap"
+        },
+        {
+          "sha": "997b18190c81152b326ea57907af517477a400d6",
+          "url": "https://github.com/jmgasper/haiku/commit/997b18190c81152b326ea57907af517477a400d6",
+          "date": "2026-10-06T09:28:27Z",
+          "subject": "arm64: accelerate user string comparisons with guarded word loads"
+        },
+        {
+          "sha": "1cdbaccb2171acb66b883e1b06591cb4e565873c",
+          "url": "https://github.com/jmgasper/haiku/commit/1cdbaccb2171acb66b883e1b06591cb4e565873c",
+          "date": "2026-10-06T09:54:16Z",
+          "subject": "rpi4: keep Wi-Fi joins on the selected AP and avoid redundant scans"
+        },
+        {
+          "sha": "f4bead5b536dea5be973892ea8369724ae4cf266",
+          "url": "https://github.com/jmgasper/haiku/commit/f4bead5b536dea5be973892ea8369724ae4cf266",
+          "date": "2026-10-06T10:58:04Z",
+          "subject": "rpi4: record integrated performance limits and rejected experiments"
+        },
+        {
+          "sha": "e92aa71c9fa3647d4ccbce84ab3d5729d5a23de8",
+          "url": "https://github.com/jmgasper/haiku/commit/e92aa71c9fa3647d4ccbce84ab3d5729d5a23de8",
+          "date": "2026-10-06T11:34:02Z",
+          "subject": "arm64: accelerate user string lengths with page-safe SIMD scanning"
+        },
+        {
+          "sha": "5542f96f08d9fd70617d2376777dac7b009a3654",
+          "url": "https://github.com/jmgasper/haiku/commit/5542f96f08d9fd70617d2376777dac7b009a3654",
+          "date": "2026-10-06T11:38:24Z",
+          "subject": "rpi4: reuse retired native EGL window bitmaps during presentation"
+        },
+        {
+          "sha": "f85d337e1efadb8a139fc0d974dcc0d08fe2184a",
+          "url": "https://github.com/jmgasper/haiku/commit/f85d337e1efadb8a139fc0d974dcc0d08fe2184a",
+          "date": "2026-10-06T11:40:54Z",
+          "subject": "rpi4: refresh boot and dual-display documentation"
+        },
+        {
+          "sha": "6ea25d94d58cbdb28c8f63dedf962220d13c04bf",
+          "url": "https://github.com/jmgasper/haiku/commit/6ea25d94d58cbdb28c8f63dedf962220d13c04bf",
+          "date": "2026-10-06T12:41:02Z",
+          "subject": "rpi4: enable firmware-supported CPU boost after native endurance testing"
+        },
+        {
+          "sha": "63f5e1e916c41369d9464a062f20a23912fe8ee6",
+          "url": "https://github.com/jmgasper/haiku/commit/63f5e1e916c41369d9464a062f20a23912fe8ee6",
+          "date": "2026-10-06T12:47:06Z",
+          "subject": "rpi4: retain shared V3D hardware state between applications"
+        },
+        {
+          "sha": "15567049d7c76f8a15f50a137be6f76ee29d7ab6",
+          "url": "https://github.com/jmgasper/haiku/commit/15567049d7c76f8a15f50a137be6f76ee29d7ab6",
+          "date": "2026-10-06T13:16:05Z",
+          "subject": "rpi4: qualify file-cache preparation in CPU clock comparisons"
+        },
+        {
+          "sha": "0bcad604bc1eeed3ae60e893c2e8d8a7e0b405a6",
+          "url": "https://github.com/jmgasper/haiku/commit/0bcad604bc1eeed3ae60e893c2e8d8a7e0b405a6",
+          "date": "2026-10-06T13:57:43Z",
+          "subject": "rpi4: record flashed performance candidate and native acceptance results"
+        },
+        {
+          "sha": "34af80a0b47ddf1d409aa15aacd7a0c6ec504508",
+          "url": "https://github.com/jmgasper/haiku/commit/34af80a0b47ddf1d409aa15aacd7a0c6ec504508",
+          "date": "2026-10-06T14:01:58Z",
+          "subject": "rpi4: distinguish current component results from historical bring-up notes"
+        },
+        {
+          "sha": "670991b16e99964734a14447a223c39dbf215d0e",
+          "url": "https://github.com/jmgasper/haiku/commit/670991b16e99964734a14447a223c39dbf215d0e",
+          "date": "2026-10-06T14:45:51Z",
+          "subject": "rpi4: document the supplicant dialog blocking subsequent join requests"
+        },
+        {
+          "sha": "97ee951b5fc5703948aec71725d6c88a999cbf54",
+          "url": "https://github.com/jmgasper/haiku/commit/97ee951b5fc5703948aec71725d6c88a999cbf54",
+          "date": "2026-10-06T15:06:14Z",
+          "subject": "rpi4: finish flashed-image endurance and clean-boot qualification"
+        },
+        {
+          "sha": "2f91ef68badc9ab4baa804a76bab988aab2487da",
+          "url": "https://github.com/jmgasper/haiku/commit/2f91ef68badc9ab4baa804a76bab988aab2487da",
+          "date": "2026-10-06T15:11:49Z",
+          "subject": "rpi4: verify traffic after Wi-Fi recovery and clarify validation scope"
+        },
+        {
+          "sha": "91e65219dabf6e3a40931a496dd1d29aca190d38",
+          "url": "https://github.com/jmgasper/haiku/commit/91e65219dabf6e3a40931a496dd1d29aca190d38",
+          "date": "2026-10-07T01:01:33Z",
+          "subject": "Add opt-in boot-volume growth and Raspberry Pi first-boot setup"
+        },
+        {
+          "sha": "170704da2846c14fa109726a329751ecbe53f901",
+          "url": "https://github.com/jmgasper/haiku/commit/170704da2846c14fa109726a329751ecbe53f901",
+          "date": "2026-10-07T01:01:49Z",
+          "subject": "Merge current Raspberry Pi fixes for the installer image"
+        },
+        {
+          "sha": "f3d750a9b901468d12883072c42f64838fc0275f",
+          "url": "https://github.com/jmgasper/haiku/commit/f3d750a9b901468d12883072c42f64838fc0275f",
+          "date": "2026-10-07T01:06:03Z",
+          "subject": "Record the selected Summit engine source in its package"
+        },
+        {
+          "sha": "505134964ac2b6d74a53edad81f5c3bed5886db3",
+          "url": "https://github.com/jmgasper/haiku/commit/505134964ac2b6d74a53edad81f5c3bed5886db3",
+          "date": "2026-10-07T01:13:28Z",
+          "subject": "Enable first-boot SD setup in the CI Raspberry Pi profile"
+        },
+        {
+          "sha": "111abd3f61ab7058d49ec6a1c0e01f58db21754f",
+          "url": "https://github.com/jmgasper/haiku/commit/111abd3f61ab7058d49ec6a1c0e01f58db21754f",
+          "date": "2026-10-07T01:24:04Z",
+          "subject": "Document final Pi image and Summit validation"
+        },
+        {
+          "sha": "b6854ab9f8f5e9d10d3c77603a35cadd0428afa9",
+          "url": "https://github.com/jmgasper/haiku/commit/b6854ab9f8f5e9d10d3c77603a35cadd0428afa9",
+          "date": "2026-10-07T01:24:22Z",
+          "subject": "Merge Raspberry Pi first-boot storage setup and current Pi fixes"
+        },
+        {
+          "sha": "c2e8b8ece8efaccf9d28f40bd65bc75a1e56f2fa",
+          "url": "https://github.com/jmgasper/haiku/commit/c2e8b8ece8efaccf9d28f40bd65bc75a1e56f2fa",
+          "date": "2026-10-07T01:31:34Z",
+          "subject": "Record the delivered image and latest Summit smoke test"
         }
       ],
       "url": "https://github.com/jmgasper/haiku/tree/master"
@@ -4154,8 +4406,20 @@
       "branch": "main",
       "group": "Build infrastructure",
       "description": "SDKs, packages, images and source provenance.",
-      "head": "19f4111bb742e74fd4904a32763ff0366e4a860c",
+      "head": "2f18a6c948366e6500b877f8f0c2bc699bb04377",
       "commits": [
+        {
+          "sha": "2f18a6c948366e6500b877f8f0c2bc699bb04377",
+          "url": "https://github.com/jmgasper/airos-ci/commit/2f18a6c948366e6500b877f8f0c2bc699bb04377",
+          "date": "2026-10-07T02:44:24Z",
+          "subject": "images: the x86_64 image rebuilds the NVIDIA driver from its Haiku revision"
+        },
+        {
+          "sha": "436962460d72198a8972cfeaa43da738d77c2f4c",
+          "url": "https://github.com/jmgasper/airos-ci/commit/436962460d72198a8972cfeaa43da738d77c2f4c",
+          "date": "2026-10-07T01:13:28Z",
+          "subject": "Include Raspberry Pi Setup in SD card images"
+        },
         {
           "sha": "19f4111bb742e74fd4904a32763ff0366e4a860c",
           "url": "https://github.com/jmgasper/airos-ci/commit/19f4111bb742e74fd4904a32763ff0366e4a860c",
@@ -15217,8 +15481,110 @@
       "branch": "main",
       "description": "A native web browser with a modern WebKit engine, extensions and developer tools.",
       "group": "Applications",
-      "head": "60f37cbbaa7f39cbff20e44d549ffeefbb810e02",
+      "head": "771b8034a4107b6eca59e604af78b6cd251bcbb8",
       "commits": [
+        {
+          "sha": "771b8034a4107b6eca59e604af78b6cd251bcbb8",
+          "url": "https://github.com/jmgasper/summit/commit/771b8034a4107b6eca59e604af78b6cd251bcbb8",
+          "date": "2026-10-07T06:37:01Z",
+          "subject": "Validate Bluetooth picker lifecycle and fix native list sizing"
+        },
+        {
+          "sha": "59900fbd66753c22db5742ddd89603a165b79ecd",
+          "url": "https://github.com/jmgasper/summit/commit/59900fbd66753c22db5742ddd89603a165b79ecd",
+          "date": "2026-10-07T06:24:33Z",
+          "subject": "Wire Web Bluetooth bindings, origin grants and native device selection"
+        },
+        {
+          "sha": "bbd6fb698a33992a5b8ea85aae138bd25bc7efcf",
+          "url": "https://github.com/jmgasper/summit/commit/bbd6fb698a33992a5b8ea85aae138bd25bc7efcf",
+          "date": "2026-10-07T05:54:57Z",
+          "subject": "README: latest air/OS builds (247c55f) [skip ci]"
+        },
+        {
+          "sha": "247c55fa65c645e6b33ff0e2a6bd1eae4cc7ae03",
+          "url": "https://github.com/jmgasper/summit/commit/247c55fa65c645e6b33ff0e2a6bd1eae4cc7ae03",
+          "date": "2026-10-07T05:35:41Z",
+          "subject": "Add tested air/OS Bluetooth transport and GATT capability checks"
+        },
+        {
+          "sha": "8a555b2d6b8905f106dfaf38fbcff3389e3924f1",
+          "url": "https://github.com/jmgasper/summit/commit/8a555b2d6b8905f106dfaf38fbcff3389e3924f1",
+          "date": "2026-10-07T05:25:13Z",
+          "subject": "Add native Clear Key encrypted media playback and permissions controls"
+        },
+        {
+          "sha": "ca7defee5c539b04ff0f06bc6c06f08490b1e9e8",
+          "url": "https://github.com/jmgasper/summit/commit/ca7defee5c539b04ff0f06bc6c06f08490b1e9e8",
+          "date": "2026-10-07T03:49:08Z",
+          "subject": "README: latest air/OS builds (99a9886) [skip ci]"
+        },
+        {
+          "sha": "99a9886fd61f27412ddeb8726180290a9860ab70",
+          "url": "https://github.com/jmgasper/summit/commit/99a9886fd61f27412ddeb8726180290a9860ab70",
+          "date": "2026-10-07T03:43:40Z",
+          "subject": "Add native adaptive MPEG-DASH playback with seeking and live refresh"
+        },
+        {
+          "sha": "eda8f6d213681f6198b166e16b4485ce2ece0e45",
+          "url": "https://github.com/jmgasper/summit/commit/eda8f6d213681f6198b166e16b4485ce2ece0e45",
+          "date": "2026-10-07T03:32:44Z",
+          "subject": "README: latest air/OS builds (d7674a1) [skip ci]"
+        },
+        {
+          "sha": "d7674a1c063f284c31401f8736658637a56ded02",
+          "url": "https://github.com/jmgasper/summit/commit/d7674a1c063f284c31401f8736658637a56ded02",
+          "date": "2026-10-07T03:16:24Z",
+          "subject": "Add native inline PDF viewing and original-file downloads"
+        },
+        {
+          "sha": "65fdc3ba13c32c521e6138cdff2e35762cd37d7c",
+          "url": "https://github.com/jmgasper/summit/commit/65fdc3ba13c32c521e6138cdff2e35762cd37d7c",
+          "date": "2026-10-07T02:03:39Z",
+          "subject": "README: latest air/OS builds (22cbaae) [skip ci]"
+        },
+        {
+          "sha": "22cbaae34319c22104dec25706849610517a692c",
+          "url": "https://github.com/jmgasper/summit/commit/22cbaae34319c22104dec25706849610517a692c",
+          "date": "2026-10-07T01:57:12Z",
+          "subject": "Add isolated Reader mode with an address-field toggle"
+        },
+        {
+          "sha": "43cab261ff3c776fbed2af3c9d2aa059906747a8",
+          "url": "https://github.com/jmgasper/summit/commit/43cab261ff3c776fbed2af3c9d2aa059906747a8",
+          "date": "2026-10-07T01:49:07Z",
+          "subject": "README: latest air/OS builds (87fd81e) [skip ci]"
+        },
+        {
+          "sha": "87fd81e749d6136f7312ba17441f254d6850d4f0",
+          "url": "https://github.com/jmgasper/summit/commit/87fd81e749d6136f7312ba17441f254d6850d4f0",
+          "date": "2026-10-07T01:42:05Z",
+          "subject": "Add native calendar and time choosers for HTML date inputs"
+        },
+        {
+          "sha": "6f4c6d4fb27bfac642cf4aedb64967aae569f13c",
+          "url": "https://github.com/jmgasper/summit/commit/6f4c6d4fb27bfac642cf4aedb64967aae569f13c",
+          "date": "2026-10-07T01:37:44Z",
+          "subject": "README: latest air/OS builds (962bc34) [skip ci]"
+        },
+        {
+          "sha": "962bc34647a06b672302f61e643e93c250cdeb12",
+          "url": "https://github.com/jmgasper/summit/commit/962bc34647a06b672302f61e643e93c250cdeb12",
+          "date": "2026-10-07T01:26:12Z",
+          "subject": "Add native BColorControl chooser for HTML color inputs"
+        },
+        {
+          "sha": "b864a050f5339241928880efe9fa177d76a5b0e8",
+          "url": "https://github.com/jmgasper/summit/commit/b864a050f5339241928880efe9fa177d76a5b0e8",
+          "date": "2026-10-07T01:22:59Z",
+          "subject": "README: latest air/OS builds (cfbe5f5) [skip ci]"
+        },
+        {
+          "sha": "cfbe5f593e4485c13e9724c6126d013395285885",
+          "url": "https://github.com/jmgasper/summit/commit/cfbe5f593e4485c13e9724c6126d013395285885",
+          "date": "2026-10-07T01:12:26Z",
+          "subject": "Show committed TLS certificate details from the address bar"
+        },
         {
           "sha": "60f37cbbaa7f39cbff20e44d549ffeefbb810e02",
           "url": "https://github.com/jmgasper/summit/commit/60f37cbbaa7f39cbff20e44d549ffeefbb810e02",
@@ -21130,34 +21496,8 @@
       "repo": "summit",
       "description": "A native web browser with a modern WebKit engine, extensions and developer tools.",
       "note": "Install both Summit and summit_webkit for your architecture.",
-      "release": "https://github.com/jmgasper/summit/releases/tag/latest",
-      "published": "2026-10-07T01:02:10Z",
-      "assets": [
-        {
-          "name": "summit-0.1.0.git20261007.0049-1-arm64.hpkg",
-          "size": 3896416,
-          "browser_download_url": "https://github.com/jmgasper/summit/releases/download/latest/summit-0.1.0.git20261007.0049-1-arm64.hpkg",
-          "digest": "sha256:f9e067e06f0033460d02a71451e2bb691e685f162b129c8cbca55a5a49d4e0fa"
-        },
-        {
-          "name": "summit-0.1.0.git20261007.0049-1-x86_64.hpkg",
-          "size": 3834132,
-          "browser_download_url": "https://github.com/jmgasper/summit/releases/download/latest/summit-0.1.0.git20261007.0049-1-x86_64.hpkg",
-          "digest": "sha256:76457c2fe70def2dd5279668bb7fbbf7f6e4b1827d940d674b6d606998f2cad1"
-        },
-        {
-          "name": "summit_webkit-1.10.1.git20261007.0049-1-arm64.hpkg",
-          "size": 88212232,
-          "browser_download_url": "https://github.com/jmgasper/summit/releases/download/latest/summit_webkit-1.10.1.git20261007.0049-1-arm64.hpkg",
-          "digest": "sha256:c8f68649d38f28420f9521c94878f108fb9d4f98964989f7657585a45f89bea0"
-        },
-        {
-          "name": "summit_webkit-1.10.1.git20261007.0049-1-x86_64.hpkg",
-          "size": 88122605,
-          "browser_download_url": "https://github.com/jmgasper/summit/releases/download/latest/summit_webkit-1.10.1.git20261007.0049-1-x86_64.hpkg",
-          "digest": "sha256:4bec3d33f791aa720ad3f27a337548927e3cf80d7859d03503e42856bc5471fd"
-        }
-      ]
+      "release": null,
+      "assets": []
     },
     {
       "name": "AirShot",
@@ -21276,76 +21616,76 @@
   "images": [
     {
       "target": "x86_64",
-      "release": "https://github.com/jmgasper/haiku/releases/tag/image-x86_64-20261006153715-d194f63973",
-      "published": "2026-10-06T15:39:24Z",
+      "release": "https://github.com/jmgasper/haiku/releases/tag/image-x86_64-20261007013349-b6854ab9f8",
+      "published": "2026-10-07T01:35:53Z",
       "assets": [
         {
           "name": "airos-x86_64.iso.xz",
-          "size": 747588736,
-          "browser_download_url": "https://github.com/jmgasper/haiku/releases/download/image-x86_64-20261006153715-d194f63973/airos-x86_64.iso.xz",
-          "digest": "sha256:6359a39b2dc2264364c4be62ee071328f90038adb376cf3509c2eea0ba257463"
+          "size": 748087624,
+          "browser_download_url": "https://github.com/jmgasper/haiku/releases/download/image-x86_64-20261007013349-b6854ab9f8/airos-x86_64.iso.xz",
+          "digest": "sha256:5884a480bbce4e51f34e5c16b3ea2959028258e05598181fdb369584a695dd16"
         },
         {
           "name": "airos-x86_64.iso.xz.sha256",
           "size": 86,
-          "browser_download_url": "https://github.com/jmgasper/haiku/releases/download/image-x86_64-20261006153715-d194f63973/airos-x86_64.iso.xz.sha256",
-          "digest": "sha256:21ca9df155dfd47d73fb53360c254cdac85cfe2044aaa9bae7c47dce88c27f87"
+          "browser_download_url": "https://github.com/jmgasper/haiku/releases/download/image-x86_64-20261007013349-b6854ab9f8/airos-x86_64.iso.xz.sha256",
+          "digest": "sha256:79bacdb31353bc171e4b72ec073d48d5b8fe8a5121d935646539ee80ead55bdf"
         },
         {
           "name": "manifest.json",
           "size": 4206,
-          "browser_download_url": "https://github.com/jmgasper/haiku/releases/download/image-x86_64-20261006153715-d194f63973/manifest.json",
-          "digest": "sha256:f6d80118703dcdf70f3273f000c41de47645caf8c0fe7f3bc1c2fdb0ead3facf"
+          "browser_download_url": "https://github.com/jmgasper/haiku/releases/download/image-x86_64-20261007013349-b6854ab9f8/manifest.json",
+          "digest": "sha256:b1132291cb13430129556cb6c4e227bbd2b0251e97c59a5016b8670b10583d68"
         }
       ]
     },
     {
       "target": "arm64",
-      "release": "https://github.com/jmgasper/haiku/releases/tag/image-arm64-20261006154208-d194f63973",
-      "published": "2026-10-06T15:44:24Z",
+      "release": "https://github.com/jmgasper/haiku/releases/tag/image-arm64-20261007013833-b6854ab9f8",
+      "published": "2026-10-07T01:40:41Z",
       "assets": [
         {
           "name": "airos-arm64.iso.xz",
-          "size": 255608876,
-          "browser_download_url": "https://github.com/jmgasper/haiku/releases/download/image-arm64-20261006154208-d194f63973/airos-arm64.iso.xz",
-          "digest": "sha256:2ae0a9dd21c31cc5d5caf8102086aeef5ab4b1084615a481d465a4ef2a128145"
+          "size": 256873656,
+          "browser_download_url": "https://github.com/jmgasper/haiku/releases/download/image-arm64-20261007013833-b6854ab9f8/airos-arm64.iso.xz",
+          "digest": "sha256:29a2ac8208704da979802d57c4a31feb915bd54af59bf63e188394accb430da1"
         },
         {
           "name": "airos-arm64.iso.xz.sha256",
           "size": 85,
-          "browser_download_url": "https://github.com/jmgasper/haiku/releases/download/image-arm64-20261006154208-d194f63973/airos-arm64.iso.xz.sha256",
-          "digest": "sha256:35e9bc996aa7dd87b6f1a97fdc257924f9fb847c0633566dcfdb194dd235ae3f"
+          "browser_download_url": "https://github.com/jmgasper/haiku/releases/download/image-arm64-20261007013833-b6854ab9f8/airos-arm64.iso.xz.sha256",
+          "digest": "sha256:81f8ad867b57e66acd8e1a3ba13afaab3580c2547468ed568edd28015ef7f6f0"
         },
         {
           "name": "manifest.json",
           "size": 4267,
-          "browser_download_url": "https://github.com/jmgasper/haiku/releases/download/image-arm64-20261006154208-d194f63973/manifest.json",
-          "digest": "sha256:569a0bb16cd63bcb0209b984336fc1211f6811a5dfb64fb7babdb72fffc5fd21"
+          "browser_download_url": "https://github.com/jmgasper/haiku/releases/download/image-arm64-20261007013833-b6854ab9f8/manifest.json",
+          "digest": "sha256:eaad59325ff4c099eb7fa2645df83f23f8ceed2d2a7106a9af2be0f9ece52291"
         }
       ]
     },
     {
       "target": "rpi4",
-      "release": "https://github.com/jmgasper/haiku/releases/tag/image-rpi4-20261007010734-d194f63973",
-      "published": "2026-10-07T01:08:29Z",
+      "release": "https://github.com/jmgasper/haiku/releases/tag/image-rpi4-20261007012718-b6854ab9f8",
+      "published": "2026-10-07T01:28:08Z",
       "assets": [
         {
           "name": "airos-rpi4.img.xz",
-          "size": 258609712,
-          "browser_download_url": "https://github.com/jmgasper/haiku/releases/download/image-rpi4-20261007010734-d194f63973/airos-rpi4.img.xz",
-          "digest": "sha256:acdb328136ceb2bdb2874c907e7be629a20260cf8b7acb0448b2c5b55c896f5c"
+          "size": 259240208,
+          "browser_download_url": "https://github.com/jmgasper/haiku/releases/download/image-rpi4-20261007012718-b6854ab9f8/airos-rpi4.img.xz",
+          "digest": "sha256:0af08688e7bcf127d111bacd96d0d6717df10e90f1887d9fb1640dd71ac5328d"
         },
         {
           "name": "airos-rpi4.img.xz.sha256",
           "size": 84,
-          "browser_download_url": "https://github.com/jmgasper/haiku/releases/download/image-rpi4-20261007010734-d194f63973/airos-rpi4.img.xz.sha256",
-          "digest": "sha256:75db2cbe6aa824584a697015cef375f3eb167a699d78a6fbd79a5a4027caa2e9"
+          "browser_download_url": "https://github.com/jmgasper/haiku/releases/download/image-rpi4-20261007012718-b6854ab9f8/airos-rpi4.img.xz.sha256",
+          "digest": "sha256:e5699889532d32b7c0a2461bdef5fcbb055f07c01f01dd980e99ed18bd683cb0"
         },
         {
           "name": "manifest.json",
-          "size": 4265,
-          "browser_download_url": "https://github.com/jmgasper/haiku/releases/download/image-rpi4-20261007010734-d194f63973/manifest.json",
-          "digest": "sha256:e4d05ea10dfae4b1c8eadac68ed96af6ad60cf452763de31435073aa0ff43d41"
+          "size": 4401,
+          "browser_download_url": "https://github.com/jmgasper/haiku/releases/download/image-rpi4-20261007012718-b6854ab9f8/manifest.json",
+          "digest": "sha256:d8645c32ba8ba30b167bdaf3d70dc532714698acd72841499182eba6c1d53837"
         }
       ]
     }
