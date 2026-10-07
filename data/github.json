@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-06T18:39:15+00:00",
-  "ci_head": "7e6e26a019c6b9fc9ab017e3dcaaf802290f31f6",
+  "updated": "2026-10-07T01:11:51+00:00",
+  "ci_head": "19f4111bb742e74fd4904a32763ff0366e4a860c",
   "sources": [
     {
       "name": "Haiku / airOS",
@@ -4154,8 +4154,26 @@
       "branch": "main",
       "group": "Build infrastructure",
       "description": "SDKs, packages, images and source provenance.",
-      "head": "7e6e26a019c6b9fc9ab017e3dcaaf802290f31f6",
+      "head": "19f4111bb742e74fd4904a32763ff0366e4a860c",
       "commits": [
+        {
+          "sha": "19f4111bb742e74fd4904a32763ff0366e4a860c",
+          "url": "https://github.com/jmgasper/airos-ci/commit/19f4111bb742e74fd4904a32763ff0366e4a860c",
+          "date": "2026-10-07T00:52:57Z",
+          "subject": "dashboard: CI jobs found by their working directory; holders are not queued"
+        },
+        {
+          "sha": "2bf54aa9718dda0486fdbfc91449087bdd521237",
+          "url": "https://github.com/jmgasper/airos-ci/commit/2bf54aa9718dda0486fdbfc91449087bdd521237",
+          "date": "2026-10-07T00:52:36Z",
+          "subject": "dashboard: say what a waiting build is queued behind"
+        },
+        {
+          "sha": "0fe17d02381dd9de4cb5fb349a8679749be9635c",
+          "url": "https://github.com/jmgasper/airos-ci/commit/0fe17d02381dd9de4cb5fb349a8679749be9635c",
+          "date": "2026-10-07T00:51:24Z",
+          "subject": "Build dashboard: latest images, build buttons, live progress"
+        },
         {
           "sha": "7e6e26a019c6b9fc9ab017e3dcaaf802290f31f6",
           "url": "https://github.com/jmgasper/airos-ci/commit/7e6e26a019c6b9fc9ab017e3dcaaf802290f31f6",
@@ -15199,8 +15217,20 @@
       "branch": "main",
       "description": "A native web browser with a modern WebKit engine, extensions and developer tools.",
       "group": "Applications",
-      "head": "ca4fe6855493fd09450c3a623c4e6b9937897ef7",
+      "head": "60f37cbbaa7f39cbff20e44d549ffeefbb810e02",
       "commits": [
+        {
+          "sha": "60f37cbbaa7f39cbff20e44d549ffeefbb810e02",
+          "url": "https://github.com/jmgasper/summit/commit/60f37cbbaa7f39cbff20e44d549ffeefbb810e02",
+          "date": "2026-10-07T00:55:09Z",
+          "subject": "Install extensions from Chrome and Firefox store pages"
+        },
+        {
+          "sha": "a2a9512c27729ad06476cbd479e9d9aa5e01ffb3",
+          "url": "https://github.com/jmgasper/summit/commit/a2a9512c27729ad06476cbd479e9d9aa5e01ffb3",
+          "date": "2026-10-07T00:49:54Z",
+          "subject": "Apply supplied Summit and toolbar artwork"
+        },
         {
           "sha": "ca4fe6855493fd09450c3a623c4e6b9937897ef7",
           "url": "https://github.com/jmgasper/summit/commit/ca4fe6855493fd09450c3a623c4e6b9937897ef7",
@@ -21101,31 +21131,31 @@
       "description": "A native web browser with a modern WebKit engine, extensions and developer tools.",
       "note": "Install both Summit and summit_webkit for your architecture.",
       "release": "https://github.com/jmgasper/summit/releases/tag/latest",
-      "published": "2026-10-06T11:16:59Z",
+      "published": "2026-10-07T01:02:10Z",
       "assets": [
         {
-          "name": "summit-0.1.0.git20261006.1056-1-arm64.hpkg",
-          "size": 3402063,
-          "browser_download_url": "https://github.com/jmgasper/summit/releases/download/latest/summit-0.1.0.git20261006.1056-1-arm64.hpkg",
-          "digest": "sha256:8b008cec219bf90d6e7884d1d13413d6658f9b2458711b5679254577fc2f07c5"
+          "name": "summit-0.1.0.git20261007.0049-1-arm64.hpkg",
+          "size": 3896416,
+          "browser_download_url": "https://github.com/jmgasper/summit/releases/download/latest/summit-0.1.0.git20261007.0049-1-arm64.hpkg",
+          "digest": "sha256:f9e067e06f0033460d02a71451e2bb691e685f162b129c8cbca55a5a49d4e0fa"
         },
         {
-          "name": "summit-0.1.0.git20261006.1056-1-x86_64.hpkg",
-          "size": 3341509,
-          "browser_download_url": "https://github.com/jmgasper/summit/releases/download/latest/summit-0.1.0.git20261006.1056-1-x86_64.hpkg",
-          "digest": "sha256:4569745823bef52bbbf98ca5fffd9ee7081ee04507619c3cd7f604dc310e5c2a"
+          "name": "summit-0.1.0.git20261007.0049-1-x86_64.hpkg",
+          "size": 3834132,
+          "browser_download_url": "https://github.com/jmgasper/summit/releases/download/latest/summit-0.1.0.git20261007.0049-1-x86_64.hpkg",
+          "digest": "sha256:76457c2fe70def2dd5279668bb7fbbf7f6e4b1827d940d674b6d606998f2cad1"
         },
         {
-          "name": "summit_webkit-1.10.1.git20261006.1056-1-arm64.hpkg",
-          "size": 88212235,
-          "browser_download_url": "https://github.com/jmgasper/summit/releases/download/latest/summit_webkit-1.10.1.git20261006.1056-1-arm64.hpkg",
-          "digest": "sha256:1066475205fc1691fe7f2f813ac621cb832387e6ad68baae447a0c9bb6998ae6"
+          "name": "summit_webkit-1.10.1.git20261007.0049-1-arm64.hpkg",
+          "size": 88212232,
+          "browser_download_url": "https://github.com/jmgasper/summit/releases/download/latest/summit_webkit-1.10.1.git20261007.0049-1-arm64.hpkg",
+          "digest": "sha256:c8f68649d38f28420f9521c94878f108fb9d4f98964989f7657585a45f89bea0"
         },
         {
-          "name": "summit_webkit-1.10.1.git20261006.1056-1-x86_64.hpkg",
-          "size": 88122612,
-          "browser_download_url": "https://github.com/jmgasper/summit/releases/download/latest/summit_webkit-1.10.1.git20261006.1056-1-x86_64.hpkg",
-          "digest": "sha256:3e35852fadbc3c6275c2c62abe950e93ac446d055971ad5a092cb70e1d6127a2"
+          "name": "summit_webkit-1.10.1.git20261007.0049-1-x86_64.hpkg",
+          "size": 88122605,
+          "browser_download_url": "https://github.com/jmgasper/summit/releases/download/latest/summit_webkit-1.10.1.git20261007.0049-1-x86_64.hpkg",
+          "digest": "sha256:4bec3d33f791aa720ad3f27a337548927e3cf80d7859d03503e42856bc5471fd"
         }
       ]
     },
@@ -21296,26 +21326,26 @@
     },
     {
       "target": "rpi4",
-      "release": "https://github.com/jmgasper/haiku/releases/tag/image-rpi4-20261006153035-d194f63973",
-      "published": "2026-10-06T15:31:29Z",
+      "release": "https://github.com/jmgasper/haiku/releases/tag/image-rpi4-20261007010734-d194f63973",
+      "published": "2026-10-07T01:08:29Z",
       "assets": [
         {
           "name": "airos-rpi4.img.xz",
-          "size": 258284984,
-          "browser_download_url": "https://github.com/jmgasper/haiku/releases/download/image-rpi4-20261006153035-d194f63973/airos-rpi4.img.xz",
-          "digest": "sha256:ec05891cd404d97c52f116bd2c2c5431fb6f248d238fd9bb6909e413173034eb"
+          "size": 258609712,
+          "browser_download_url": "https://github.com/jmgasper/haiku/releases/download/image-rpi4-20261007010734-d194f63973/airos-rpi4.img.xz",
+          "digest": "sha256:acdb328136ceb2bdb2874c907e7be629a20260cf8b7acb0448b2c5b55c896f5c"
         },
         {
           "name": "airos-rpi4.img.xz.sha256",
           "size": 84,
-          "browser_download_url": "https://github.com/jmgasper/haiku/releases/download/image-rpi4-20261006153035-d194f63973/airos-rpi4.img.xz.sha256",
-          "digest": "sha256:f9de6e3b5d036629e3ccf802479365173d98b43fe571dc73eeae263be6145f1d"
+          "browser_download_url": "https://github.com/jmgasper/haiku/releases/download/image-rpi4-20261007010734-d194f63973/airos-rpi4.img.xz.sha256",
+          "digest": "sha256:75db2cbe6aa824584a697015cef375f3eb167a699d78a6fbd79a5a4027caa2e9"
         },
         {
           "name": "manifest.json",
           "size": 4265,
-          "browser_download_url": "https://github.com/jmgasper/haiku/releases/download/image-rpi4-20261006153035-d194f63973/manifest.json",
-          "digest": "sha256:e0816a1cd2f80c0ba5428130d3d2158d1d52b4b3b3f086839c16db5aba0df729"
+          "browser_download_url": "https://github.com/jmgasper/haiku/releases/download/image-rpi4-20261007010734-d194f63973/manifest.json",
+          "digest": "sha256:e4d05ea10dfae4b1c8eadac68ed96af6ad60cf452763de31435073aa0ff43d41"
         }
       ]
     }
