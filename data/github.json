@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-08T06:52:40+00:00",
+  "updated": "2026-10-08T12:47:15+00:00",
   "ci_head": "0802072803e232bdbfd2371f2b5cb6d27e30af8e",
   "sources": [
     {
@@ -16039,8 +16039,44 @@
       "branch": "main",
       "description": "A native web browser with a modern WebKit engine, extensions and developer tools.",
       "group": "Applications",
-      "head": "67c4790d2c32a703b3229966f66efb179261e180",
+      "head": "ba951ac54c3efd83ca180b382a35c02fd2f62859",
       "commits": [
+        {
+          "sha": "ba951ac54c3efd83ca180b382a35c02fd2f62859",
+          "url": "https://github.com/jmgasper/summit/commit/ba951ac54c3efd83ca180b382a35c02fd2f62859",
+          "date": "2026-10-08T08:40:56Z",
+          "subject": "Record completed optimization pass and final native validation"
+        },
+        {
+          "sha": "d69f2c388b26a17a0ca0313d24b1a4fb7c31a9e0",
+          "url": "https://github.com/jmgasper/summit/commit/d69f2c388b26a17a0ca0313d24b1a4fb7c31a9e0",
+          "date": "2026-10-08T08:40:56Z",
+          "subject": "Harden streaming validation against display and audio failures"
+        },
+        {
+          "sha": "a906b7ec5fd70ae58494a84f3c644a66893d9035",
+          "url": "https://github.com/jmgasper/summit/commit/a906b7ec5fd70ae58494a84f3c644a66893d9035",
+          "date": "2026-10-08T07:32:07Z",
+          "subject": "Record installed retained build and correct optimization schedule"
+        },
+        {
+          "sha": "b4006ff1a9ddda162f1982c87082f58763528719",
+          "url": "https://github.com/jmgasper/summit/commit/b4006ff1a9ddda162f1982c87082f58763528719",
+          "date": "2026-10-08T07:21:52Z",
+          "subject": "Remove GPU buffer experiment without measured memory benefit"
+        },
+        {
+          "sha": "4d3281e03299ab5afaa47dedc91f09f695a9b3d0",
+          "url": "https://github.com/jmgasper/summit/commit/4d3281e03299ab5afaa47dedc91f09f695a9b3d0",
+          "date": "2026-10-08T07:14:58Z",
+          "subject": "Add retained graphics regression and record GPU buffer trial results"
+        },
+        {
+          "sha": "0f0cbe7f9d262afc7532ec802ad646105b161f76",
+          "url": "https://github.com/jmgasper/summit/commit/0f0cbe7f9d262afc7532ec802ad646105b161f76",
+          "date": "2026-10-08T06:56:35Z",
+          "subject": "Trial hidden GPU target reclamation in the active compositor"
+        },
         {
           "sha": "67c4790d2c32a703b3229966f66efb179261e180",
           "url": "https://github.com/jmgasper/summit/commit/67c4790d2c32a703b3229966f66efb179261e180",
