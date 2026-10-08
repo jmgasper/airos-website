@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-07T18:40:32+00:00",
+  "updated": "2026-10-08T01:11:27+00:00",
   "ci_head": "0802072803e232bdbfd2371f2b5cb6d27e30af8e",
   "sources": [
     {
@@ -15511,8 +15511,68 @@
       "branch": "main",
       "description": "A native web browser with a modern WebKit engine, extensions and developer tools.",
       "group": "Applications",
-      "head": "d8f4f582931a5f5635f5b0c6326c24fb9fe72d3d",
+      "head": "8502051b1e5022ef362863037e61c95470e33375",
       "commits": [
+        {
+          "sha": "8502051b1e5022ef362863037e61c95470e33375",
+          "url": "https://github.com/jmgasper/summit/commit/8502051b1e5022ef362863037e61c95470e33375",
+          "date": "2026-10-08T01:10:40Z",
+          "subject": "Add native canvas hit-region interaction coverage"
+        },
+        {
+          "sha": "4acde3d51aec284548d4c80f0cae64b74b52ea72",
+          "url": "https://github.com/jmgasper/summit/commit/4acde3d51aec284548d4c80f0cae64b74b52ea72",
+          "date": "2026-10-08T00:26:05Z",
+          "subject": "Record complete X399 streaming verification"
+        },
+        {
+          "sha": "473741a25deec051ce3e033c244c5a385f9cae6d",
+          "url": "https://github.com/jmgasper/summit/commit/473741a25deec051ce3e033c244c5a385f9cae6d",
+          "date": "2026-10-08T00:19:14Z",
+          "subject": "Integrate MPEG-TS streaming with ordered finalization and clock resets"
+        },
+        {
+          "sha": "a14e5247b8db04c6a01c390365f739c23ef11b2e",
+          "url": "https://github.com/jmgasper/summit/commit/a14e5247b8db04c6a01c390365f739c23ef11b2e",
+          "date": "2026-10-07T22:55:40Z",
+          "subject": "Add validated MPEG-TS demuxing through public FFmpeg APIs"
+        },
+        {
+          "sha": "6fa6346a138fdb235be93b2c692cbd9208b05a83",
+          "url": "https://github.com/jmgasper/summit/commit/6fa6346a138fdb235be93b2c692cbd9208b05a83",
+          "date": "2026-10-07T22:50:51Z",
+          "subject": "README: latest air/OS builds (e97da96) [skip ci]"
+        },
+        {
+          "sha": "e97da96df3d6a08c0e10253d5237fa3446142eb0",
+          "url": "https://github.com/jmgasper/summit/commit/e97da96df3d6a08c0e10253d5237fa3446142eb0",
+          "date": "2026-10-07T22:31:52Z",
+          "subject": "Enable WebM and MPEG audio streaming with exact media timing"
+        },
+        {
+          "sha": "1e431923342ee27bc19b7fc4606fa1512910a468",
+          "url": "https://github.com/jmgasper/summit/commit/1e431923342ee27bc19b7fc4606fa1512910a468",
+          "date": "2026-10-07T21:20:14Z",
+          "subject": "README: latest air/OS builds (cbd21dd) [skip ci]"
+        },
+        {
+          "sha": "cbd21dd79d269409f8d2297fb4dac0f9d2a4077f",
+          "url": "https://github.com/jmgasper/summit/commit/cbd21dd79d269409f8d2297fb4dac0f9d2a4077f",
+          "date": "2026-10-07T20:39:09Z",
+          "subject": "Add bounded incremental WebM demuxing and native codec probes"
+        },
+        {
+          "sha": "3e99e8d56aefdf5db87a2625354776aa938cbc8f",
+          "url": "https://github.com/jmgasper/summit/commit/3e99e8d56aefdf5db87a2625354776aa938cbc8f",
+          "date": "2026-10-07T20:29:10Z",
+          "subject": "README: latest air/OS builds (03e9cc3) [skip ci]"
+        },
+        {
+          "sha": "03e9cc39324c55dfc76a0cfb18d22bbaa2c64be0",
+          "url": "https://github.com/jmgasper/summit/commit/03e9cc39324c55dfc76a0cfb18d22bbaa2c64be0",
+          "date": "2026-10-07T20:07:00Z",
+          "subject": "Fix post-paste rendering stalls and large-field caret lookup"
+        },
         {
           "sha": "d8f4f582931a5f5635f5b0c6326c24fb9fe72d3d",
           "url": "https://github.com/jmgasper/summit/commit/d8f4f582931a5f5635f5b0c6326c24fb9fe72d3d",
@@ -21671,31 +21731,31 @@
       "description": "A native web browser with a modern WebKit engine, extensions and developer tools.",
       "note": "Install both Summit and summit_webkit for your architecture.",
       "release": "https://github.com/jmgasper/summit/releases/tag/latest",
-      "published": "2026-10-07T11:41:02Z",
+      "published": "2026-10-07T22:50:50Z",
       "assets": [
         {
-          "name": "summit-0.1.0.git20261007.1135-1-arm64.hpkg",
-          "size": 4016716,
-          "browser_download_url": "https://github.com/jmgasper/summit/releases/download/latest/summit-0.1.0.git20261007.1135-1-arm64.hpkg",
-          "digest": "sha256:a566d2694040ecfb1ff62fd58812f185ec31283deeb785cd46a6d914a779607e"
+          "name": "summit-0.1.0.git20261007.2231-1-arm64.hpkg",
+          "size": 4017416,
+          "browser_download_url": "https://github.com/jmgasper/summit/releases/download/latest/summit-0.1.0.git20261007.2231-1-arm64.hpkg",
+          "digest": "sha256:8e0100fac9f83a8d6ea5d6bdb4a8629dc1471089a48bb465a2309344e62ed897"
         },
         {
-          "name": "summit-0.1.0.git20261007.1135-1-x86_64.hpkg",
-          "size": 3955117,
-          "browser_download_url": "https://github.com/jmgasper/summit/releases/download/latest/summit-0.1.0.git20261007.1135-1-x86_64.hpkg",
-          "digest": "sha256:c939b99f2ea4be79ffdf62780157ec1a559a2402a8131c5c81ddd21c3584cfda"
+          "name": "summit-0.1.0.git20261007.2231-1-x86_64.hpkg",
+          "size": 3956956,
+          "browser_download_url": "https://github.com/jmgasper/summit/releases/download/latest/summit-0.1.0.git20261007.2231-1-x86_64.hpkg",
+          "digest": "sha256:6814d87b361ad0fa882270dd6ab99a44d40cacc7eb267f146292945d3dd21521"
         },
         {
-          "name": "summit_webkit-1.10.1.git20261007.1135-1-arm64.hpkg",
-          "size": 89390285,
-          "browser_download_url": "https://github.com/jmgasper/summit/releases/download/latest/summit_webkit-1.10.1.git20261007.1135-1-arm64.hpkg",
-          "digest": "sha256:2f989c4128856c13540e31498c8ffe68aa98fe0b7d3bf8f111d3d39bef8f590b"
+          "name": "summit_webkit-1.10.1.git20261007.2231-1-arm64.hpkg",
+          "size": 89505281,
+          "browser_download_url": "https://github.com/jmgasper/summit/releases/download/latest/summit_webkit-1.10.1.git20261007.2231-1-arm64.hpkg",
+          "digest": "sha256:e1b6b40d81d4bba7ed5a41e3094ea6d747c8dfc235e33b94a664325e89f94d04"
         },
         {
-          "name": "summit_webkit-1.10.1.git20261007.1135-1-x86_64.hpkg",
-          "size": 89300590,
-          "browser_download_url": "https://github.com/jmgasper/summit/releases/download/latest/summit_webkit-1.10.1.git20261007.1135-1-x86_64.hpkg",
-          "digest": "sha256:3519cb2a0f8733412324d33ea20adb20a566fac4e524db74b0676370727cb908"
+          "name": "summit_webkit-1.10.1.git20261007.2231-1-x86_64.hpkg",
+          "size": 89392860,
+          "browser_download_url": "https://github.com/jmgasper/summit/releases/download/latest/summit_webkit-1.10.1.git20261007.2231-1-x86_64.hpkg",
+          "digest": "sha256:1c3a7dec6d91150fe41f2697edd93978913d35a6cf6803045905aae4580a89a9"
         }
       ]
     },
