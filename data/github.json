@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-08T18:40:16+00:00",
+  "updated": "2026-10-09T01:13:52+00:00",
   "ci_head": "0802072803e232bdbfd2371f2b5cb6d27e30af8e",
   "sources": [
     {
@@ -9,7 +9,7 @@
       "base": "b42b90f5ec2839f8074400c849ee025b50d0f7f1",
       "group": "Operating system",
       "description": "Haiku kernel, desktop, drivers and airOS integration.",
-      "head": "03f2e9bff99a0bd6c1e9a6b436a71246ee5f7b61",
+      "head": "c382028196e6325b402f4fb3e80cf1b4a4f0e74d",
       "commits": [
         {
           "sha": "84b77e2accf45608b498de8e945d1d29e138a6fc",
@@ -4510,6 +4510,156 @@
           "url": "https://github.com/jmgasper/haiku/commit/03f2e9bff99a0bd6c1e9a6b436a71246ee5f7b61",
           "date": "2026-10-08T03:35:38Z",
           "subject": "docs/rpi4: the DSI panel's cost"
+        },
+        {
+          "sha": "c6f2eeb5181906b6efc66c64b12ad495873816c2",
+          "url": "https://github.com/jmgasper/haiku/commit/c6f2eeb5181906b6efc66c64b12ad495873816c2",
+          "date": "2026-10-08T09:44:28Z",
+          "subject": "rpi4: bound V3D buffer-cache metadata growth"
+        },
+        {
+          "sha": "3d7bf6858cf1ce10bac3b85907e8ce322d45ac5d",
+          "url": "https://github.com/jmgasper/haiku/commit/3d7bf6858cf1ce10bac3b85907e8ce322d45ac5d",
+          "date": "2026-10-08T09:47:16Z",
+          "subject": "rpi4: record installed graphics presentation profile"
+        },
+        {
+          "sha": "f05219c0db03bd408ca0d3f210aef0af93b700ed",
+          "url": "https://github.com/jmgasper/haiku/commit/f05219c0db03bd408ca0d3f210aef0af93b700ed",
+          "date": "2026-10-08T10:39:23Z",
+          "subject": "rpi4: share GPU readback storage with EGL window bitmaps"
+        },
+        {
+          "sha": "57878f7966ea385f04abb764902d92a679a12690",
+          "url": "https://github.com/jmgasper/haiku/commit/57878f7966ea385f04abb764902d92a679a12690",
+          "date": "2026-10-08T11:02:48Z",
+          "subject": "rpi4: avoid redundant BGLView background clears"
+        },
+        {
+          "sha": "ed1bcc4edfe4446bf3e8f72062157f911cdd1d13",
+          "url": "https://github.com/jmgasper/haiku/commit/ed1bcc4edfe4446bf3e8f72062157f911cdd1d13",
+          "date": "2026-10-08T11:55:11Z",
+          "subject": "rpi4: retain stable V3D cache-walk bounds in registers"
+        },
+        {
+          "sha": "0d735d58f1e9b37ef57df79291fe0665d58705b3",
+          "url": "https://github.com/jmgasper/haiku/commit/0d735d58f1e9b37ef57df79291fe0665d58705b3",
+          "date": "2026-10-08T12:09:20Z",
+          "subject": "rpi4: record kernel memory-fill profile and rejected candidate"
+        },
+        {
+          "sha": "a6a040e30f64956a516139b8ba8502ad1e07cfaa",
+          "url": "https://github.com/jmgasper/haiku/commit/a6a040e30f64956a516139b8ba8502ad1e07cfaa",
+          "date": "2026-10-08T12:35:51Z",
+          "subject": "rpi4: record and stage AirPins toolbar startup optimization"
+        },
+        {
+          "sha": "15d09187dc39adc052d00fb89f2e77e45133248c",
+          "url": "https://github.com/jmgasper/haiku/commit/15d09187dc39adc052d00fb89f2e77e45133248c",
+          "date": "2026-10-08T13:05:32Z",
+          "subject": "icon: reuse the default gamma transfer calculation"
+        },
+        {
+          "sha": "513758f103c864a98a873f8627730daa2fe8e1cc",
+          "url": "https://github.com/jmgasper/haiku/commit/513758f103c864a98a873f8627730daa2fe8e1cc",
+          "date": "2026-10-08T14:11:01Z",
+          "subject": "app_server: reduce solid copy scanline drawing cost"
+        },
+        {
+          "sha": "559768d036630f0f604ff70f72d4d6264b8c13cb",
+          "url": "https://github.com/jmgasper/haiku/commit/559768d036630f0f604ff70f72d4d6264b8c13cb",
+          "date": "2026-10-08T15:12:29Z",
+          "subject": "rpi4: record page-clear evaluation and allocation benchmark"
+        },
+        {
+          "sha": "e6010e7acd588a66e1a32e3cb99d51440d657daf",
+          "url": "https://github.com/jmgasper/haiku/commit/e6010e7acd588a66e1a32e3cb99d51440d657daf",
+          "date": "2026-10-08T16:21:03Z",
+          "subject": "rpi4: add GNU hashes to the pinned C++ runtime"
+        },
+        {
+          "sha": "2673d0ed84126aac1f1a2cb11fd8b1e70233f2fb",
+          "url": "https://github.com/jmgasper/haiku/commit/2673d0ed84126aac1f1a2cb11fd8b1e70233f2fb",
+          "date": "2026-10-08T16:41:17Z",
+          "subject": "rpi4: record the rejected gradient optimization"
+        },
+        {
+          "sha": "14ed3e6a001fee17d5ce24bd12cddbbdfd670f0e",
+          "url": "https://github.com/jmgasper/haiku/commit/14ed3e6a001fee17d5ce24bd12cddbbdfd670f0e",
+          "date": "2026-10-08T17:13:30Z",
+          "subject": "rpi4: record rectangle-fill batching comparison and rollback"
+        },
+        {
+          "sha": "2b486afc209b9d4519a1e59bab7a6dcba276eb8a",
+          "url": "https://github.com/jmgasper/haiku/commit/2b486afc209b9d4519a1e59bab7a6dcba276eb8a",
+          "date": "2026-10-08T18:05:09Z",
+          "subject": "rpi4: cache fixed AirTop panel geometry after native qualification"
+        },
+        {
+          "sha": "a972a26fcd42ac4f1b4e5fd24a9a05d7c236bcd8",
+          "url": "https://github.com/jmgasper/haiku/commit/a972a26fcd42ac4f1b4e5fd24a9a05d7c236bcd8",
+          "date": "2026-10-08T18:19:22Z",
+          "subject": "rpi4: record the negligible AirTop font-setup comparison"
+        },
+        {
+          "sha": "a8b31c4d092c932405e3f63aa468441b8807d3b4",
+          "url": "https://github.com/jmgasper/haiku/commit/a8b31c4d092c932405e3f63aa468441b8807d3b4",
+          "date": "2026-10-08T19:01:19Z",
+          "subject": "app_server: reuse free tail space when growing bitmap pools"
+        },
+        {
+          "sha": "121ded7106ab12e9df26221e1c4d1a28c403ea8b",
+          "url": "https://github.com/jmgasper/haiku/commit/121ded7106ab12e9df26221e1c4d1a28c403ea8b",
+          "date": "2026-10-08T19:45:48Z",
+          "subject": "app_server: release bitmap client address reservations"
+        },
+        {
+          "sha": "232e79e81f68a8b096f915b1790625d66e52a7f7",
+          "url": "https://github.com/jmgasper/haiku/commit/232e79e81f68a8b096f915b1790625d66e52a7f7",
+          "date": "2026-10-08T19:46:28Z",
+          "subject": "Merge rpi4: qualified native performance improvements"
+        },
+        {
+          "sha": "97840781ee65cd1841a7c3a4c19c542e528b703a",
+          "url": "https://github.com/jmgasper/haiku/commit/97840781ee65cd1841a7c3a4c19c542e528b703a",
+          "date": "2026-10-08T20:00:52Z",
+          "subject": "rpi4: record cumulative native graphics and allocator checks"
+        },
+        {
+          "sha": "0b9ff72822f350846d3fb828e7bd99292eefacf1",
+          "url": "https://github.com/jmgasper/haiku/commit/0b9ff72822f350846d3fb828e7bd99292eefacf1",
+          "date": "2026-10-08T20:19:45Z",
+          "subject": "rpi4: cache fixed AirTop panel labels after native qualification"
+        },
+        {
+          "sha": "abbb335ddeac3d133a57794a3e5b63dfe74654e0",
+          "url": "https://github.com/jmgasper/haiku/commit/abbb335ddeac3d133a57794a3e5b63dfe74654e0",
+          "date": "2026-10-08T20:29:03Z",
+          "subject": "Merge rpi4: cumulative validation and AirTop fixed-label cache"
+        },
+        {
+          "sha": "523ad2ef7ff56a6fed5398b8015a2bad8c94f4f3",
+          "url": "https://github.com/jmgasper/haiku/commit/523ad2ef7ff56a6fed5398b8015a2bad8c94f4f3",
+          "date": "2026-10-08T20:50:03Z",
+          "subject": "rpi4: collect AirTop process details only for an open dashboard"
+        },
+        {
+          "sha": "ad8789eb3dd30e546bd828b9259e8884d542b143",
+          "url": "https://github.com/jmgasper/haiku/commit/ad8789eb3dd30e546bd828b9259e8884d542b143",
+          "date": "2026-10-08T20:50:28Z",
+          "subject": "Merge Raspberry Pi AirTop process sampling improvement"
+        },
+        {
+          "sha": "c3716ca8f10a51919a0b9ea0393f0c6f05ea60b8",
+          "url": "https://github.com/jmgasper/haiku/commit/c3716ca8f10a51919a0b9ea0393f0c6f05ea60b8",
+          "date": "2026-10-08T21:23:45Z",
+          "subject": "rpi4: complete twelve-hour native performance validation"
+        },
+        {
+          "sha": "c382028196e6325b402f4fb3e80cf1b4a4f0e74d",
+          "url": "https://github.com/jmgasper/haiku/commit/c382028196e6325b402f4fb3e80cf1b4a4f0e74d",
+          "date": "2026-10-08T21:23:45Z",
+          "subject": "Merge completed Raspberry Pi performance validation"
         }
       ],
       "url": "https://github.com/jmgasper/haiku/tree/master"
@@ -8024,7 +8174,7 @@
       "base": "b42b90f5ec2839f8074400c849ee025b50d0f7f1",
       "group": "Operating system",
       "description": "Active device or release branch; includes work awaiting integration into master.",
-      "head": "7141e7c7c0b42a96ff93c4acadcefaba33078d8e",
+      "head": "c3716ca8f10a51919a0b9ea0393f0c6f05ea60b8",
       "commits": [
         {
           "sha": "84b77e2accf45608b498de8e945d1d29e138a6fc",
@@ -12519,6 +12669,138 @@
           "url": "https://github.com/jmgasper/haiku/commit/7141e7c7c0b42a96ff93c4acadcefaba33078d8e",
           "date": "2026-10-08T02:54:32Z",
           "subject": "Merge rpi4-dsi: AirTop in the arm64 application package set"
+        },
+        {
+          "sha": "03f2e9bff99a0bd6c1e9a6b436a71246ee5f7b61",
+          "url": "https://github.com/jmgasper/haiku/commit/03f2e9bff99a0bd6c1e9a6b436a71246ee5f7b61",
+          "date": "2026-10-08T03:35:38Z",
+          "subject": "docs/rpi4: the DSI panel's cost"
+        },
+        {
+          "sha": "c6f2eeb5181906b6efc66c64b12ad495873816c2",
+          "url": "https://github.com/jmgasper/haiku/commit/c6f2eeb5181906b6efc66c64b12ad495873816c2",
+          "date": "2026-10-08T09:44:28Z",
+          "subject": "rpi4: bound V3D buffer-cache metadata growth"
+        },
+        {
+          "sha": "3d7bf6858cf1ce10bac3b85907e8ce322d45ac5d",
+          "url": "https://github.com/jmgasper/haiku/commit/3d7bf6858cf1ce10bac3b85907e8ce322d45ac5d",
+          "date": "2026-10-08T09:47:16Z",
+          "subject": "rpi4: record installed graphics presentation profile"
+        },
+        {
+          "sha": "f05219c0db03bd408ca0d3f210aef0af93b700ed",
+          "url": "https://github.com/jmgasper/haiku/commit/f05219c0db03bd408ca0d3f210aef0af93b700ed",
+          "date": "2026-10-08T10:39:23Z",
+          "subject": "rpi4: share GPU readback storage with EGL window bitmaps"
+        },
+        {
+          "sha": "57878f7966ea385f04abb764902d92a679a12690",
+          "url": "https://github.com/jmgasper/haiku/commit/57878f7966ea385f04abb764902d92a679a12690",
+          "date": "2026-10-08T11:02:48Z",
+          "subject": "rpi4: avoid redundant BGLView background clears"
+        },
+        {
+          "sha": "ed1bcc4edfe4446bf3e8f72062157f911cdd1d13",
+          "url": "https://github.com/jmgasper/haiku/commit/ed1bcc4edfe4446bf3e8f72062157f911cdd1d13",
+          "date": "2026-10-08T11:55:11Z",
+          "subject": "rpi4: retain stable V3D cache-walk bounds in registers"
+        },
+        {
+          "sha": "0d735d58f1e9b37ef57df79291fe0665d58705b3",
+          "url": "https://github.com/jmgasper/haiku/commit/0d735d58f1e9b37ef57df79291fe0665d58705b3",
+          "date": "2026-10-08T12:09:20Z",
+          "subject": "rpi4: record kernel memory-fill profile and rejected candidate"
+        },
+        {
+          "sha": "a6a040e30f64956a516139b8ba8502ad1e07cfaa",
+          "url": "https://github.com/jmgasper/haiku/commit/a6a040e30f64956a516139b8ba8502ad1e07cfaa",
+          "date": "2026-10-08T12:35:51Z",
+          "subject": "rpi4: record and stage AirPins toolbar startup optimization"
+        },
+        {
+          "sha": "15d09187dc39adc052d00fb89f2e77e45133248c",
+          "url": "https://github.com/jmgasper/haiku/commit/15d09187dc39adc052d00fb89f2e77e45133248c",
+          "date": "2026-10-08T13:05:32Z",
+          "subject": "icon: reuse the default gamma transfer calculation"
+        },
+        {
+          "sha": "513758f103c864a98a873f8627730daa2fe8e1cc",
+          "url": "https://github.com/jmgasper/haiku/commit/513758f103c864a98a873f8627730daa2fe8e1cc",
+          "date": "2026-10-08T14:11:01Z",
+          "subject": "app_server: reduce solid copy scanline drawing cost"
+        },
+        {
+          "sha": "559768d036630f0f604ff70f72d4d6264b8c13cb",
+          "url": "https://github.com/jmgasper/haiku/commit/559768d036630f0f604ff70f72d4d6264b8c13cb",
+          "date": "2026-10-08T15:12:29Z",
+          "subject": "rpi4: record page-clear evaluation and allocation benchmark"
+        },
+        {
+          "sha": "e6010e7acd588a66e1a32e3cb99d51440d657daf",
+          "url": "https://github.com/jmgasper/haiku/commit/e6010e7acd588a66e1a32e3cb99d51440d657daf",
+          "date": "2026-10-08T16:21:03Z",
+          "subject": "rpi4: add GNU hashes to the pinned C++ runtime"
+        },
+        {
+          "sha": "2673d0ed84126aac1f1a2cb11fd8b1e70233f2fb",
+          "url": "https://github.com/jmgasper/haiku/commit/2673d0ed84126aac1f1a2cb11fd8b1e70233f2fb",
+          "date": "2026-10-08T16:41:17Z",
+          "subject": "rpi4: record the rejected gradient optimization"
+        },
+        {
+          "sha": "14ed3e6a001fee17d5ce24bd12cddbbdfd670f0e",
+          "url": "https://github.com/jmgasper/haiku/commit/14ed3e6a001fee17d5ce24bd12cddbbdfd670f0e",
+          "date": "2026-10-08T17:13:30Z",
+          "subject": "rpi4: record rectangle-fill batching comparison and rollback"
+        },
+        {
+          "sha": "2b486afc209b9d4519a1e59bab7a6dcba276eb8a",
+          "url": "https://github.com/jmgasper/haiku/commit/2b486afc209b9d4519a1e59bab7a6dcba276eb8a",
+          "date": "2026-10-08T18:05:09Z",
+          "subject": "rpi4: cache fixed AirTop panel geometry after native qualification"
+        },
+        {
+          "sha": "a972a26fcd42ac4f1b4e5fd24a9a05d7c236bcd8",
+          "url": "https://github.com/jmgasper/haiku/commit/a972a26fcd42ac4f1b4e5fd24a9a05d7c236bcd8",
+          "date": "2026-10-08T18:19:22Z",
+          "subject": "rpi4: record the negligible AirTop font-setup comparison"
+        },
+        {
+          "sha": "a8b31c4d092c932405e3f63aa468441b8807d3b4",
+          "url": "https://github.com/jmgasper/haiku/commit/a8b31c4d092c932405e3f63aa468441b8807d3b4",
+          "date": "2026-10-08T19:01:19Z",
+          "subject": "app_server: reuse free tail space when growing bitmap pools"
+        },
+        {
+          "sha": "121ded7106ab12e9df26221e1c4d1a28c403ea8b",
+          "url": "https://github.com/jmgasper/haiku/commit/121ded7106ab12e9df26221e1c4d1a28c403ea8b",
+          "date": "2026-10-08T19:45:48Z",
+          "subject": "app_server: release bitmap client address reservations"
+        },
+        {
+          "sha": "97840781ee65cd1841a7c3a4c19c542e528b703a",
+          "url": "https://github.com/jmgasper/haiku/commit/97840781ee65cd1841a7c3a4c19c542e528b703a",
+          "date": "2026-10-08T20:00:52Z",
+          "subject": "rpi4: record cumulative native graphics and allocator checks"
+        },
+        {
+          "sha": "0b9ff72822f350846d3fb828e7bd99292eefacf1",
+          "url": "https://github.com/jmgasper/haiku/commit/0b9ff72822f350846d3fb828e7bd99292eefacf1",
+          "date": "2026-10-08T20:19:45Z",
+          "subject": "rpi4: cache fixed AirTop panel labels after native qualification"
+        },
+        {
+          "sha": "523ad2ef7ff56a6fed5398b8015a2bad8c94f4f3",
+          "url": "https://github.com/jmgasper/haiku/commit/523ad2ef7ff56a6fed5398b8015a2bad8c94f4f3",
+          "date": "2026-10-08T20:50:03Z",
+          "subject": "rpi4: collect AirTop process details only for an open dashboard"
+        },
+        {
+          "sha": "c3716ca8f10a51919a0b9ea0393f0c6f05ea60b8",
+          "url": "https://github.com/jmgasper/haiku/commit/c3716ca8f10a51919a0b9ea0393f0c6f05ea60b8",
+          "date": "2026-10-08T21:23:45Z",
+          "subject": "rpi4: complete twelve-hour native performance validation"
         }
       ],
       "url": "https://github.com/jmgasper/haiku/tree/rpi4"
@@ -21149,8 +21431,14 @@
       "branch": "master",
       "description": "GPIO configuration, pin controls and waveforms for Raspberry Pi.",
       "group": "Applications",
-      "head": "57b0bd60afb097f3a3d5e51a1858d1a57da3cad3",
+      "head": "d732522af092b4cff3897fce5259a8e62639e1f0",
       "commits": [
+        {
+          "sha": "d732522af092b4cff3897fce5259a8e62639e1f0",
+          "url": "https://github.com/jmgasper/AirPins/commit/d732522af092b4cff3897fce5259a8e62639e1f0",
+          "date": "2026-10-08T12:33:15Z",
+          "subject": "Reuse toolbar icons when buttons attach to a window"
+        },
         {
           "sha": "57b0bd60afb097f3a3d5e51a1858d1a57da3cad3",
           "url": "https://github.com/jmgasper/AirPins/commit/57b0bd60afb097f3a3d5e51a1858d1a57da3cad3",
@@ -22554,76 +22842,76 @@
   "images": [
     {
       "target": "x86_64",
-      "release": "https://github.com/jmgasper/haiku/releases/tag/image-x86_64-20261008154439-03f2e9bff9",
-      "published": "2026-10-08T15:46:43Z",
+      "release": "https://github.com/jmgasper/haiku/releases/tag/image-x86_64-20261008205954-ad8789eb3d",
+      "published": "2026-10-08T21:02:06Z",
       "assets": [
         {
           "name": "airos-x86_64.iso.xz",
-          "size": 749447460,
-          "browser_download_url": "https://github.com/jmgasper/haiku/releases/download/image-x86_64-20261008154439-03f2e9bff9/airos-x86_64.iso.xz",
-          "digest": "sha256:6953a1ce5c11748148fa36a8dc83782785f4ef3312ee6df8a6d5102a3569c71b"
+          "size": 749449424,
+          "browser_download_url": "https://github.com/jmgasper/haiku/releases/download/image-x86_64-20261008205954-ad8789eb3d/airos-x86_64.iso.xz",
+          "digest": "sha256:534a52afdc64e7524c639a65575a8a83e3765bbbf6376151d79e719148aa507c"
         },
         {
           "name": "airos-x86_64.iso.xz.sha256",
           "size": 86,
-          "browser_download_url": "https://github.com/jmgasper/haiku/releases/download/image-x86_64-20261008154439-03f2e9bff9/airos-x86_64.iso.xz.sha256",
-          "digest": "sha256:2adce14820c49f80b6c7ae6ae8246b88e2bf336163c78596fd28050dddf3e194"
+          "browser_download_url": "https://github.com/jmgasper/haiku/releases/download/image-x86_64-20261008205954-ad8789eb3d/airos-x86_64.iso.xz.sha256",
+          "digest": "sha256:d34037af9d4937009af04d937e0b50fd02cbb73d255bfb4b5dd5d1d094276c83"
         },
         {
           "name": "manifest.json",
           "size": 4206,
-          "browser_download_url": "https://github.com/jmgasper/haiku/releases/download/image-x86_64-20261008154439-03f2e9bff9/manifest.json",
-          "digest": "sha256:eac72ec7397744c0d12dd1bc0e6850a176c8325dba729c831fc00da10ef13608"
+          "browser_download_url": "https://github.com/jmgasper/haiku/releases/download/image-x86_64-20261008205954-ad8789eb3d/manifest.json",
+          "digest": "sha256:ce7c170351de1a40041c2767d3dd9fcdbd62c282bdafa746929bdd9ab6ba8ac8"
         }
       ]
     },
     {
       "target": "arm64",
-      "release": "https://github.com/jmgasper/haiku/releases/tag/image-arm64-20261008153631-03f2e9bff9",
-      "published": "2026-10-08T15:38:41Z",
+      "release": "https://github.com/jmgasper/haiku/releases/tag/image-arm64-20261008210442-ad8789eb3d",
+      "published": "2026-10-08T21:06:52Z",
       "assets": [
         {
           "name": "airos-arm64.iso.xz",
-          "size": 258338996,
-          "browser_download_url": "https://github.com/jmgasper/haiku/releases/download/image-arm64-20261008153631-03f2e9bff9/airos-arm64.iso.xz",
-          "digest": "sha256:e04899d6e3aa3f5db0a4edb6f13213380ddf653bcd72e800958ccb7b065a28d8"
+          "size": 258333620,
+          "browser_download_url": "https://github.com/jmgasper/haiku/releases/download/image-arm64-20261008210442-ad8789eb3d/airos-arm64.iso.xz",
+          "digest": "sha256:4759a7a78aa72a28e35a7c391229338adfe8fe92cf2a052714f9c65fed119a63"
         },
         {
           "name": "airos-arm64.iso.xz.sha256",
           "size": 85,
-          "browser_download_url": "https://github.com/jmgasper/haiku/releases/download/image-arm64-20261008153631-03f2e9bff9/airos-arm64.iso.xz.sha256",
-          "digest": "sha256:e0c99dd0d2a09ee916cff74a3ab6f3632e32853dfcb9987e278d8265206a5ece"
+          "browser_download_url": "https://github.com/jmgasper/haiku/releases/download/image-arm64-20261008210442-ad8789eb3d/airos-arm64.iso.xz.sha256",
+          "digest": "sha256:0031899fc38906c741aba2a28fe8a1a851319b9019c0d49ee94d7b9fce2f357f"
         },
         {
           "name": "manifest.json",
           "size": 4413,
-          "browser_download_url": "https://github.com/jmgasper/haiku/releases/download/image-arm64-20261008153631-03f2e9bff9/manifest.json",
-          "digest": "sha256:ec5bd12fd7878bc6043d922d3210692910c55e12d7415523b08c6b132bb812b0"
+          "browser_download_url": "https://github.com/jmgasper/haiku/releases/download/image-arm64-20261008210442-ad8789eb3d/manifest.json",
+          "digest": "sha256:ab714ad962931ccda254a1dfb36fb880a3de85408c9bd2aa575c07b75b15cc7d"
         }
       ]
     },
     {
       "target": "rpi4",
-      "release": "https://github.com/jmgasper/haiku/releases/tag/image-rpi4-20261008153303-03f2e9bff9",
-      "published": "2026-10-08T15:33:54Z",
+      "release": "https://github.com/jmgasper/haiku/releases/tag/image-rpi4-20261008205313-ad8789eb3d",
+      "published": "2026-10-08T20:54:05Z",
       "assets": [
         {
           "name": "airos-rpi4.img.xz",
-          "size": 260739064,
-          "browser_download_url": "https://github.com/jmgasper/haiku/releases/download/image-rpi4-20261008153303-03f2e9bff9/airos-rpi4.img.xz",
-          "digest": "sha256:b65d59aa56c9ddc1c860c0ffc4b579b599007d369497e213e6617c60b29d0bc3"
+          "size": 260741832,
+          "browser_download_url": "https://github.com/jmgasper/haiku/releases/download/image-rpi4-20261008205313-ad8789eb3d/airos-rpi4.img.xz",
+          "digest": "sha256:502e0f3da04d70e0f910dc5304fd35dafd4d4c82abcb15353cff37ae48d38518"
         },
         {
           "name": "airos-rpi4.img.xz.sha256",
           "size": 84,
-          "browser_download_url": "https://github.com/jmgasper/haiku/releases/download/image-rpi4-20261008153303-03f2e9bff9/airos-rpi4.img.xz.sha256",
-          "digest": "sha256:bfe10fa693db09bf0c74015b0b826f5479fa520a026ef7e37f6a73e9714fd3db"
+          "browser_download_url": "https://github.com/jmgasper/haiku/releases/download/image-rpi4-20261008205313-ad8789eb3d/airos-rpi4.img.xz.sha256",
+          "digest": "sha256:a0a4797cc286886c52723146af123922cb2f4aa389738551fe4a8c84ea956c7b"
         },
         {
           "name": "manifest.json",
           "size": 4547,
-          "browser_download_url": "https://github.com/jmgasper/haiku/releases/download/image-rpi4-20261008153303-03f2e9bff9/manifest.json",
-          "digest": "sha256:5e2fa3b4cf82d6a9903129271d6a402a9b3bf064b5f82393bc92b953f826cf80"
+          "browser_download_url": "https://github.com/jmgasper/haiku/releases/download/image-rpi4-20261008205313-ad8789eb3d/manifest.json",
+          "digest": "sha256:d2431855894cf15fae9cb230d8f7867a000d41037858e8cd0923ec43af6ef31a"
         }
       ]
     }
