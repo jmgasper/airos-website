@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-10T06:47:41+00:00",
+  "updated": "2026-10-10T12:42:26+00:00",
   "ci_head": "0802072803e232bdbfd2371f2b5cb6d27e30af8e",
   "sources": [
     {
@@ -9,7 +9,7 @@
       "base": "b42b90f5ec2839f8074400c849ee025b50d0f7f1",
       "group": "Operating system",
       "description": "Haiku kernel, desktop, drivers and airOS integration.",
-      "head": "75edf7a10587dc65f05f378f72501733639fa3bd",
+      "head": "64e4a9908c6f7de9fa3f15a4c6afb4693e371cff",
       "commits": [
         {
           "sha": "84b77e2accf45608b498de8e945d1d29e138a6fc",
@@ -4932,6 +4932,12 @@
           "subject": "cubie-a7s: one deploy-and-test at a time on the lab board"
         },
         {
+          "sha": "b129254ade1af6c7a46f6fe44d091ec5b5f120fa",
+          "url": "https://github.com/jmgasper/haiku/commit/b129254ade1af6c7a46f6fe44d091ec5b5f120fa",
+          "date": "2026-10-10T00:48:46Z",
+          "subject": "powervr: boot the GPU firmware on the MIPS core (bring-up stage 2)"
+        },
+        {
           "sha": "8b679e7c09036e1bac57abb3777f1ccaa804e111",
           "url": "https://github.com/jmgasper/haiku/commit/8b679e7c09036e1bac57abb3777f1ccaa804e111",
           "date": "2026-10-10T00:49:04Z",
@@ -4954,6 +4960,222 @@
           "url": "https://github.com/jmgasper/haiku/commit/75edf7a10587dc65f05f378f72501733639fa3bd",
           "date": "2026-10-10T01:06:37Z",
           "subject": "Merge cubie-a7s: Radxa Cubie A7S (Allwinner A733) bring-up"
+        },
+        {
+          "sha": "339793be5c74129d25b19bfa633be319264fc5f4",
+          "url": "https://github.com/jmgasper/haiku/commit/339793be5c74129d25b19bfa633be319264fc5f4",
+          "date": "2026-10-10T01:09:34Z",
+          "subject": "powervr: a HEALTH_CHECK is answered by the executed count"
+        },
+        {
+          "sha": "1379e46df8e299173e28af10b3c057bd05f49021",
+          "url": "https://github.com/jmgasper/haiku/commit/1379e46df8e299173e28af10b3c057bd05f49021",
+          "date": "2026-10-10T01:09:35Z",
+          "subject": "cubie-a7s: pvrinfo, the powervr driver's state in the lab images"
+        },
+        {
+          "sha": "291ad13a8aa04883e92e2ce63246a113c8a454f5",
+          "url": "https://github.com/jmgasper/haiku/commit/291ad13a8aa04883e92e2ce63246a113c8a454f5",
+          "date": "2026-10-10T01:09:35Z",
+          "subject": "freebsd_network: a USB device without a configuration is skipped"
+        },
+        {
+          "sha": "6539cca60c7871eeffe5759b37ad56169ca6e1e4",
+          "url": "https://github.com/jmgasper/haiku/commit/6539cca60c7871eeffe5759b37ad56169ca6e1e4",
+          "date": "2026-10-10T01:17:26Z",
+          "subject": "Merge powervr-m2: the PowerVR firmware boots on the A733 (GPU M2)"
+        },
+        {
+          "sha": "cd4439257338eb45a7a742dcd01673039a9146cb",
+          "url": "https://github.com/jmgasper/haiku/commit/cd4439257338eb45a7a742dcd01673039a9146cb",
+          "date": "2026-10-10T01:18:44Z",
+          "subject": "aic8800wifi: the AIC8800D80's ROM loader, and aicload for the lab"
+        },
+        {
+          "sha": "1ba5d2b9f6675a5e6b2ce8285e9b80e987572565",
+          "url": "https://github.com/jmgasper/haiku/commit/1ba5d2b9f6675a5e6b2ce8285e9b80e987572565",
+          "date": "2026-10-10T01:18:57Z",
+          "subject": "Merge origin/cubie-a7s into cubie-wifi"
+        },
+        {
+          "sha": "98d3925797c38a5d525c0ad932ff27d2f720d5df",
+          "url": "https://github.com/jmgasper/haiku/commit/98d3925797c38a5d525c0ad932ff27d2f720d5df",
+          "date": "2026-10-10T01:19:06Z",
+          "subject": "powervr: the userland interface for Mesa (pvr_haiku.h ABI 3)"
+        },
+        {
+          "sha": "fc6a76ac180731068854811bd5c93d90d2316194",
+          "url": "https://github.com/jmgasper/haiku/commit/fc6a76ac180731068854811bd5c93d90d2316194",
+          "date": "2026-10-10T01:48:20Z",
+          "subject": "powervr: the DRM interface Mesa's PowerVR driver needs (GPU M3a)"
+        },
+        {
+          "sha": "eb853b27fe0901565efc9423a74622e1c75c6611",
+          "url": "https://github.com/jmgasper/haiku/commit/eb853b27fe0901565efc9423a74622e1c75c6611",
+          "date": "2026-10-10T01:54:26Z",
+          "subject": "cubie-a7s: cross-build Mesa's PowerVR Vulkan driver for Haiku arm64"
+        },
+        {
+          "sha": "2743d3b4968783d1859055f24643fd67ecfda888",
+          "url": "https://github.com/jmgasper/haiku/commit/2743d3b4968783d1859055f24643fd67ecfda888",
+          "date": "2026-10-10T01:54:26Z",
+          "subject": "cubie-a7s: lab images carry Mesa's PowerVR Vulkan driver and its tests"
+        },
+        {
+          "sha": "3238673f4024e1d0503651c63c43eabbf0790c7c",
+          "url": "https://github.com/jmgasper/haiku/commit/3238673f4024e1d0503651c63c43eabbf0790c7c",
+          "date": "2026-10-10T02:04:50Z",
+          "subject": "sunxi_display: real video modes from the display's EDID"
+        },
+        {
+          "sha": "aad1e03b6f326ae3ba45f080a8d9a6a540feaa2f",
+          "url": "https://github.com/jmgasper/haiku/commit/aad1e03b6f326ae3ba45f080a8d9a6a540feaa2f",
+          "date": "2026-10-10T02:10:38Z",
+          "subject": "aic8800wifi: the Cubie A7S's Wi-Fi on OpenBSD's net80211"
+        },
+        {
+          "sha": "2486e2405d715cc3fe5e02072206ebc71503c419",
+          "url": "https://github.com/jmgasper/haiku/commit/2486e2405d715cc3fe5e02072206ebc71503c419",
+          "date": "2026-10-10T02:12:26Z",
+          "subject": "Merge powervr-m2: Vulkan device enumerates on the A733 (GPU M3)"
+        },
+        {
+          "sha": "e57747a7737ad5d0c8d8b8bdbe10b329d78d72f5",
+          "url": "https://github.com/jmgasper/haiku/commit/e57747a7737ad5d0c8d8b8bdbe10b329d78d72f5",
+          "date": "2026-10-10T02:12:28Z",
+          "subject": "Merge remote-tracking branch 'origin/cubie-a7s' into powervr-m2"
+        },
+        {
+          "sha": "ab4f7ad420d722b1f005cc44c086f914cb5f315e",
+          "url": "https://github.com/jmgasper/haiku/commit/ab4f7ad420d722b1f005cc44c086f914cb5f315e",
+          "date": "2026-10-10T02:29:59Z",
+          "subject": "powervr: job queues and SUBMIT_JOBS (GPU M3b)"
+        },
+        {
+          "sha": "b6bc56ffc38efd8223c2170e9c3bce015008914d",
+          "url": "https://github.com/jmgasper/haiku/commit/b6bc56ffc38efd8223c2170e9c3bce015008914d",
+          "date": "2026-10-10T02:46:25Z",
+          "subject": "cubie-a7s: first triangle on the PowerVR GPU (pvr_vktriangle)"
+        },
+        {
+          "sha": "74053fad30af348c512280a43590a059ee1e1b41",
+          "url": "https://github.com/jmgasper/haiku/commit/74053fad30af348c512280a43590a059ee1e1b41",
+          "date": "2026-10-10T02:46:46Z",
+          "subject": "Merge powervr-m2: Vulkan compute and the first triangle on the A733 GPU"
+        },
+        {
+          "sha": "0a3eb026b804bd4c6f619996d5b261184a7fdd25",
+          "url": "https://github.com/jmgasper/haiku/commit/0a3eb026b804bd4c6f619996d5b261184a7fdd25",
+          "date": "2026-10-10T02:59:51Z",
+          "subject": "aic8800wifi: leave the ROM alone while the firmware starts, boot attach"
+        },
+        {
+          "sha": "ccaf2d4e781430bb79473fd3ad270b06b1be7189",
+          "url": "https://github.com/jmgasper/haiku/commit/ccaf2d4e781430bb79473fd3ad270b06b1be7189",
+          "date": "2026-10-10T02:59:51Z",
+          "subject": "bluetooth_server: run the device manager, see radios that come later"
+        },
+        {
+          "sha": "4c570d0dc0cdfc9c1566d615931c445254c977d1",
+          "url": "https://github.com/jmgasper/haiku/commit/4c570d0dc0cdfc9c1566d615931c445254c977d1",
+          "date": "2026-10-10T03:10:18Z",
+          "subject": "bt_dev_info: print the address, and the controller's versions"
+        },
+        {
+          "sha": "ed24d43c797933c094b94759535adb70a114f226",
+          "url": "https://github.com/jmgasper/haiku/commit/ed24d43c797933c094b94759535adb70a114f226",
+          "date": "2026-10-10T04:00:12Z",
+          "subject": "Cubie A7S: H.264 and HEVC on the A733's video engine (sunxi_ve, sunxi_cedar)"
+        },
+        {
+          "sha": "05e897908e95ae80742c7ee3216a79371450dc63",
+          "url": "https://github.com/jmgasper/haiku/commit/05e897908e95ae80742c7ee3216a79371450dc63",
+          "date": "2026-10-10T04:02:01Z",
+          "subject": "Merge cubie-a7s into cubie-video"
+        },
+        {
+          "sha": "ea39c42a75c8fe8ae819b34407e2ada093dc4b9a",
+          "url": "https://github.com/jmgasper/haiku/commit/ea39c42a75c8fe8ae819b34407e2ada093dc4b9a",
+          "date": "2026-10-10T04:06:45Z",
+          "subject": "cubie-a7s: cpu_usage lab tool, the players' test films in lab images"
+        },
+        {
+          "sha": "e756e82298a89aff81e5b16304725d8e05268a54",
+          "url": "https://github.com/jmgasper/haiku/commit/e756e82298a89aff81e5b16304725d8e05268a54",
+          "date": "2026-10-10T04:12:15Z",
+          "subject": "cubie-a7s: OpenGL through Zink on the PowerVR GPU"
+        },
+        {
+          "sha": "0257b8feb4104ef573fbccbafb334618677074fb",
+          "url": "https://github.com/jmgasper/haiku/commit/0257b8feb4104ef573fbccbafb334618677074fb",
+          "date": "2026-10-10T04:13:09Z",
+          "subject": "Merge powervr-m2: OpenGL through Zink on the A733's PowerVR GPU"
+        },
+        {
+          "sha": "8b434a93002108e5f8aff6339621e79eccdf7d00",
+          "url": "https://github.com/jmgasper/haiku/commit/8b434a93002108e5f8aff6339621e79eccdf7d00",
+          "date": "2026-10-10T05:15:13Z",
+          "subject": "cubie-a7s: lab-run waits for the plug when it drops off Home Assistant"
+        },
+        {
+          "sha": "abeed667bc60b0896674b8763e17c414492e3c1e",
+          "url": "https://github.com/jmgasper/haiku/commit/abeed667bc60b0896674b8763e17c414492e3c1e",
+          "date": "2026-10-10T05:26:29Z",
+          "subject": "bluetooth_server: let go of a radio whose device node goes away"
+        },
+        {
+          "sha": "69d16f6f8f46514b707d0409b05915c72f59cd96",
+          "url": "https://github.com/jmgasper/haiku/commit/69d16f6f8f46514b707d0409b05915c72f59cd96",
+          "date": "2026-10-10T05:26:29Z",
+          "subject": "aic8800wifi: VHT, the link rate, recovery checked, a fresh chip per attach"
+        },
+        {
+          "sha": "4b770f33de13dbfd4ddcf8e05768cd5b7160a7ac",
+          "url": "https://github.com/jmgasper/haiku/commit/4b770f33de13dbfd4ddcf8e05768cd5b7160a7ac",
+          "date": "2026-10-10T06:38:34Z",
+          "subject": "docs/cubie-a7s: Wi-Fi and Bluetooth (AIC8800D80)"
+        },
+        {
+          "sha": "6edaf5bb274489a02f1a17e01dbfab9f63528b5b",
+          "url": "https://github.com/jmgasper/haiku/commit/6edaf5bb274489a02f1a17e01dbfab9f63528b5b",
+          "date": "2026-10-10T07:06:05Z",
+          "subject": "sunxi_ve, sunxi_cedar: slice checks, several programs, Main 10, the Media Kit"
+        },
+        {
+          "sha": "3fb473a70e021f86d0b41ef45d988d28d3630c76",
+          "url": "https://github.com/jmgasper/haiku/commit/3fb473a70e021f86d0b41ef45d988d28d3630c76",
+          "date": "2026-10-10T08:16:57Z",
+          "subject": "Merge cubie-video: H.264 and HEVC on the A733's video engine"
+        },
+        {
+          "sha": "2e8623b6d7c6a513060c5ed92d909b0abee6c6e7",
+          "url": "https://github.com/jmgasper/haiku/commit/2e8623b6d7c6a513060c5ed92d909b0abee6c6e7",
+          "date": "2026-10-10T08:18:18Z",
+          "subject": "cubie-a7s: the board lock serves waiters in the order they came"
+        },
+        {
+          "sha": "c4905449da47cddf047642cdf36b1da1e0a6e702",
+          "url": "https://github.com/jmgasper/haiku/commit/c4905449da47cddf047642cdf36b1da1e0a6e702",
+          "date": "2026-10-10T08:23:10Z",
+          "subject": "Merge origin/cubie-a7s into cubie-wifi"
+        },
+        {
+          "sha": "bcc68bb67d6087b800bd52521d315c2ad6f3a58e",
+          "url": "https://github.com/jmgasper/haiku/commit/bcc68bb67d6087b800bd52521d315c2ad6f3a58e",
+          "date": "2026-10-10T08:25:14Z",
+          "subject": "docs/cubie-a7s: Wi-Fi boots, the desktop, Bluetooth preferences"
+        },
+        {
+          "sha": "0f14b0d81d26edaba37d65d8552e9620023bdd45",
+          "url": "https://github.com/jmgasper/haiku/commit/0f14b0d81d26edaba37d65d8552e9620023bdd45",
+          "date": "2026-10-10T08:31:25Z",
+          "subject": "Merge cubie-wifi: Wi-Fi and Bluetooth on the AIC8800D80"
+        },
+        {
+          "sha": "64e4a9908c6f7de9fa3f15a4c6afb4693e371cff",
+          "url": "https://github.com/jmgasper/haiku/commit/64e4a9908c6f7de9fa3f15a4c6afb4693e371cff",
+          "date": "2026-10-10T08:32:11Z",
+          "subject": "Merge cubie-a7s: GPU, video engine, Wi-Fi and Bluetooth on the Cubie A7S"
         }
       ],
       "url": "https://github.com/jmgasper/haiku/tree/master"
@@ -24468,76 +24690,76 @@
   "images": [
     {
       "target": "x86_64",
-      "release": "https://github.com/jmgasper/haiku/releases/tag/image-x86_64-20261010011344-75edf7a105",
-      "published": "2026-10-10T01:15:50Z",
+      "release": "https://github.com/jmgasper/haiku/releases/tag/image-x86_64-20261010083934-64e4a9908c",
+      "published": "2026-10-10T08:41:35Z",
       "assets": [
         {
           "name": "airos-x86_64.iso.xz",
-          "size": 749779048,
-          "browser_download_url": "https://github.com/jmgasper/haiku/releases/download/image-x86_64-20261010011344-75edf7a105/airos-x86_64.iso.xz",
-          "digest": "sha256:53f193f857c19c9d98ac686538725b3a9d711ecc3ebf17ebc6d6f4ee46a0d31c"
+          "size": 749749420,
+          "browser_download_url": "https://github.com/jmgasper/haiku/releases/download/image-x86_64-20261010083934-64e4a9908c/airos-x86_64.iso.xz",
+          "digest": "sha256:5cd948f11d91be49f1b0be94ed38335a0952d7cb783bb5ada4061b14ea9e3eee"
         },
         {
           "name": "airos-x86_64.iso.xz.sha256",
           "size": 86,
-          "browser_download_url": "https://github.com/jmgasper/haiku/releases/download/image-x86_64-20261010011344-75edf7a105/airos-x86_64.iso.xz.sha256",
-          "digest": "sha256:ff8fa721d7cdde1abba1be11599384f11f2339e2b97f27d6c62f24bc4cfd723e"
+          "browser_download_url": "https://github.com/jmgasper/haiku/releases/download/image-x86_64-20261010083934-64e4a9908c/airos-x86_64.iso.xz.sha256",
+          "digest": "sha256:3b3c7935214f967c6499d802ed754e42b7d0f7719dcfac90dff8bcecbe9941b4"
         },
         {
           "name": "manifest.json",
           "size": 4206,
-          "browser_download_url": "https://github.com/jmgasper/haiku/releases/download/image-x86_64-20261010011344-75edf7a105/manifest.json",
-          "digest": "sha256:5e8d39f9de673b818a6db4e15bfbdece95e9aaca1498793d35763d693b172bde"
+          "browser_download_url": "https://github.com/jmgasper/haiku/releases/download/image-x86_64-20261010083934-64e4a9908c/manifest.json",
+          "digest": "sha256:96c506c60c78448b7accf266ac8aa7b70e792b496e4fd4c2ab018d3639587003"
         }
       ]
     },
     {
       "target": "arm64",
-      "release": "https://github.com/jmgasper/haiku/releases/tag/image-arm64-20261010011828-75edf7a105",
-      "published": "2026-10-10T01:20:37Z",
+      "release": "https://github.com/jmgasper/haiku/releases/tag/image-arm64-20261010084413-64e4a9908c",
+      "published": "2026-10-10T08:46:33Z",
       "assets": [
         {
           "name": "airos-arm64.iso.xz",
-          "size": 258705496,
-          "browser_download_url": "https://github.com/jmgasper/haiku/releases/download/image-arm64-20261010011828-75edf7a105/airos-arm64.iso.xz",
-          "digest": "sha256:56ade6bd9730ce49ea404dacb76088cdc5abf02045d21e82b62de8cfdf98bdc5"
+          "size": 258889656,
+          "browser_download_url": "https://github.com/jmgasper/haiku/releases/download/image-arm64-20261010084413-64e4a9908c/airos-arm64.iso.xz",
+          "digest": "sha256:3a622e5454caab634c98e804a697beb5c6857a7fa0582ae52ff72579cc386bbc"
         },
         {
           "name": "airos-arm64.iso.xz.sha256",
           "size": 85,
-          "browser_download_url": "https://github.com/jmgasper/haiku/releases/download/image-arm64-20261010011828-75edf7a105/airos-arm64.iso.xz.sha256",
-          "digest": "sha256:01ae7e64b0d2676c2e79124354ffb9dc21b4af34fdc5273d450fb2e828fe43d4"
+          "browser_download_url": "https://github.com/jmgasper/haiku/releases/download/image-arm64-20261010084413-64e4a9908c/airos-arm64.iso.xz.sha256",
+          "digest": "sha256:d7f47c2f66982b1b28ce5f71e43e3165bb2cbbd5eb0879174cf0eacba1fe9249"
         },
         {
           "name": "manifest.json",
           "size": 4413,
-          "browser_download_url": "https://github.com/jmgasper/haiku/releases/download/image-arm64-20261010011828-75edf7a105/manifest.json",
-          "digest": "sha256:5fa6a762331a03bc59cadca34ada3af6f8eabbb10455be43d07dca1fc84df7b0"
+          "browser_download_url": "https://github.com/jmgasper/haiku/releases/download/image-arm64-20261010084413-64e4a9908c/manifest.json",
+          "digest": "sha256:0b991ba9470b86011e8be24b89a061e96714ae21498136b4c28206ef6ec9ec0f"
         }
       ]
     },
     {
       "target": "rpi4",
-      "release": "https://github.com/jmgasper/haiku/releases/tag/image-rpi4-20261010012323-75edf7a105",
-      "published": "2026-10-10T01:24:15Z",
+      "release": "https://github.com/jmgasper/haiku/releases/tag/image-rpi4-20261010084921-64e4a9908c",
+      "published": "2026-10-10T08:50:12Z",
       "assets": [
         {
           "name": "airos-rpi4.img.xz",
-          "size": 261103208,
-          "browser_download_url": "https://github.com/jmgasper/haiku/releases/download/image-rpi4-20261010012323-75edf7a105/airos-rpi4.img.xz",
-          "digest": "sha256:d64c007ce9208ca60103b48f12e4947ba2fc2e9e737571592c7893b3b46207fd"
+          "size": 261292100,
+          "browser_download_url": "https://github.com/jmgasper/haiku/releases/download/image-rpi4-20261010084921-64e4a9908c/airos-rpi4.img.xz",
+          "digest": "sha256:8036b49489e529a6ac40bd338d978e58e4baa35ebc07057cd08e838aed2e3849"
         },
         {
           "name": "airos-rpi4.img.xz.sha256",
           "size": 84,
-          "browser_download_url": "https://github.com/jmgasper/haiku/releases/download/image-rpi4-20261010012323-75edf7a105/airos-rpi4.img.xz.sha256",
-          "digest": "sha256:e5ec940e3be1f822e14f120d59e37775519facfbc37863560fe82d4421c9ba6e"
+          "browser_download_url": "https://github.com/jmgasper/haiku/releases/download/image-rpi4-20261010084921-64e4a9908c/airos-rpi4.img.xz.sha256",
+          "digest": "sha256:e07774a0009c87f781bbc6ac5096dd29e36621842051b6b263ab04cff08b9c98"
         },
         {
           "name": "manifest.json",
           "size": 4547,
-          "browser_download_url": "https://github.com/jmgasper/haiku/releases/download/image-rpi4-20261010012323-75edf7a105/manifest.json",
-          "digest": "sha256:2a493bf3cf651339d4ea903887eaafdb2d1433bc0a20709e7b36da316d6b76b3"
+          "browser_download_url": "https://github.com/jmgasper/haiku/releases/download/image-rpi4-20261010084921-64e4a9908c/manifest.json",
+          "digest": "sha256:261950d906cb5dc64933ddbed48d168bbe22dc302f6dbe36fca05a5bfce83c64"
         }
       ]
     }
