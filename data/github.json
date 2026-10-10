@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-09T18:38:40+00:00",
+  "updated": "2026-10-10T01:11:41+00:00",
   "ci_head": "0802072803e232bdbfd2371f2b5cb6d27e30af8e",
   "sources": [
     {
@@ -9,7 +9,7 @@
       "base": "b42b90f5ec2839f8074400c849ee025b50d0f7f1",
       "group": "Operating system",
       "description": "Haiku kernel, desktop, drivers and airOS integration.",
-      "head": "4f30188941b8a7d63bba1088b979dd6f8aea004b",
+      "head": "75edf7a10587dc65f05f378f72501733639fa3bd",
       "commits": [
         {
           "sha": "84b77e2accf45608b498de8e945d1d29e138a6fc",
@@ -4512,6 +4512,18 @@
           "subject": "docs/rpi4: the DSI panel's cost"
         },
         {
+          "sha": "d9e624084c852ac52c641670901e000cbf33e78e",
+          "url": "https://github.com/jmgasper/haiku/commit/d9e624084c852ac52c641670901e000cbf33e78e",
+          "date": "2026-10-08T05:47:23Z",
+          "subject": "runtime_loader: preserve first TLS writes after image unload"
+        },
+        {
+          "sha": "bb8bc5f2f938c0717e2a30ad216d05f6a3a7c7f9",
+          "url": "https://github.com/jmgasper/haiku/commit/bb8bc5f2f938c0717e2a30ad216d05f6a3a7c7f9",
+          "date": "2026-10-08T05:48:00Z",
+          "subject": "Document failed deployment guard accurately"
+        },
+        {
           "sha": "c6f2eeb5181906b6efc66c64b12ad495873816c2",
           "url": "https://github.com/jmgasper/haiku/commit/c6f2eeb5181906b6efc66c64b12ad495873816c2",
           "date": "2026-10-08T09:44:28Z",
@@ -4608,6 +4620,12 @@
           "subject": "app_server: reuse free tail space when growing bitmap pools"
         },
         {
+          "sha": "5ec68adad261d5693914b240765710af9f10726b",
+          "url": "https://github.com/jmgasper/haiku/commit/5ec68adad261d5693914b240765710af9f10726b",
+          "date": "2026-10-08T19:17:00Z",
+          "subject": "Synchronize runtime loader TLS template allocation"
+        },
+        {
           "sha": "121ded7106ab12e9df26221e1c4d1a28c403ea8b",
           "url": "https://github.com/jmgasper/haiku/commit/121ded7106ab12e9df26221e1c4d1a28c403ea8b",
           "date": "2026-10-08T19:45:48Z",
@@ -4692,6 +4710,36 @@
           "subject": "docs: record MCP image release verification"
         },
         {
+          "sha": "89ea7eb28d43eba6081bff0110c0c6d2d52cc1a0",
+          "url": "https://github.com/jmgasper/haiku/commit/89ea7eb28d43eba6081bff0110c0c6d2d52cc1a0",
+          "date": "2026-10-09T09:08:05Z",
+          "subject": "cubie-a7s: lab SD image builder and U-Boot boot selector"
+        },
+        {
+          "sha": "5a64ca85bd730ad195d48b1cc4cb799b7cf1a63f",
+          "url": "https://github.com/jmgasper/haiku/commit/5a64ca85bd730ad195d48b1cc4cb799b7cf1a63f",
+          "date": "2026-10-09T09:16:13Z",
+          "subject": "sunxi_mmc: SD/MMC host driver for Allwinner A733 (Cubie A7S)"
+        },
+        {
+          "sha": "bcc2ab4aa1925fa20c87b0cfc535b8994f17e958",
+          "url": "https://github.com/jmgasper/haiku/commit/bcc2ab4aa1925fa20c87b0cfc535b8994f17e958",
+          "date": "2026-10-09T09:22:21Z",
+          "subject": "dwc_eqos: Synopsys Ethernet QoS driver for the Allwinner A733 GMAC"
+        },
+        {
+          "sha": "123e67f709387a5ff24055febc1d2150bb24f0dc",
+          "url": "https://github.com/jmgasper/haiku/commit/123e67f709387a5ff24055febc1d2150bb24f0dc",
+          "date": "2026-10-09T09:30:36Z",
+          "subject": "cubie-a7s: device tree sources, deploy and survey tools"
+        },
+        {
+          "sha": "919a54a254de7754dfef289558e30d5b62d95977",
+          "url": "https://github.com/jmgasper/haiku/commit/919a54a254de7754dfef289558e30d5b62d95977",
+          "date": "2026-10-09T09:32:43Z",
+          "subject": "sunxi_display: display driver for the Allwinner A733, phase 1 (headless)"
+        },
+        {
           "sha": "bc0d507f5e40e6c2b762e4abee842f5505bf0cb4",
           "url": "https://github.com/jmgasper/haiku/commit/bc0d507f5e40e6c2b762e4abee842f5505bf0cb4",
           "date": "2026-10-09T09:32:54Z",
@@ -4722,6 +4770,30 @@
           "subject": "x399-workstation: USB controller and throughput tests"
         },
         {
+          "sha": "6ebf5dd8734efce0f6b1094019bdf9299cca5fd3",
+          "url": "https://github.com/jmgasper/haiku/commit/6ebf5dd8734efce0f6b1094019bdf9299cca5fd3",
+          "date": "2026-10-09T09:33:17Z",
+          "subject": "cubie-a7s: deploy the device tree with the build"
+        },
+        {
+          "sha": "4147ab7f8b03a34a3c885352d9a575460d49e7d3",
+          "url": "https://github.com/jmgasper/haiku/commit/4147ab7f8b03a34a3c885352d9a575460d49e7d3",
+          "date": "2026-10-09T09:39:58Z",
+          "subject": "sunxi_display: USB-C DisplayPort alt mode through the HUSB311"
+        },
+        {
+          "sha": "c0df111b6805b514335ff99dd202015dc081ed7c",
+          "url": "https://github.com/jmgasper/haiku/commit/c0df111b6805b514335ff99dd202015dc081ed7c",
+          "date": "2026-10-09T09:43:58Z",
+          "subject": "cubie-a7s: distributable SD card image"
+        },
+        {
+          "sha": "7813dc9865a8be3d63128094fc8d20dac71c0222",
+          "url": "https://github.com/jmgasper/haiku/commit/7813dc9865a8be3d63128094fc8d20dac71c0222",
+          "date": "2026-10-09T09:48:58Z",
+          "subject": "cubie-a7s: full air/OS image profile (cubie-airos)"
+        },
+        {
           "sha": "88ec0215d75d1a2f16fa6d11f06b5b596b515c2f",
           "url": "https://github.com/jmgasper/haiku/commit/88ec0215d75d1a2f16fa6d11f06b5b596b515c2f",
           "date": "2026-10-09T11:39:39Z",
@@ -4732,6 +4804,156 @@
           "url": "https://github.com/jmgasper/haiku/commit/4f30188941b8a7d63bba1088b979dd6f8aea004b",
           "date": "2026-10-09T11:40:04Z",
           "subject": "Merge x399-usb3: USB disks and network adapters attach when plugged in, SuperSpeed bursts, usb_ecm at gigabit"
+        },
+        {
+          "sha": "db80e86bf8b790c63a1fa75c7b2bd4ce93e66304",
+          "url": "https://github.com/jmgasper/haiku/commit/db80e86bf8b790c63a1fa75c7b2bd4ce93e66304",
+          "date": "2026-10-09T22:01:02Z",
+          "subject": "xhci: physical transfers: only the current fragment, no TRB across 64 KiB"
+        },
+        {
+          "sha": "1c3364e9817b4183dd95918947f2562c21293af8",
+          "url": "https://github.com/jmgasper/haiku/commit/1c3364e9817b4183dd95918947f2562c21293af8",
+          "date": "2026-10-09T22:01:02Z",
+          "subject": "usb_disk: 1 MiB commands for SuperSpeed disks, without splitting them"
+        },
+        {
+          "sha": "c6ce130766e613805faa7c4a4c495d64c2905c2d",
+          "url": "https://github.com/jmgasper/haiku/commit/c6ce130766e613805faa7c4a4c495d64c2905c2d",
+          "date": "2026-10-09T22:04:34Z",
+          "subject": "Merge x399-usb3: USB 3 disks at full speed"
+        },
+        {
+          "sha": "c3517b19ebc9bf0c33436062d6024c13b4ffd14b",
+          "url": "https://github.com/jmgasper/haiku/commit/c3517b19ebc9bf0c33436062d6024c13b4ffd14b",
+          "date": "2026-10-09T22:06:01Z",
+          "subject": "x399-workstation: USB 3 disk results and the disk check script"
+        },
+        {
+          "sha": "4c48e590b54754397ff1b7fab14a14bf20c9465f",
+          "url": "https://github.com/jmgasper/haiku/commit/4c48e590b54754397ff1b7fab14a14bf20c9465f",
+          "date": "2026-10-09T22:06:01Z",
+          "subject": "Merge x399-usb3: USB 3 disk status"
+        },
+        {
+          "sha": "06c565b7a119a94ce5420714da20a452410d8a0b",
+          "url": "https://github.com/jmgasper/haiku/commit/06c565b7a119a94ce5420714da20a452410d8a0b",
+          "date": "2026-10-09T22:10:31Z",
+          "subject": "x399-workstation: USB 3 SSD on the ASM2142's USB-A port"
+        },
+        {
+          "sha": "2ec2aac2b4a70c8ae2c3b65a45692bce1a994ea4",
+          "url": "https://github.com/jmgasper/haiku/commit/2ec2aac2b4a70c8ae2c3b65a45692bce1a994ea4",
+          "date": "2026-10-09T22:10:31Z",
+          "subject": "Merge x399-usb3: USB status, ASM2142 USB-A port"
+        },
+        {
+          "sha": "c8e450332af556b5314b9023ead72d160fd0ab0c",
+          "url": "https://github.com/jmgasper/haiku/commit/c8e450332af556b5314b9023ead72d160fd0ab0c",
+          "date": "2026-10-09T22:23:30Z",
+          "subject": "cubie-a7s: Haiku boots from SD on the board, Ethernet up"
+        },
+        {
+          "sha": "3728c04a19999dd2fd0ca0e86ffb95ad6bdab2ba",
+          "url": "https://github.com/jmgasper/haiku/commit/3728c04a19999dd2fd0ca0e86ffb95ad6bdab2ba",
+          "date": "2026-10-09T22:25:53Z",
+          "subject": "x399-workstation: the chipset controller ignores EP0 re-evaluation"
+        },
+        {
+          "sha": "826d4ebb2df770a3f1a011094bf1e4a63e47459a",
+          "url": "https://github.com/jmgasper/haiku/commit/826d4ebb2df770a3f1a011094bf1e4a63e47459a",
+          "date": "2026-10-09T22:25:53Z",
+          "subject": "Merge x399-usb3: chipset control transfer finding"
+        },
+        {
+          "sha": "20182ecde2ebcb83a96d5e7c1d4eef8564e56570",
+          "url": "https://github.com/jmgasper/haiku/commit/20182ecde2ebcb83a96d5e7c1d4eef8564e56570",
+          "date": "2026-10-09T22:32:35Z",
+          "subject": "cubie-a7s: USB host on the A733, standard EFI boot in the air/OS U-Boot"
+        },
+        {
+          "sha": "158aa4121d2f185a32c4599cffe54cbe4663b8da",
+          "url": "https://github.com/jmgasper/haiku/commit/158aa4121d2f185a32c4599cffe54cbe4663b8da",
+          "date": "2026-10-09T23:08:49Z",
+          "subject": "Merge x399-workstation: runtime_loader TLS template fixes"
+        },
+        {
+          "sha": "7548f14fc0297d9e7dba9e74ac9649daf9d2265b",
+          "url": "https://github.com/jmgasper/haiku/commit/7548f14fc0297d9e7dba9e74ac9649daf9d2265b",
+          "date": "2026-10-09T23:11:52Z",
+          "subject": "cubie-a7s: picture over USB-C DisplayPort; Wi-Fi module powered"
+        },
+        {
+          "sha": "f9c50194246181e9b922706aa9395db3b1884520",
+          "url": "https://github.com/jmgasper/haiku/commit/f9c50194246181e9b922706aa9395db3b1884520",
+          "date": "2026-10-09T23:20:46Z",
+          "subject": "cubie-a7s: set the clock from NTP at boot"
+        },
+        {
+          "sha": "cb2e615ed9761b580a38c7580e28a2f7d2d6f236",
+          "url": "https://github.com/jmgasper/haiku/commit/cb2e615ed9761b580a38c7580e28a2f7d2d6f236",
+          "date": "2026-10-09T23:53:37Z",
+          "subject": "powervr: the A733's GPU powered and identified (bring-up stage 1)"
+        },
+        {
+          "sha": "efc7701977ed60a0ad5cb91b262b90f8ba4e1ecd",
+          "url": "https://github.com/jmgasper/haiku/commit/efc7701977ed60a0ad5cb91b262b90f8ba4e1ecd",
+          "date": "2026-10-10T00:05:30Z",
+          "subject": "nvidia_rm: shrink a region where the display engine can, checked first"
+        },
+        {
+          "sha": "77d9b070bb2796b0fe7f4c6dc060735d7940c8f7",
+          "url": "https://github.com/jmgasper/haiku/commit/77d9b070bb2796b0fe7f4c6dc060735d7940c8f7",
+          "date": "2026-10-10T00:05:30Z",
+          "subject": "app_server: draw at the largest display scale the hardware can show"
+        },
+        {
+          "sha": "b780dff84259bdae17b62c2e0b83f8b241cacd7a",
+          "url": "https://github.com/jmgasper/haiku/commit/b780dff84259bdae17b62c2e0b83f8b241cacd7a",
+          "date": "2026-10-10T00:14:27Z",
+          "subject": "sunxi_display: the frame buffer on video channel 1, lab register access"
+        },
+        {
+          "sha": "c796cef66d49aa2b7d60414794a9ea3cdf2082e0",
+          "url": "https://github.com/jmgasper/haiku/commit/c796cef66d49aa2b7d60414794a9ea3cdf2082e0",
+          "date": "2026-10-10T00:34:54Z",
+          "subject": "nvidia_rm: one frame buffer mapped at a time, for the 256 MiB BAR1"
+        },
+        {
+          "sha": "171d4bde8212ebb2d8cc96d20f2ccb805f884110",
+          "url": "https://github.com/jmgasper/haiku/commit/171d4bde8212ebb2d8cc96d20f2ccb805f884110",
+          "date": "2026-10-10T00:47:20Z",
+          "subject": "cubie-a7s: zstd packages and the GL stack in the air/OS image"
+        },
+        {
+          "sha": "244edfb9bbd2e65dd8720a06d90d85af617424f3",
+          "url": "https://github.com/jmgasper/haiku/commit/244edfb9bbd2e65dd8720a06d90d85af617424f3",
+          "date": "2026-10-10T00:47:46Z",
+          "subject": "cubie-a7s: one deploy-and-test at a time on the lab board"
+        },
+        {
+          "sha": "8b679e7c09036e1bac57abb3777f1ccaa804e111",
+          "url": "https://github.com/jmgasper/haiku/commit/8b679e7c09036e1bac57abb3777f1ccaa804e111",
+          "date": "2026-10-10T00:49:04Z",
+          "subject": "x399-workstation: mixed-scale monitors drawn at the largest density"
+        },
+        {
+          "sha": "b6b529b4a72a5720fe2ec642767eceb659f3021f",
+          "url": "https://github.com/jmgasper/haiku/commit/b6b529b4a72a5720fe2ec642767eceb659f3021f",
+          "date": "2026-10-10T00:49:25Z",
+          "subject": "Merge x399-mixed-scale: 4K monitors stay crisp beside a 1080p one"
+        },
+        {
+          "sha": "7a852a7258f871f52fe4a12e3ddea6cac55c5f32",
+          "url": "https://github.com/jmgasper/haiku/commit/7a852a7258f871f52fe4a12e3ddea6cac55c5f32",
+          "date": "2026-10-10T01:01:05Z",
+          "subject": "cubie-a7s: the Pi lab's file fetch in the lab image"
+        },
+        {
+          "sha": "75edf7a10587dc65f05f378f72501733639fa3bd",
+          "url": "https://github.com/jmgasper/haiku/commit/75edf7a10587dc65f05f378f72501733639fa3bd",
+          "date": "2026-10-10T01:06:37Z",
+          "subject": "Merge cubie-a7s: Radxa Cubie A7S (Allwinner A733) bring-up"
         }
       ],
       "url": "https://github.com/jmgasper/haiku/tree/master"
@@ -12884,7 +13106,7 @@
       "base": "b42b90f5ec2839f8074400c849ee025b50d0f7f1",
       "group": "Operating system",
       "description": "Active device or release branch; includes work awaiting integration into master.",
-      "head": "bb8bc5f2f938c0717e2a30ad216d05f6a3a7c7f9",
+      "head": "b6b529b4a72a5720fe2ec642767eceb659f3021f",
       "commits": [
         {
           "sha": "84b77e2accf45608b498de8e945d1d29e138a6fc",
@@ -16301,6 +16523,246 @@
           "subject": "app_server: the hardware cursor at the frame buffer's density"
         },
         {
+          "sha": "2e3a5ca5fb7dba219f383796f9d741fc333cad1e",
+          "url": "https://github.com/jmgasper/haiku/commit/2e3a5ca5fb7dba219f383796f9d741fc333cad1e",
+          "date": "2026-10-03T04:28:26Z",
+          "subject": "rk3588_vpu, RockchipMppDecoder: ten-bit HEVC and AV1, 4K that keeps up"
+        },
+        {
+          "sha": "40d521d6bcc52e15bc2bb5c21772d75315d933fe",
+          "url": "https://github.com/jmgasper/haiku/commit/40d521d6bcc52e15bc2bb5c21772d75315d933fe",
+          "date": "2026-10-03T07:21:37Z",
+          "subject": "rpi: a boot platform started directly by the Raspberry Pi firmware"
+        },
+        {
+          "sha": "1d7f0d2ce690aae2afc7bfcf7dcd83cc5e29f868",
+          "url": "https://github.com/jmgasper/haiku/commit/1d7f0d2ce690aae2afc7bfcf7dcd83cc5e29f868",
+          "date": "2026-10-03T07:37:31Z",
+          "subject": "bcm2711_emmc2: the Raspberry Pi 4's SD card controller"
+        },
+        {
+          "sha": "b11529be985dc09f5c8fe8ec832d4806040db35a",
+          "url": "https://github.com/jmgasper/haiku/commit/b11529be985dc09f5c8fe8ec832d4806040db35a",
+          "date": "2026-10-03T08:11:54Z",
+          "subject": "rpi: serial console through the kernel, lab tools"
+        },
+        {
+          "sha": "223a4751df4714421aa87fad9bdd1e3a80caeab0",
+          "url": "https://github.com/jmgasper/haiku/commit/223a4751df4714421aa87fad9bdd1e3a80caeab0",
+          "date": "2026-10-03T08:20:23Z",
+          "subject": "bcm_genet: a driver for the Raspberry Pi 4's Ethernet controller"
+        },
+        {
+          "sha": "56dd81603d81694be1dd40b6f1fe3e81c85d5aad",
+          "url": "https://github.com/jmgasper/haiku/commit/56dd81603d81694be1dd40b6f1fe3e81c85d5aad",
+          "date": "2026-10-03T08:21:03Z",
+          "subject": "docs/rpi4: status and boot write-up"
+        },
+        {
+          "sha": "e5ad4133fa9ceca483bded34efe359a291d02a3f",
+          "url": "https://github.com/jmgasper/haiku/commit/e5ad4133fa9ceca483bded34efe359a291d02a3f",
+          "date": "2026-10-03T08:24:06Z",
+          "subject": "arm64: restart and shut down through the BCM2835 watchdog where there is no PSCI"
+        },
+        {
+          "sha": "889f1519c3a7dec1941d45ff724db0ffe162579c",
+          "url": "https://github.com/jmgasper/haiku/commit/889f1519c3a7dec1941d45ff724db0ffe162579c",
+          "date": "2026-10-03T08:41:25Z",
+          "subject": "bcm2711 pcie: a host bridge driver for the Raspberry Pi 4"
+        },
+        {
+          "sha": "10230c07c8f70188e312732f672213bcef642a3d",
+          "url": "https://github.com/jmgasper/haiku/commit/10230c07c8f70188e312732f672213bcef642a3d",
+          "date": "2026-10-03T09:07:30Z",
+          "subject": "rpi4-airos: the full air/OS image for the Raspberry Pi 4"
+        },
+        {
+          "sha": "bb1d0073f6e05232a878a0290264ed7d9b5bd32a",
+          "url": "https://github.com/jmgasper/haiku/commit/bb1d0073f6e05232a878a0290264ed7d9b5bd32a",
+          "date": "2026-10-03T09:10:55Z",
+          "subject": "docs/rpi4: status after the offline work"
+        },
+        {
+          "sha": "63206120dac1ac7a424fb550e021390532155b38",
+          "url": "https://github.com/jmgasper/haiku/commit/63206120dac1ac7a424fb550e021390532155b38",
+          "date": "2026-10-03T10:13:11Z",
+          "subject": "bcm_genet, bcm2711 pcie: fixes from the first run on the board"
+        },
+        {
+          "sha": "ec6ad5cd9ded14f9bf47ee2a531708e45c2433c6",
+          "url": "https://github.com/jmgasper/haiku/commit/ec6ad5cd9ded14f9bf47ee2a531708e45c2433c6",
+          "date": "2026-10-03T10:33:38Z",
+          "subject": "rpi4: USB works on the board"
+        },
+        {
+          "sha": "dc82111af8bef103871ddea85a72675188ee3a73",
+          "url": "https://github.com/jmgasper/haiku/commit/dc82111af8bef103871ddea85a72675188ee3a73",
+          "date": "2026-10-03T10:56:22Z",
+          "subject": "rpi_firmware: the VideoCore firmware's property interface as a kernel module"
+        },
+        {
+          "sha": "ddf6caa99731bd820f8c1604bbd6e67d449fbee9",
+          "url": "https://github.com/jmgasper/haiku/commit/ddf6caa99731bd820f8c1604bbd6e67d449fbee9",
+          "date": "2026-10-03T11:04:15Z",
+          "subject": "v3d: a kernel driver for the Raspberry Pi 4's 3D core, first step"
+        },
+        {
+          "sha": "357ac3f5e8cf81a736d29f005003127f5e22d30a",
+          "url": "https://github.com/jmgasper/haiku/commit/357ac3f5e8cf81a736d29f005003127f5e22d30a",
+          "date": "2026-10-03T11:16:28Z",
+          "subject": "v3d: buffers, MMU and job submission"
+        },
+        {
+          "sha": "2c15d855e402a278dc1e5e0065ae854336d192c4",
+          "url": "https://github.com/jmgasper/haiku/commit/2c15d855e402a278dc1e5e0065ae854336d192c4",
+          "date": "2026-10-03T11:58:17Z",
+          "subject": "v3d: OpenGL on the Raspberry Pi 4's GPU"
+        },
+        {
+          "sha": "764e75d5d51ca61843f49d6a938e484ca4b51bb5",
+          "url": "https://github.com/jmgasper/haiku/commit/764e75d5d51ca61843f49d6a938e484ca4b51bb5",
+          "date": "2026-10-03T12:30:53Z",
+          "subject": "v3d: depth buffers work; GLTeapot renders on the Raspberry Pi 4's GPU"
+        },
+        {
+          "sha": "e8887b0f822f7232c825fdce30819b829dd3f8ad",
+          "url": "https://github.com/jmgasper/haiku/commit/e8887b0f822f7232c825fdce30819b829dd3f8ad",
+          "date": "2026-10-03T12:32:20Z",
+          "subject": "rpi4: Mesa's v3d driver, GLTeapot and GL Info in the air/OS image profile; GPU notes"
+        },
+        {
+          "sha": "76e68587ca4c09bd4b2bd9edecb9d65796f3b81e",
+          "url": "https://github.com/jmgasper/haiku/commit/76e68587ca4c09bd4b2bd9edecb9d65796f3b81e",
+          "date": "2026-10-03T13:00:47Z",
+          "subject": "rpi_display: both HDMI outputs of the Raspberry Pi 4 as displays of one desktop"
+        },
+        {
+          "sha": "d6d648aea18511d33bd1435315f32b609fd4cce9",
+          "url": "https://github.com/jmgasper/haiku/commit/d6d648aea18511d33bd1435315f32b609fd4cce9",
+          "date": "2026-10-03T13:12:49Z",
+          "subject": "broadcomfmac: an SDIO host for the Raspberry Pi 4's Wi-Fi chip; OpenBSD's bwfm sources"
+        },
+        {
+          "sha": "31a7ab96cb34535db11b58e6dc5ce956f6330b27",
+          "url": "https://github.com/jmgasper/haiku/commit/31a7ab96cb34535db11b58e6dc5ce956f6330b27",
+          "date": "2026-10-03T13:50:31Z",
+          "subject": "broadcomfmac: Wi-Fi on the Raspberry Pi 4 (CYW43455)"
+        },
+        {
+          "sha": "94a3f6f7862c79d92de4604c7306cf915165c260",
+          "url": "https://github.com/jmgasper/haiku/commit/94a3f6f7862c79d92de4604c7306cf915165c260",
+          "date": "2026-10-03T13:59:58Z",
+          "subject": "xhci: a payload per interval for low and full speed interrupt endpoints; more in the transfer error message"
+        },
+        {
+          "sha": "2230c7a7a64fca3ce68938ce38e7203584789e74",
+          "url": "https://github.com/jmgasper/haiku/commit/2230c7a7a64fca3ce68938ce38e7203584789e74",
+          "date": "2026-10-03T14:01:44Z",
+          "subject": "rpi4: status notes, what was counted"
+        },
+        {
+          "sha": "ed9b6e6accd788ab138f7d9902a9d5777056fac4",
+          "url": "https://github.com/jmgasper/haiku/commit/ed9b6e6accd788ab138f7d9902a9d5777056fac4",
+          "date": "2026-10-03T14:22:57Z",
+          "subject": "h4bcm: Bluetooth on the Raspberry Pi 4 (BCM4345C0 on the mini UART)"
+        },
+        {
+          "sha": "c54875c7f9ee04eb65730383613481f6b0fde399",
+          "url": "https://github.com/jmgasper/haiku/commit/c54875c7f9ee04eb65730383613481f6b0fde399",
+          "date": "2026-10-03T14:25:35Z",
+          "subject": "rpi4: airTime in the image profile; media notes"
+        },
+        {
+          "sha": "9389412e10588baf2e0c19d955ce131194b36126",
+          "url": "https://github.com/jmgasper/haiku/commit/9389412e10588baf2e0c19d955ce131194b36126",
+          "date": "2026-10-03T14:35:11Z",
+          "subject": "rpi4: Clipper as an arm64 package; the applications in the image; GL dependencies for Summit"
+        },
+        {
+          "sha": "ab627a28a9d4b16c7c09afe30e6b56f50dc725a9",
+          "url": "https://github.com/jmgasper/haiku/commit/ab627a28a9d4b16c7c09afe30e6b56f50dc725a9",
+          "date": "2026-10-03T14:47:11Z",
+          "subject": "rpi4: set the clock from the network at start (no RTC on the board)"
+        },
+        {
+          "sha": "738b15ae85bc03d312db44307bcd14e27d7377b7",
+          "url": "https://github.com/jmgasper/haiku/commit/738b15ae85bc03d312db44307bcd14e27d7377b7",
+          "date": "2026-10-03T15:01:44Z",
+          "subject": "rpi4: what was tried for the USB input errors"
+        },
+        {
+          "sha": "25aa6239d0f1d403d4e142cf4ff300280ff438a6",
+          "url": "https://github.com/jmgasper/haiku/commit/25aa6239d0f1d403d4e142cf4ff300280ff438a6",
+          "date": "2026-10-03T15:03:03Z",
+          "subject": "rpi4: stage the image's application packages; the packaging script takes a GL engine's extra libraries"
+        },
+        {
+          "sha": "244f7ffa67556d4ed3193ecc905bc4afa503d5be",
+          "url": "https://github.com/jmgasper/haiku/commit/244f7ffa67556d4ed3193ecc905bc4afa503d5be",
+          "date": "2026-10-03T15:09:35Z",
+          "subject": "broadcomfmac: the card interrupt instead of polling"
+        },
+        {
+          "sha": "d2a2868d078be1c43945d2618b11647ef9d6657a",
+          "url": "https://github.com/jmgasper/haiku/commit/d2a2868d078be1c43945d2618b11647ef9d6657a",
+          "date": "2026-10-03T15:25:37Z",
+          "subject": "v3d: Vulkan on the Raspberry Pi 4 (Mesa's v3dv, headless)"
+        },
+        {
+          "sha": "559537dcf1c3a38672efc61b10a695886be82625",
+          "url": "https://github.com/jmgasper/haiku/commit/559537dcf1c3a38672efc61b10a695886be82625",
+          "date": "2026-10-03T15:30:34Z",
+          "subject": "rpi4: Summit with GL compositing and WebGL"
+        },
+        {
+          "sha": "9230cb4d77b85f2a728168b7734de440adc9d963",
+          "url": "https://github.com/jmgasper/haiku/commit/9230cb4d77b85f2a728168b7734de440adc9d963",
+          "date": "2026-10-03T15:45:33Z",
+          "subject": "rpi4: the clock script waits for an address; status of the image"
+        },
+        {
+          "sha": "737b2fbf2777c2e781f42bca5a5592c89df4385f",
+          "url": "https://github.com/jmgasper/haiku/commit/737b2fbf2777c2e781f42bca5a5592c89df4385f",
+          "date": "2026-10-03T21:34:03Z",
+          "subject": "xhci: keep the VL805 from running stale TRBs (USB input on the Raspberry Pi 4)"
+        },
+        {
+          "sha": "c852a6ac0bb45e131729dc48d614577584ce988a",
+          "url": "https://github.com/jmgasper/haiku/commit/c852a6ac0bb45e131729dc48d614577584ce988a",
+          "date": "2026-10-03T23:44:25Z",
+          "subject": "vchiq, bcm2835_audio: the Raspberry Pi firmware's services, and sound through them"
+        },
+        {
+          "sha": "071b7470c3b12a0bd5dc2500bc2de0abfe8404ef",
+          "url": "https://github.com/jmgasper/haiku/commit/071b7470c3b12a0bd5dc2500bc2de0abfe8404ef",
+          "date": "2026-10-04T00:25:52Z",
+          "subject": "rpi_mmal: H.264 on the Raspberry Pi's hardware decoder; vchiq bulk transfers on the BCM2711"
+        },
+        {
+          "sha": "59730902452adf7af4da2c530ecd17471933e233",
+          "url": "https://github.com/jmgasper/haiku/commit/59730902452adf7af4da2c530ecd17471933e233",
+          "date": "2026-10-04T00:48:38Z",
+          "subject": "rpi4: sound and H.264 decoding in the image; what was checked"
+        },
+        {
+          "sha": "f89b3a61d9f0e90ba98c08a02170743609052ead",
+          "url": "https://github.com/jmgasper/haiku/commit/f89b3a61d9f0e90ba98c08a02170743609052ead",
+          "date": "2026-10-04T01:24:14Z",
+          "subject": "broadcomfmac: the card interrupt no longer fires for ever; unloading with the interface up"
+        },
+        {
+          "sha": "50104e2572bf9df1721be2eb54fbb4ed8bb57e88",
+          "url": "https://github.com/jmgasper/haiku/commit/50104e2572bf9df1721be2eb54fbb4ed8bb57e88",
+          "date": "2026-10-04T01:24:14Z",
+          "subject": "rpi_hevc: HEVC on the Raspberry Pi 4's decoder block"
+        },
+        {
+          "sha": "de6fa6c39ec38a9a936a76fa71da23cdd93b331f",
+          "url": "https://github.com/jmgasper/haiku/commit/de6fa6c39ec38a9a936a76fa71da23cdd93b331f",
+          "date": "2026-10-04T01:30:52Z",
+          "subject": "rpi_hevc: the Media Kit add-on, and both pieces in the image"
+        },
+        {
           "sha": "22835d54645f276cb075a84584e5ff398fa22110",
           "url": "https://github.com/jmgasper/haiku/commit/22835d54645f276cb075a84584e5ff398fa22110",
           "date": "2026-10-04T01:54:42Z",
@@ -16319,16 +16781,154 @@
           "subject": "docs: links in Terminal, programs that open a browser, OSC 52"
         },
         {
+          "sha": "88f7b073db8803d7f1e7ff41f9b1fa0a3e80bba6",
+          "url": "https://github.com/jmgasper/haiku/commit/88f7b073db8803d7f1e7ff41f9b1fa0a3e80bba6",
+          "date": "2026-10-04T02:35:29Z",
+          "subject": "broadcomfmac: no power saving; the card is also served unasked"
+        },
+        {
+          "sha": "1376a518e2accbf222e1c69bc7528f7af03bf314",
+          "url": "https://github.com/jmgasper/haiku/commit/1376a518e2accbf222e1c69bc7528f7af03bf314",
+          "date": "2026-10-04T02:35:29Z",
+          "subject": "kernel/scheduler: use the idle cores"
+        },
+        {
+          "sha": "8d5910cf14703239264dbba34d2921ae293a6a83",
+          "url": "https://github.com/jmgasper/haiku/commit/8d5910cf14703239264dbba34d2921ae293a6a83",
+          "date": "2026-10-04T02:35:29Z",
+          "subject": "rpi_mmal: no pictures, and less decoding, before the time a seek goes to"
+        },
+        {
+          "sha": "d77a12c2f1fd9e250af151d665844eb26b3bcb33",
+          "url": "https://github.com/jmgasper/haiku/commit/d77a12c2f1fd9e250af151d665844eb26b3bcb33",
+          "date": "2026-10-04T02:35:29Z",
+          "subject": "rpi_hevc: pictures nothing refers to are not decoded before a seek's target"
+        },
+        {
+          "sha": "b373b09ab16a23508f9a06b9adc4df1a56adef61",
+          "url": "https://github.com/jmgasper/haiku/commit/b373b09ab16a23508f9a06b9adc4df1a56adef61",
+          "date": "2026-10-04T02:37:07Z",
+          "subject": "rpi_mmal: the end of the stream waits until the decoder has caught up"
+        },
+        {
           "sha": "405a25e059b2901131f6081f21c59379248db051",
           "url": "https://github.com/jmgasper/haiku/commit/405a25e059b2901131f6081f21c59379248db051",
           "date": "2026-10-04T02:37:15Z",
           "subject": "Tracker: give the air/OS picture to a desktop with Haiku's logo per workspace"
         },
         {
+          "sha": "83daa1e03d9e30af458d27c877e8141c7e656291",
+          "url": "https://github.com/jmgasper/haiku/commit/83daa1e03d9e30af458d27c877e8141c7e656291",
+          "date": "2026-10-04T02:59:55Z",
+          "subject": "Terminal: open long links, let programs open a browser and copy"
+        },
+        {
+          "sha": "957882b49bff52f901d1022bbbaac4c68833a25c",
+          "url": "https://github.com/jmgasper/haiku/commit/957882b49bff52f901d1022bbbaac4c68833a25c",
+          "date": "2026-10-04T02:59:55Z",
+          "subject": "docs: links in Terminal, programs that open a browser, OSC 52"
+        },
+        {
+          "sha": "93626642271451db3213ff562356dc50c4608054",
+          "url": "https://github.com/jmgasper/haiku/commit/93626642271451db3213ff562356dc50c4608054",
+          "date": "2026-10-04T02:59:55Z",
+          "subject": "Tracker: give the air/OS picture to a desktop with Haiku's logo per workspace"
+        },
+        {
+          "sha": "ca6c54f72988d0aa8c5e922bb613a242bbc2a816",
+          "url": "https://github.com/jmgasper/haiku/commit/ca6c54f72988d0aa8c5e922bb613a242bbc2a816",
+          "date": "2026-10-04T03:08:14Z",
+          "subject": "rpi4: HEVC and the playing rates in the documents; measuring tools; airTime 1.0.0-14 in the image"
+        },
+        {
           "sha": "ba2c8bb4de64be5cf716fec192e309723e2d9fb3",
           "url": "https://github.com/jmgasper/haiku/commit/ba2c8bb4de64be5cf716fec192e309723e2d9fb3",
           "date": "2026-10-04T03:11:55Z",
           "subject": "x399: air/OS on the workstation, how it was installed and what it hit"
+        },
+        {
+          "sha": "44419648bec0d0b09869230baaad9d48fc0c0975",
+          "url": "https://github.com/jmgasper/haiku/commit/44419648bec0d0b09869230baaad9d48fc0c0975",
+          "date": "2026-10-04T03:23:45Z",
+          "subject": "rpi4: deploy-sd.sh leaves the board off for a few seconds; which card was checked for what"
+        },
+        {
+          "sha": "82343e9a8930308620f1566eb21b51c862de93a9",
+          "url": "https://github.com/jmgasper/haiku/commit/82343e9a8930308620f1566eb21b51c862de93a9",
+          "date": "2026-10-04T04:36:01Z",
+          "subject": "rpi4: join a remembered Wi-Fi network at start"
+        },
+        {
+          "sha": "bfd334e6ca92a5aac9dfe2bb2e6118adf5c76ca6",
+          "url": "https://github.com/jmgasper/haiku/commit/bfd334e6ca92a5aac9dfe2bb2e6118adf5c76ca6",
+          "date": "2026-10-04T04:36:01Z",
+          "subject": "broadcomfmac: serve the card on its interrupt only, not every millisecond"
+        },
+        {
+          "sha": "4bf93b8b0eedb652b5a44ae37bb372908e3c4113",
+          "url": "https://github.com/jmgasper/haiku/commit/4bf93b8b0eedb652b5a44ae37bb372908e3c4113",
+          "date": "2026-10-04T04:56:48Z",
+          "subject": "rpi4: which card was checked for the Wi-Fi bus thread and the join at start"
+        },
+        {
+          "sha": "5c9ce0e9c79202496fde4d7f05a9a54fc7d734b4",
+          "url": "https://github.com/jmgasper/haiku/commit/5c9ce0e9c79202496fde4d7f05a9a54fc7d734b4",
+          "date": "2026-10-04T06:33:31Z",
+          "subject": "arm64: name the Cortex-A72 and other ARM cores; rpi loader reports the ARM clock"
+        },
+        {
+          "sha": "911ba20ef6b86d5d88fb26c1658ab805c3e64bf0",
+          "url": "https://github.com/jmgasper/haiku/commit/911ba20ef6b86d5d88fb26c1658ab805c3e64bf0",
+          "date": "2026-10-04T06:33:32Z",
+          "subject": "rpi4: give the image the bootstrap ICU's data directory"
+        },
+        {
+          "sha": "709560fcd03fe128a548c10eabaf02daf87c1941",
+          "url": "https://github.com/jmgasper/haiku/commit/709560fcd03fe128a548c10eabaf02daf87c1941",
+          "date": "2026-10-04T06:55:46Z",
+          "subject": "rpi4: the CPU name, its clock and the ICU fix, checked on a flashed card"
+        },
+        {
+          "sha": "e441134d9d786925b86f37cba18f9e89445f3059",
+          "url": "https://github.com/jmgasper/haiku/commit/e441134d9d786925b86f37cba18f9e89445f3059",
+          "date": "2026-10-04T06:56:05Z",
+          "subject": "rpi4: deploy-sd.sh waits before powering the board up for the recovery OS"
+        },
+        {
+          "sha": "f9377adbcbfc0bb0ea127b86a474343b9fa639ed",
+          "url": "https://github.com/jmgasper/haiku/commit/f9377adbcbfc0bb0ea127b86a474343b9fa639ed",
+          "date": "2026-10-04T07:41:15Z",
+          "subject": "rpi_gpio: the Raspberry Pi 4's header pins for programs"
+        },
+        {
+          "sha": "5440b85afb7cd74484097bcabcb719db0787c8e2",
+          "url": "https://github.com/jmgasper/haiku/commit/5440b85afb7cd74484097bcabcb719db0787c8e2",
+          "date": "2026-10-04T08:23:23Z",
+          "subject": "rpi4: AirPins, the GPIO tool, in the image; GPIO.md"
+        },
+        {
+          "sha": "fa71dd9565ad352e53f2fca77c427b557aac2e8f",
+          "url": "https://github.com/jmgasper/haiku/commit/fa71dd9565ad352e53f2fca77c427b557aac2e8f",
+          "date": "2026-10-04T08:33:19Z",
+          "subject": "rpi4: the card flashed with AirPins and the GPIO driver, checked"
+        },
+        {
+          "sha": "fda5bdb8137e11f4c6e358059c270ba21177753b",
+          "url": "https://github.com/jmgasper/haiku/commit/fda5bdb8137e11f4c6e358059c270ba21177753b",
+          "date": "2026-10-04T11:19:13Z",
+          "subject": "rpi4: hide the ROCK 5's hardware decoder from the Media Kit"
+        },
+        {
+          "sha": "4819b4aade258915383ebcc248719e1edb3fd9ff",
+          "url": "https://github.com/jmgasper/haiku/commit/4819b4aade258915383ebcc248719e1edb3fd9ff",
+          "date": "2026-10-04T12:11:22Z",
+          "subject": "rpi4: the newer Summit engine on the board and staged for the image"
+        },
+        {
+          "sha": "e8f9b3e3aee5c193d1498f8d1cda6df9d117b101",
+          "url": "https://github.com/jmgasper/haiku/commit/e8f9b3e3aee5c193d1498f8d1cda6df9d117b101",
+          "date": "2026-10-04T22:01:00Z",
+          "subject": "rpi4: Summit with the VideoCore decoder installed and staged for the image"
         },
         {
           "sha": "d1338924a1c2feda681a9bf04a9b80af48d31eb1",
@@ -16361,6 +16961,96 @@
           "subject": "usb_webcam: free the camera when its consumer dies; tests and notes"
         },
         {
+          "sha": "7f299e846690da98d1ab5f46a2ce1f6149e6ef62",
+          "url": "https://github.com/jmgasper/haiku/commit/7f299e846690da98d1ab5f46a2ce1f6149e6ef62",
+          "date": "2026-10-05T01:51:44Z",
+          "subject": "kernel/vm: swapped-out pages and overcommit, modified pages in a merge, the page quota of an idle queue"
+        },
+        {
+          "sha": "900cd519d6c44163daf56e9fecd808bec6b5aec1",
+          "url": "https://github.com/jmgasper/haiku/commit/900cd519d6c44163daf56e9fecd808bec6b5aec1",
+          "date": "2026-10-05T01:51:44Z",
+          "subject": "kernel: a team that dies takes along the teams it loaded and never resumed"
+        },
+        {
+          "sha": "d3ac6ff0832c0c0f3a9e68c3ae1e65e8baa89957",
+          "url": "https://github.com/jmgasper/haiku/commit/d3ac6ff0832c0c0f3a9e68c3ae1e65e8baa89957",
+          "date": "2026-10-05T01:51:44Z",
+          "subject": "vchiq: bulk transfers without contiguous memory"
+        },
+        {
+          "sha": "c589be13fc9c2967f528c85b57facbe60fec24a9",
+          "url": "https://github.com/jmgasper/haiku/commit/c589be13fc9c2967f528c85b57facbe60fec24a9",
+          "date": "2026-10-05T01:51:44Z",
+          "subject": "bcm2711_emmc2: commands as long as the buffer, high speed timing; mmc_disk: no line per request"
+        },
+        {
+          "sha": "10c214fc5061227aef4654e2a584b75196e2b6ea",
+          "url": "https://github.com/jmgasper/haiku/commit/10c214fc5061227aef4654e2a584b75196e2b6ea",
+          "date": "2026-10-05T01:51:45Z",
+          "subject": "ramfs: give a file's cache to a vnode that was made anew"
+        },
+        {
+          "sha": "ccabe22bfdc31351c34b648c0add74ae99711b7e",
+          "url": "https://github.com/jmgasper/haiku/commit/ccabe22bfdc31351c34b648c0add74ae99711b7e",
+          "date": "2026-10-05T01:51:45Z",
+          "subject": "rpi4: lab tools for the kernel debugger and the fixes' tests"
+        },
+        {
+          "sha": "53956471746bbb8509c26c4e52553e526294b509",
+          "url": "https://github.com/jmgasper/haiku/commit/53956471746bbb8509c26c4e52553e526294b509",
+          "date": "2026-10-05T02:43:22Z",
+          "subject": "kernel: a loaded team counts as started when it is resumed"
+        },
+        {
+          "sha": "df02bed615cd228084a4bc78510e95f71333b897",
+          "url": "https://github.com/jmgasper/haiku/commit/df02bed615cd228084a4bc78510e95f71333b897",
+          "date": "2026-10-05T02:43:22Z",
+          "subject": "arm64: kernel debugger on +++ from the serial port, stack traces of other threads"
+        },
+        {
+          "sha": "6d877da0572106eb647c47bd3ef568aa939c9251",
+          "url": "https://github.com/jmgasper/haiku/commit/6d877da0572106eb647c47bd3ef568aa939c9251",
+          "date": "2026-10-05T02:43:29Z",
+          "subject": "xhci: high-bandwidth isochronous endpoints"
+        },
+        {
+          "sha": "0af4c0889eddb57d5fd08c1fe2650fb34cc05880",
+          "url": "https://github.com/jmgasper/haiku/commit/0af4c0889eddb57d5fd08c1fe2650fb34cc05880",
+          "date": "2026-10-05T02:43:29Z",
+          "subject": "usb_raw, USB Kit: isochronous streams"
+        },
+        {
+          "sha": "d5f5465ca96f664b72ce94856abbeaa4325e8769",
+          "url": "https://github.com/jmgasper/haiku/commit/d5f5465ca96f664b72ce94856abbeaa4325e8769",
+          "date": "2026-10-05T02:43:29Z",
+          "subject": "media servers: video inputs that are plugged in later"
+        },
+        {
+          "sha": "a314c835a947baedb3a04fa46eec4dc4e74b2eb9",
+          "url": "https://github.com/jmgasper/haiku/commit/a314c835a947baedb3a04fa46eec4dc4e74b2eb9",
+          "date": "2026-10-05T02:43:29Z",
+          "subject": "usb_webcam: USB Video Class cameras"
+        },
+        {
+          "sha": "d0df427f165f0dc6ef45c5d675d841200f242ee0",
+          "url": "https://github.com/jmgasper/haiku/commit/d0df427f165f0dc6ef45c5d675d841200f242ee0",
+          "date": "2026-10-05T02:43:29Z",
+          "subject": "usb_webcam: free the camera when its consumer dies; tests and notes"
+        },
+        {
+          "sha": "2cea309c0a28d6f88d5bc3e42d30d3316370c8a4",
+          "url": "https://github.com/jmgasper/haiku/commit/2cea309c0a28d6f88d5bc3e42d30d3316370c8a4",
+          "date": "2026-10-05T03:07:56Z",
+          "subject": "rpi4: the platform fixes and what was checked on the flashed card"
+        },
+        {
+          "sha": "88bd7989464cde270b1979746b0bf9ce9723d3b0",
+          "url": "https://github.com/jmgasper/haiku/commit/88bd7989464cde270b1979746b0bf9ce9723d3b0",
+          "date": "2026-10-05T04:17:43Z",
+          "subject": "rpi4: the image file with the newer Summit; two notes from its session"
+        },
+        {
           "sha": "348a5d8cc2204dfec3ea3f6a3e272373b14ec3bb",
           "url": "https://github.com/jmgasper/haiku/commit/348a5d8cc2204dfec3ea3f6a3e272373b14ec3bb",
           "date": "2026-10-05T04:49:44Z",
@@ -16373,6 +17063,552 @@
           "subject": "x399-workstation: status of the scaled screenshot change, deployed"
         },
         {
+          "sha": "5f55b76b0e21d80c2c317bfa68c08da2e0c9c9da",
+          "url": "https://github.com/jmgasper/haiku/commit/5f55b76b0e21d80c2c317bfa68c08da2e0c9c9da",
+          "date": "2026-10-05T05:00:35Z",
+          "subject": "app_server: scaled screenshots without copying the screen"
+        },
+        {
+          "sha": "e762318b834dcb39dfbd9f2fadb31723612d561f",
+          "url": "https://github.com/jmgasper/haiku/commit/e762318b834dcb39dfbd9f2fadb31723612d561f",
+          "date": "2026-10-05T05:00:44Z",
+          "subject": "rpi4: the scaled screenshot fix is in the tree, not yet in the image"
+        },
+        {
+          "sha": "fa4f0f0fe62e6d3591c8948162c7a82a6b14ce32",
+          "url": "https://github.com/jmgasper/haiku/commit/fa4f0f0fe62e6d3591c8948162c7a82a6b14ce32",
+          "date": "2026-10-05T05:47:01Z",
+          "subject": "Merge rpi4: Raspberry Pi 4 platform, and the rock5-itx line it is built on"
+        },
+        {
+          "sha": "a3969af1502a48a0e37d9c4cbacdd04dae50dca8",
+          "url": "https://github.com/jmgasper/haiku/commit/a3969af1502a48a0e37d9c4cbacdd04dae50dca8",
+          "date": "2026-10-05T05:47:02Z",
+          "subject": "Merge x399-workstation: USB webcams, Terminal links, hardware cursor, scaled screenshots"
+        },
+        {
+          "sha": "718eb83608fc1dd28b79dd7df5f10de790cb1608",
+          "url": "https://github.com/jmgasper/haiku/commit/718eb83608fc1dd28b79dd7df5f10de790cb1608",
+          "date": "2026-10-05T05:47:18Z",
+          "subject": "Merge airos-release: the air/OS release line"
+        },
+        {
+          "sha": "7428c9815a1a6424122908fb727ca9ee7fd8f78d",
+          "url": "https://github.com/jmgasper/haiku/commit/7428c9815a1a6424122908fb727ca9ee7fd8f78d",
+          "date": "2026-10-05T05:47:18Z",
+          "subject": "Merge airtime-decoders: ten-bit HEVC and AV1 on the RK3588 VPU"
+        },
+        {
+          "sha": "071e459193ae443e010b91cc86e951f1c522fadf",
+          "url": "https://github.com/jmgasper/haiku/commit/071e459193ae443e010b91cc86e951f1c522fadf",
+          "date": "2026-10-05T05:49:12Z",
+          "subject": "AGENTS.md: master is the integration branch"
+        },
+        {
+          "sha": "7ff51ba9d7984b2cc5ffeecfe64596172232cbc9",
+          "url": "https://github.com/jmgasper/haiku/commit/7ff51ba9d7984b2cc5ffeecfe64596172232cbc9",
+          "date": "2026-10-05T06:05:12Z",
+          "subject": "Merge upstream Haiku up to b42b90f5ec (2026-10-03)"
+        },
+        {
+          "sha": "f47d3056c37a3acb414b424250a88981877282f9",
+          "url": "https://github.com/jmgasper/haiku/commit/f47d3056c37a3acb414b424250a88981877282f9",
+          "date": "2026-10-05T06:07:36Z",
+          "subject": "mime_db: m4b, opus, aac and webm by their extensions"
+        },
+        {
+          "sha": "9dc439ceeb30cc97c63855f4c67be9d207875b17",
+          "url": "https://github.com/jmgasper/haiku/commit/9dc439ceeb30cc97c63855f4c67be9d207875b17",
+          "date": "2026-10-05T06:07:36Z",
+          "subject": "sources.json: upstream base hrev60206"
+        },
+        {
+          "sha": "3fe1a699f962ec972dc3dfb7842d3aae35326ef6",
+          "url": "https://github.com/jmgasper/haiku/commit/3fe1a699f962ec972dc3dfb7842d3aae35326ef6",
+          "date": "2026-10-05T10:16:16Z",
+          "subject": "air/OS CI: release image definitions for the build server"
+        },
+        {
+          "sha": "62b1f3c458e1ea2954b2a624fe5b5941b3025a13",
+          "url": "https://github.com/jmgasper/haiku/commit/62b1f3c458e1ea2954b2a624fe5b5941b3025a13",
+          "date": "2026-10-05T10:26:02Z",
+          "subject": "pci: leave the PCI name tables out of the bus manager"
+        },
+        {
+          "sha": "9d7827dd307d1c07881c600541743f6b5d952711",
+          "url": "https://github.com/jmgasper/haiku/commit/9d7827dd307d1c07881c600541743f6b5d952711",
+          "date": "2026-10-05T11:05:23Z",
+          "subject": "CI: build the air/OS images on the build server"
+        },
+        {
+          "sha": "e070ecba1d136c7c25d51ba8c690850783946a72",
+          "url": "https://github.com/jmgasper/haiku/commit/e070ecba1d136c7c25d51ba8c690850783946a72",
+          "date": "2026-10-05T11:05:30Z",
+          "subject": "Merge branch 'airos-ci': air/OS CI images"
+        },
+        {
+          "sha": "5724ed858d47f1d60321ca93395d0eb3e60c611c",
+          "url": "https://github.com/jmgasper/haiku/commit/5724ed858d47f1d60321ca93395d0eb3e60c611c",
+          "date": "2026-10-05T13:51:10Z",
+          "subject": "airos ci: leave . and .. out of the image's file globs"
+        },
+        {
+          "sha": "6c37f3ed6804cbf781e96fabe4b7bc48fd01aea7",
+          "url": "https://github.com/jmgasper/haiku/commit/6c37f3ed6804cbf781e96fabe4b7bc48fd01aea7",
+          "date": "2026-10-05T13:51:10Z",
+          "subject": "Merge branch 'airos-ci-demo-glob': image file globs without . and .."
+        },
+        {
+          "sha": "e19fd52191f1b3a08826cd7f7b9694433a19e433",
+          "url": "https://github.com/jmgasper/haiku/commit/e19fd52191f1b3a08826cd7f7b9694433a19e433",
+          "date": "2026-10-05T19:02:12Z",
+          "subject": "nvidia_rm, its accelerant and NVDEC: cross-built by the air/OS CI"
+        },
+        {
+          "sha": "3dd0cd771e6cd3b1a985c10a2d8e6dd62b80c8cb",
+          "url": "https://github.com/jmgasper/haiku/commit/3dd0cd771e6cd3b1a985c10a2d8e6dd62b80c8cb",
+          "date": "2026-10-05T19:02:12Z",
+          "subject": "Merge branch 'airos-ci-nvidia': nvidia_rm, accelerant and NVDEC for the CI images"
+        },
+        {
+          "sha": "3193eb7dda5a8a606012d8bd5d4741538e00361c",
+          "url": "https://github.com/jmgasper/haiku/commit/3193eb7dda5a8a606012d8bd5d4741538e00361c",
+          "date": "2026-10-05T19:06:12Z",
+          "subject": "BuildFeatures: FluidLite from the air/OS CI on arm64"
+        },
+        {
+          "sha": "0c1aadd730ffdafb6808d6c552bbc358eea166c8",
+          "url": "https://github.com/jmgasper/haiku/commit/0c1aadd730ffdafb6808d6c552bbc358eea166c8",
+          "date": "2026-10-05T19:06:12Z",
+          "subject": "Merge branch 'airos-ci-fluidlite': FluidLite for the CI's arm64 images"
+        },
+        {
+          "sha": "73167f68a07e9107e11c238b8456c229a6a65c01",
+          "url": "https://github.com/jmgasper/haiku/commit/73167f68a07e9107e11c238b8456c229a6a65c01",
+          "date": "2026-10-05T19:07:30Z",
+          "subject": "Tools and patches that were only on the build host"
+        },
+        {
+          "sha": "ad15c621fbff6f5277199b0b7245ab7b5b921983",
+          "url": "https://github.com/jmgasper/haiku/commit/ad15c621fbff6f5277199b0b7245ab7b5b921983",
+          "date": "2026-10-05T19:07:30Z",
+          "subject": "Merge branch 'airos-orphans': tools and patches that were only on the build host"
+        },
+        {
+          "sha": "7a5ba14c0fe83598ec43fcddcebd80dc39d4c4ea",
+          "url": "https://github.com/jmgasper/haiku/commit/7a5ba14c0fe83598ec43fcddcebd80dc39d4c4ea",
+          "date": "2026-10-05T19:47:44Z",
+          "subject": "airos ci: the Zink renderer only on machines with an NVIDIA card"
+        },
+        {
+          "sha": "3c1ce90a17bf0448dc782285ed35db6d4cd8cdec",
+          "url": "https://github.com/jmgasper/haiku/commit/3c1ce90a17bf0448dc782285ed35db6d4cd8cdec",
+          "date": "2026-10-05T19:47:44Z",
+          "subject": "Merge branch 'airos-ci-zink': Zink only on machines with an NVIDIA card"
+        },
+        {
+          "sha": "6a0056c5d4448f7b0c5828acda3801014acd1412",
+          "url": "https://github.com/jmgasper/haiku/commit/6a0056c5d4448f7b0c5828acda3801014acd1412",
+          "date": "2026-10-06T02:42:12Z",
+          "subject": "Fix fractional drawing edges and rasterize vector icons at drawing density"
+        },
+        {
+          "sha": "cb915b1f0de19d628b4bab959119b14f839a02c1",
+          "url": "https://github.com/jmgasper/haiku/commit/cb915b1f0de19d628b4bab959119b14f839a02c1",
+          "date": "2026-10-06T02:47:17Z",
+          "subject": "Merge current fork master with fractional rendering fixes"
+        },
+        {
+          "sha": "3528aa6eb08ff7d830fb6a1644e18ac450cd6c7a",
+          "url": "https://github.com/jmgasper/haiku/commit/3528aa6eb08ff7d830fb6a1644e18ac450cd6c7a",
+          "date": "2026-10-06T02:50:23Z",
+          "subject": "Keep adjacent displays together when changing their scale"
+        },
+        {
+          "sha": "2d4c1a72d4011d0eaa1cbee68a4b42470941feb1",
+          "url": "https://github.com/jmgasper/haiku/commit/2d4c1a72d4011d0eaa1cbee68a4b42470941feb1",
+          "date": "2026-10-06T03:04:23Z",
+          "subject": "Record fractional scaling validation and X399 deployment"
+        },
+        {
+          "sha": "5d97bc271dbc3fb50b8d6112daa9df3afc2c17b3",
+          "url": "https://github.com/jmgasper/haiku/commit/5d97bc271dbc3fb50b8d6112daa9df3afc2c17b3",
+          "date": "2026-10-06T03:33:07Z",
+          "subject": "rpi4: add repeatable application and boot timing probes"
+        },
+        {
+          "sha": "b2863a9151e4b0c554d068d7ccbccbd8a2b9ec15",
+          "url": "https://github.com/jmgasper/haiku/commit/b2863a9151e4b0c554d068d7ccbccbd8a2b9ec15",
+          "date": "2026-10-06T03:41:12Z",
+          "subject": "rpi4: keep PIO transfers from resuming SDMA after CMD6"
+        },
+        {
+          "sha": "3370000b6b816bf6528d2a603cb93b414c8529fe",
+          "url": "https://github.com/jmgasper/haiku/commit/3370000b6b816bf6528d2a603cb93b414c8529fe",
+          "date": "2026-10-06T03:59:32Z",
+          "subject": "arm64: speed symbol lookup and defer hidden window clipping"
+        },
+        {
+          "sha": "64e792b22ca646e662e1c66c9188cd7cbe0e75f9",
+          "url": "https://github.com/jmgasper/haiku/commit/64e792b22ca646e662e1c66c9188cd7cbe0e75f9",
+          "date": "2026-10-06T04:12:33Z",
+          "subject": "rpi4: make full-image emulator and KVM checks reliable"
+        },
+        {
+          "sha": "3ab8c46c6f23ae077a83a2e3cf53ed23cd8b5a94",
+          "url": "https://github.com/jmgasper/haiku/commit/3ab8c46c6f23ae077a83a2e3cf53ed23cd8b5a94",
+          "date": "2026-10-06T04:17:25Z",
+          "subject": "rpi4: persist V3D shaders across OpenGL application launches"
+        },
+        {
+          "sha": "97fabef919a215c5a190386784b6acb19e1cccc6",
+          "url": "https://github.com/jmgasper/haiku/commit/97fabef919a215c5a190386784b6acb19e1cccc6",
+          "date": "2026-10-06T04:22:44Z",
+          "subject": "runtime_loader: bound GNU Bloom shifts and exercise both hash formats"
+        },
+        {
+          "sha": "b554dc75e041ebb444f9d4c136981bee695bdb29",
+          "url": "https://github.com/jmgasper/haiku/commit/b554dc75e041ebb444f9d4c136981bee695bdb29",
+          "date": "2026-10-06T04:34:28Z",
+          "subject": "rpi4: shorten USB-first boot wait while preserving KVM recovery"
+        },
+        {
+          "sha": "cb1a0d13a0082c67c5c406f5639d783eac97140a",
+          "url": "https://github.com/jmgasper/haiku/commit/cb1a0d13a0082c67c5c406f5639d783eac97140a",
+          "date": "2026-10-06T04:49:10Z",
+          "subject": "runtime_loader: expose opt-in phase timings and preserve redirected diagnostics"
+        },
+        {
+          "sha": "3c82070fac3a7087d7acc26aaaaae810e095eaaa",
+          "url": "https://github.com/jmgasper/haiku/commit/3c82070fac3a7087d7acc26aaaaae810e095eaaa",
+          "date": "2026-10-06T05:20:17Z",
+          "subject": "vm: bound speculative file mapping prefetch to 1 MiB"
+        },
+        {
+          "sha": "9c8880afa25e5ed7361d4cb5549aefa779f9a212",
+          "url": "https://github.com/jmgasper/haiku/commit/9c8880afa25e5ed7361d4cb5549aefa779f9a212",
+          "date": "2026-10-06T05:26:43Z",
+          "subject": "rpi4: reduce WebKit dynamic exports and cold startup cost"
+        },
+        {
+          "sha": "14f7920062947d3d15ad1b2f2d228d6313ac6786",
+          "url": "https://github.com/jmgasper/haiku/commit/14f7920062947d3d15ad1b2f2d228d6313ac6786",
+          "date": "2026-10-06T05:58:57Z",
+          "subject": "tcp: clean up failed passive connection setup"
+        },
+        {
+          "sha": "7c4e7c21fc8e7c37eb2295ef9ee1535a671cb694",
+          "url": "https://github.com/jmgasper/haiku/commit/7c4e7c21fc8e7c37eb2295ef9ee1535a671cb694",
+          "date": "2026-10-06T06:12:40Z",
+          "subject": "v3d: add explicit CPU ownership for cached texture buffers"
+        },
+        {
+          "sha": "ad2cc573029ce91507ad494a08eca9bc6962e9f4",
+          "url": "https://github.com/jmgasper/haiku/commit/ad2cc573029ce91507ad494a08eca9bc6962e9f4",
+          "date": "2026-10-06T06:19:56Z",
+          "subject": "libroot: use pipelined ARM64 memory copies and moves"
+        },
+        {
+          "sha": "f1b4d84fd4fed58dd6156ac99791ef5ae0b914ec",
+          "url": "https://github.com/jmgasper/haiku/commit/f1b4d84fd4fed58dd6156ac99791ef5ae0b914ec",
+          "date": "2026-10-06T06:32:39Z",
+          "subject": "rpi4: enable validated cached GPU textures by default"
+        },
+        {
+          "sha": "dacd8afbd86451ed08583342ef00830846498b23",
+          "url": "https://github.com/jmgasper/haiku/commit/dacd8afbd86451ed08583342ef00830846498b23",
+          "date": "2026-10-06T06:39:05Z",
+          "subject": "Publish successful image builds to public GitHub Releases"
+        },
+        {
+          "sha": "d194f63973041683f36ede1df59aff85ab0da602",
+          "url": "https://github.com/jmgasper/haiku/commit/d194f63973041683f36ede1df59aff85ab0da602",
+          "date": "2026-10-06T06:39:37Z",
+          "subject": "Merge public image publishing for airos.works"
+        },
+        {
+          "sha": "dc0096652e93f1c6c936f61a4265cf4f3762ef67",
+          "url": "https://github.com/jmgasper/haiku/commit/dc0096652e93f1c6c936f61a4265cf4f3762ef67",
+          "date": "2026-10-06T06:41:59Z",
+          "subject": "rpi4: reject directory targets in application timing probe"
+        },
+        {
+          "sha": "8b124f2c541a68192fd5c44a8981d13a7ee52842",
+          "url": "https://github.com/jmgasper/haiku/commit/8b124f2c541a68192fd5c44a8981d13a7ee52842",
+          "date": "2026-10-06T06:47:34Z",
+          "subject": "rpi_hevc: convert column surfaces in cache-sized row groups"
+        },
+        {
+          "sha": "efc88be7c0fca6a09c81dfcf9322982f88154a35",
+          "url": "https://github.com/jmgasper/haiku/commit/efc88be7c0fca6a09c81dfcf9322982f88154a35",
+          "date": "2026-10-06T07:39:18Z",
+          "subject": "tcp: remove reused connections before changing their hash key"
+        },
+        {
+          "sha": "bdcf783a0e5aedd9adeb436adfca156cf40656d5",
+          "url": "https://github.com/jmgasper/haiku/commit/bdcf783a0e5aedd9adeb436adfca156cf40656d5",
+          "date": "2026-10-06T07:58:51Z",
+          "subject": "rpi4: accelerate large GPU readbacks and adapt Summit banding"
+        },
+        {
+          "sha": "9946e4c4c8f50de2dab0439e2cd0c091386e80d5",
+          "url": "https://github.com/jmgasper/haiku/commit/9946e4c4c8f50de2dab0439e2cd0c091386e80d5",
+          "date": "2026-10-06T08:18:05Z",
+          "subject": "arm64: accelerate user memory fills with guarded Arm implementation"
+        },
+        {
+          "sha": "f412d6d0f323b86e3bad51362b1a196f941e922b",
+          "url": "https://github.com/jmgasper/haiku/commit/f412d6d0f323b86e3bad51362b1a196f941e922b",
+          "date": "2026-10-06T08:51:30Z",
+          "subject": "rpi4: enable Zstandard packages for faster demand paging"
+        },
+        {
+          "sha": "81fa9945670d624bdf93f198321e35701ca2dd4b",
+          "url": "https://github.com/jmgasper/haiku/commit/81fa9945670d624bdf93f198321e35701ca2dd4b",
+          "date": "2026-10-06T08:59:11Z",
+          "subject": "openbsd_wlan: translate absolute RSSI without unsigned wrap"
+        },
+        {
+          "sha": "997b18190c81152b326ea57907af517477a400d6",
+          "url": "https://github.com/jmgasper/haiku/commit/997b18190c81152b326ea57907af517477a400d6",
+          "date": "2026-10-06T09:28:27Z",
+          "subject": "arm64: accelerate user string comparisons with guarded word loads"
+        },
+        {
+          "sha": "1cdbaccb2171acb66b883e1b06591cb4e565873c",
+          "url": "https://github.com/jmgasper/haiku/commit/1cdbaccb2171acb66b883e1b06591cb4e565873c",
+          "date": "2026-10-06T09:54:16Z",
+          "subject": "rpi4: keep Wi-Fi joins on the selected AP and avoid redundant scans"
+        },
+        {
+          "sha": "f4bead5b536dea5be973892ea8369724ae4cf266",
+          "url": "https://github.com/jmgasper/haiku/commit/f4bead5b536dea5be973892ea8369724ae4cf266",
+          "date": "2026-10-06T10:58:04Z",
+          "subject": "rpi4: record integrated performance limits and rejected experiments"
+        },
+        {
+          "sha": "e92aa71c9fa3647d4ccbce84ab3d5729d5a23de8",
+          "url": "https://github.com/jmgasper/haiku/commit/e92aa71c9fa3647d4ccbce84ab3d5729d5a23de8",
+          "date": "2026-10-06T11:34:02Z",
+          "subject": "arm64: accelerate user string lengths with page-safe SIMD scanning"
+        },
+        {
+          "sha": "5542f96f08d9fd70617d2376777dac7b009a3654",
+          "url": "https://github.com/jmgasper/haiku/commit/5542f96f08d9fd70617d2376777dac7b009a3654",
+          "date": "2026-10-06T11:38:24Z",
+          "subject": "rpi4: reuse retired native EGL window bitmaps during presentation"
+        },
+        {
+          "sha": "f85d337e1efadb8a139fc0d974dcc0d08fe2184a",
+          "url": "https://github.com/jmgasper/haiku/commit/f85d337e1efadb8a139fc0d974dcc0d08fe2184a",
+          "date": "2026-10-06T11:40:54Z",
+          "subject": "rpi4: refresh boot and dual-display documentation"
+        },
+        {
+          "sha": "6ea25d94d58cbdb28c8f63dedf962220d13c04bf",
+          "url": "https://github.com/jmgasper/haiku/commit/6ea25d94d58cbdb28c8f63dedf962220d13c04bf",
+          "date": "2026-10-06T12:41:02Z",
+          "subject": "rpi4: enable firmware-supported CPU boost after native endurance testing"
+        },
+        {
+          "sha": "63f5e1e916c41369d9464a062f20a23912fe8ee6",
+          "url": "https://github.com/jmgasper/haiku/commit/63f5e1e916c41369d9464a062f20a23912fe8ee6",
+          "date": "2026-10-06T12:47:06Z",
+          "subject": "rpi4: retain shared V3D hardware state between applications"
+        },
+        {
+          "sha": "15567049d7c76f8a15f50a137be6f76ee29d7ab6",
+          "url": "https://github.com/jmgasper/haiku/commit/15567049d7c76f8a15f50a137be6f76ee29d7ab6",
+          "date": "2026-10-06T13:16:05Z",
+          "subject": "rpi4: qualify file-cache preparation in CPU clock comparisons"
+        },
+        {
+          "sha": "0bcad604bc1eeed3ae60e893c2e8d8a7e0b405a6",
+          "url": "https://github.com/jmgasper/haiku/commit/0bcad604bc1eeed3ae60e893c2e8d8a7e0b405a6",
+          "date": "2026-10-06T13:57:43Z",
+          "subject": "rpi4: record flashed performance candidate and native acceptance results"
+        },
+        {
+          "sha": "34af80a0b47ddf1d409aa15aacd7a0c6ec504508",
+          "url": "https://github.com/jmgasper/haiku/commit/34af80a0b47ddf1d409aa15aacd7a0c6ec504508",
+          "date": "2026-10-06T14:01:58Z",
+          "subject": "rpi4: distinguish current component results from historical bring-up notes"
+        },
+        {
+          "sha": "670991b16e99964734a14447a223c39dbf215d0e",
+          "url": "https://github.com/jmgasper/haiku/commit/670991b16e99964734a14447a223c39dbf215d0e",
+          "date": "2026-10-06T14:45:51Z",
+          "subject": "rpi4: document the supplicant dialog blocking subsequent join requests"
+        },
+        {
+          "sha": "97ee951b5fc5703948aec71725d6c88a999cbf54",
+          "url": "https://github.com/jmgasper/haiku/commit/97ee951b5fc5703948aec71725d6c88a999cbf54",
+          "date": "2026-10-06T15:06:14Z",
+          "subject": "rpi4: finish flashed-image endurance and clean-boot qualification"
+        },
+        {
+          "sha": "2f91ef68badc9ab4baa804a76bab988aab2487da",
+          "url": "https://github.com/jmgasper/haiku/commit/2f91ef68badc9ab4baa804a76bab988aab2487da",
+          "date": "2026-10-06T15:11:49Z",
+          "subject": "rpi4: verify traffic after Wi-Fi recovery and clarify validation scope"
+        },
+        {
+          "sha": "91e65219dabf6e3a40931a496dd1d29aca190d38",
+          "url": "https://github.com/jmgasper/haiku/commit/91e65219dabf6e3a40931a496dd1d29aca190d38",
+          "date": "2026-10-07T01:01:33Z",
+          "subject": "Add opt-in boot-volume growth and Raspberry Pi first-boot setup"
+        },
+        {
+          "sha": "170704da2846c14fa109726a329751ecbe53f901",
+          "url": "https://github.com/jmgasper/haiku/commit/170704da2846c14fa109726a329751ecbe53f901",
+          "date": "2026-10-07T01:01:49Z",
+          "subject": "Merge current Raspberry Pi fixes for the installer image"
+        },
+        {
+          "sha": "f3d750a9b901468d12883072c42f64838fc0275f",
+          "url": "https://github.com/jmgasper/haiku/commit/f3d750a9b901468d12883072c42f64838fc0275f",
+          "date": "2026-10-07T01:06:03Z",
+          "subject": "Record the selected Summit engine source in its package"
+        },
+        {
+          "sha": "505134964ac2b6d74a53edad81f5c3bed5886db3",
+          "url": "https://github.com/jmgasper/haiku/commit/505134964ac2b6d74a53edad81f5c3bed5886db3",
+          "date": "2026-10-07T01:13:28Z",
+          "subject": "Enable first-boot SD setup in the CI Raspberry Pi profile"
+        },
+        {
+          "sha": "111abd3f61ab7058d49ec6a1c0e01f58db21754f",
+          "url": "https://github.com/jmgasper/haiku/commit/111abd3f61ab7058d49ec6a1c0e01f58db21754f",
+          "date": "2026-10-07T01:24:04Z",
+          "subject": "Document final Pi image and Summit validation"
+        },
+        {
+          "sha": "b6854ab9f8f5e9d10d3c77603a35cadd0428afa9",
+          "url": "https://github.com/jmgasper/haiku/commit/b6854ab9f8f5e9d10d3c77603a35cadd0428afa9",
+          "date": "2026-10-07T01:24:22Z",
+          "subject": "Merge Raspberry Pi first-boot storage setup and current Pi fixes"
+        },
+        {
+          "sha": "c2e8b8ece8efaccf9d28f40bd65bc75a1e56f2fa",
+          "url": "https://github.com/jmgasper/haiku/commit/c2e8b8ece8efaccf9d28f40bd65bc75a1e56f2fa",
+          "date": "2026-10-07T01:31:34Z",
+          "subject": "Record the delivered image and latest Summit smoke test"
+        },
+        {
+          "sha": "8d7617773f63502d000430b6929584ad47b0a4ad",
+          "url": "https://github.com/jmgasper/haiku/commit/8d7617773f63502d000430b6929584ad47b0a4ad",
+          "date": "2026-10-07T08:18:02Z",
+          "subject": "Fix Raspberry Pi first-boot HTTPS, clock setup and display/input hotplug"
+        },
+        {
+          "sha": "6ea9a7d41080f61aded712fecf416491d0322fb6",
+          "url": "https://github.com/jmgasper/haiku/commit/6ea9a7d41080f61aded712fecf416491d0322fb6",
+          "date": "2026-10-07T08:20:39Z",
+          "subject": "Merge Raspberry Pi first-boot reliability fixes"
+        },
+        {
+          "sha": "ff5201ae6c71c6fe751f4e52d14d6a88d28f3532",
+          "url": "https://github.com/jmgasper/haiku/commit/ff5201ae6c71c6fe751f4e52d14d6a88d28f3532",
+          "date": "2026-10-07T08:39:36Z",
+          "subject": "Record clean Raspberry Pi reliability image and native cold-boot checks"
+        },
+        {
+          "sha": "e1fddb8f6c060e7fd138fc7b34bc96f9a598d78e",
+          "url": "https://github.com/jmgasper/haiku/commit/e1fddb8f6c060e7fd138fc7b34bc96f9a598d78e",
+          "date": "2026-10-07T08:39:36Z",
+          "subject": "Merge Raspberry Pi reliability validation"
+        },
+        {
+          "sha": "6c222e50342abb91009f0c4dc196d3c5c766f7f7",
+          "url": "https://github.com/jmgasper/haiku/commit/6c222e50342abb91009f0c4dc196d3c5c766f7f7",
+          "date": "2026-10-07T11:40:56Z",
+          "subject": "xhci: reject new transfers while endpoint cancellation is in progress"
+        },
+        {
+          "sha": "b355567d487d120bc2695c005d0e4e0059a406f0",
+          "url": "https://github.com/jmgasper/haiku/commit/b355567d487d120bc2695c005d0e4e0059a406f0",
+          "date": "2026-10-07T12:09:42Z",
+          "subject": "bcm_genet: cache packet buffers and batch completion interrupts"
+        },
+        {
+          "sha": "3fc006b515440749113307c89ce9b2bf24898151",
+          "url": "https://github.com/jmgasper/haiku/commit/3fc006b515440749113307c89ce9b2bf24898151",
+          "date": "2026-10-07T12:09:42Z",
+          "subject": "tcp: keep normal queue verification bounded per packet"
+        },
+        {
+          "sha": "5c64069c76d4f9168b9b9ebe0d70b490174b1aba",
+          "url": "https://github.com/jmgasper/haiku/commit/5c64069c76d4f9168b9b9ebe0d70b490174b1aba",
+          "date": "2026-10-07T12:09:43Z",
+          "subject": "rpi4: add CPU and screen probes for native performance checks"
+        },
+        {
+          "sha": "78c62d4ff311197db60e647bcab3e2f12f72f137",
+          "url": "https://github.com/jmgasper/haiku/commit/78c62d4ff311197db60e647bcab3e2f12f72f137",
+          "date": "2026-10-08T00:49:07Z",
+          "subject": "net_socket: make socket_acquire's reference test and increment atomic"
+        },
+        {
+          "sha": "8734436f1f2357363bde4087fff81c3817b2a346",
+          "url": "https://github.com/jmgasper/haiku/commit/8734436f1f2357363bde4087fff81c3817b2a346",
+          "date": "2026-10-08T00:49:07Z",
+          "subject": "rpi4: record the unfinished USB removal and Ethernet investigation"
+        },
+        {
+          "sha": "9d1bdbc8b80228353ce9a65c4f02b76354d07102",
+          "url": "https://github.com/jmgasper/haiku/commit/9d1bdbc8b80228353ce9a65c4f02b76354d07102",
+          "date": "2026-10-08T01:24:35Z",
+          "subject": "Merge rpi-usb-network: xHCI cancellation race, GENET/TCP queue work, atomic socket_acquire, Codex's USB/network notes"
+        },
+        {
+          "sha": "916b7aecae7c5b46d6dfb3c0c8ba29dbd9946152",
+          "url": "https://github.com/jmgasper/haiku/commit/916b7aecae7c5b46d6dfb3c0c8ba29dbd9946152",
+          "date": "2026-10-08T01:25:00Z",
+          "subject": "rpi4: record the native verification of the owner's fresh-install issues"
+        },
+        {
+          "sha": "df829acd3fdd13f2802a79f3772d97c3368aa0e2",
+          "url": "https://github.com/jmgasper/haiku/commit/df829acd3fdd13f2802a79f3772d97c3368aa0e2",
+          "date": "2026-10-08T02:35:51Z",
+          "subject": "rpi4: the DSI display connector as an auxiliary display"
+        },
+        {
+          "sha": "9390ebff87ed1550e4fda8f43589a0b80e7e3ae1",
+          "url": "https://github.com/jmgasper/haiku/commit/9390ebff87ed1550e4fda8f43589a0b80e7e3ae1",
+          "date": "2026-10-08T02:36:04Z",
+          "subject": "Merge rpi4-dsi: the Pi 4's DSI connector as an auxiliary display (rpi_dsi, auxdisplay API, BAuxDisplay, rpi_thermal, AirTop --panel)"
+        },
+        {
+          "sha": "eb77c28dd24cf369d38ede57399fb4b2881f6844",
+          "url": "https://github.com/jmgasper/haiku/commit/eb77c28dd24cf369d38ede57399fb4b2881f6844",
+          "date": "2026-10-08T02:37:57Z",
+          "subject": "rpi_thermal: the legacy driver's target carries the <driver> grist the package rule expects"
+        },
+        {
+          "sha": "dbba9d0d1c73faf47b6682bce7d5787213bdefa9",
+          "url": "https://github.com/jmgasper/haiku/commit/dbba9d0d1c73faf47b6682bce7d5787213bdefa9",
+          "date": "2026-10-08T02:37:57Z",
+          "subject": "Merge rpi4-dsi: rpi_thermal package target fix"
+        },
+        {
+          "sha": "b3799cd9fae7033d93d54d7eec8b802453deb5f8",
+          "url": "https://github.com/jmgasper/haiku/commit/b3799cd9fae7033d93d54d7eec8b802453deb5f8",
+          "date": "2026-10-08T02:54:32Z",
+          "subject": "airos: build AirTop's arm64 package with the other applications"
+        },
+        {
+          "sha": "7141e7c7c0b42a96ff93c4acadcefaba33078d8e",
+          "url": "https://github.com/jmgasper/haiku/commit/7141e7c7c0b42a96ff93c4acadcefaba33078d8e",
+          "date": "2026-10-08T02:54:32Z",
+          "subject": "Merge rpi4-dsi: AirTop in the arm64 application package set"
+        },
+        {
+          "sha": "03f2e9bff99a0bd6c1e9a6b436a71246ee5f7b61",
+          "url": "https://github.com/jmgasper/haiku/commit/03f2e9bff99a0bd6c1e9a6b436a71246ee5f7b61",
+          "date": "2026-10-08T03:35:38Z",
+          "subject": "docs/rpi4: the DSI panel's cost"
+        },
+        {
           "sha": "d9e624084c852ac52c641670901e000cbf33e78e",
           "url": "https://github.com/jmgasper/haiku/commit/d9e624084c852ac52c641670901e000cbf33e78e",
           "date": "2026-10-08T05:47:23Z",
@@ -16383,6 +17619,324 @@
           "url": "https://github.com/jmgasper/haiku/commit/bb8bc5f2f938c0717e2a30ad216d05f6a3a7c7f9",
           "date": "2026-10-08T05:48:00Z",
           "subject": "Document failed deployment guard accurately"
+        },
+        {
+          "sha": "c6f2eeb5181906b6efc66c64b12ad495873816c2",
+          "url": "https://github.com/jmgasper/haiku/commit/c6f2eeb5181906b6efc66c64b12ad495873816c2",
+          "date": "2026-10-08T09:44:28Z",
+          "subject": "rpi4: bound V3D buffer-cache metadata growth"
+        },
+        {
+          "sha": "3d7bf6858cf1ce10bac3b85907e8ce322d45ac5d",
+          "url": "https://github.com/jmgasper/haiku/commit/3d7bf6858cf1ce10bac3b85907e8ce322d45ac5d",
+          "date": "2026-10-08T09:47:16Z",
+          "subject": "rpi4: record installed graphics presentation profile"
+        },
+        {
+          "sha": "f05219c0db03bd408ca0d3f210aef0af93b700ed",
+          "url": "https://github.com/jmgasper/haiku/commit/f05219c0db03bd408ca0d3f210aef0af93b700ed",
+          "date": "2026-10-08T10:39:23Z",
+          "subject": "rpi4: share GPU readback storage with EGL window bitmaps"
+        },
+        {
+          "sha": "57878f7966ea385f04abb764902d92a679a12690",
+          "url": "https://github.com/jmgasper/haiku/commit/57878f7966ea385f04abb764902d92a679a12690",
+          "date": "2026-10-08T11:02:48Z",
+          "subject": "rpi4: avoid redundant BGLView background clears"
+        },
+        {
+          "sha": "ed1bcc4edfe4446bf3e8f72062157f911cdd1d13",
+          "url": "https://github.com/jmgasper/haiku/commit/ed1bcc4edfe4446bf3e8f72062157f911cdd1d13",
+          "date": "2026-10-08T11:55:11Z",
+          "subject": "rpi4: retain stable V3D cache-walk bounds in registers"
+        },
+        {
+          "sha": "0d735d58f1e9b37ef57df79291fe0665d58705b3",
+          "url": "https://github.com/jmgasper/haiku/commit/0d735d58f1e9b37ef57df79291fe0665d58705b3",
+          "date": "2026-10-08T12:09:20Z",
+          "subject": "rpi4: record kernel memory-fill profile and rejected candidate"
+        },
+        {
+          "sha": "a6a040e30f64956a516139b8ba8502ad1e07cfaa",
+          "url": "https://github.com/jmgasper/haiku/commit/a6a040e30f64956a516139b8ba8502ad1e07cfaa",
+          "date": "2026-10-08T12:35:51Z",
+          "subject": "rpi4: record and stage AirPins toolbar startup optimization"
+        },
+        {
+          "sha": "15d09187dc39adc052d00fb89f2e77e45133248c",
+          "url": "https://github.com/jmgasper/haiku/commit/15d09187dc39adc052d00fb89f2e77e45133248c",
+          "date": "2026-10-08T13:05:32Z",
+          "subject": "icon: reuse the default gamma transfer calculation"
+        },
+        {
+          "sha": "513758f103c864a98a873f8627730daa2fe8e1cc",
+          "url": "https://github.com/jmgasper/haiku/commit/513758f103c864a98a873f8627730daa2fe8e1cc",
+          "date": "2026-10-08T14:11:01Z",
+          "subject": "app_server: reduce solid copy scanline drawing cost"
+        },
+        {
+          "sha": "559768d036630f0f604ff70f72d4d6264b8c13cb",
+          "url": "https://github.com/jmgasper/haiku/commit/559768d036630f0f604ff70f72d4d6264b8c13cb",
+          "date": "2026-10-08T15:12:29Z",
+          "subject": "rpi4: record page-clear evaluation and allocation benchmark"
+        },
+        {
+          "sha": "e6010e7acd588a66e1a32e3cb99d51440d657daf",
+          "url": "https://github.com/jmgasper/haiku/commit/e6010e7acd588a66e1a32e3cb99d51440d657daf",
+          "date": "2026-10-08T16:21:03Z",
+          "subject": "rpi4: add GNU hashes to the pinned C++ runtime"
+        },
+        {
+          "sha": "2673d0ed84126aac1f1a2cb11fd8b1e70233f2fb",
+          "url": "https://github.com/jmgasper/haiku/commit/2673d0ed84126aac1f1a2cb11fd8b1e70233f2fb",
+          "date": "2026-10-08T16:41:17Z",
+          "subject": "rpi4: record the rejected gradient optimization"
+        },
+        {
+          "sha": "14ed3e6a001fee17d5ce24bd12cddbbdfd670f0e",
+          "url": "https://github.com/jmgasper/haiku/commit/14ed3e6a001fee17d5ce24bd12cddbbdfd670f0e",
+          "date": "2026-10-08T17:13:30Z",
+          "subject": "rpi4: record rectangle-fill batching comparison and rollback"
+        },
+        {
+          "sha": "2b486afc209b9d4519a1e59bab7a6dcba276eb8a",
+          "url": "https://github.com/jmgasper/haiku/commit/2b486afc209b9d4519a1e59bab7a6dcba276eb8a",
+          "date": "2026-10-08T18:05:09Z",
+          "subject": "rpi4: cache fixed AirTop panel geometry after native qualification"
+        },
+        {
+          "sha": "a972a26fcd42ac4f1b4e5fd24a9a05d7c236bcd8",
+          "url": "https://github.com/jmgasper/haiku/commit/a972a26fcd42ac4f1b4e5fd24a9a05d7c236bcd8",
+          "date": "2026-10-08T18:19:22Z",
+          "subject": "rpi4: record the negligible AirTop font-setup comparison"
+        },
+        {
+          "sha": "a8b31c4d092c932405e3f63aa468441b8807d3b4",
+          "url": "https://github.com/jmgasper/haiku/commit/a8b31c4d092c932405e3f63aa468441b8807d3b4",
+          "date": "2026-10-08T19:01:19Z",
+          "subject": "app_server: reuse free tail space when growing bitmap pools"
+        },
+        {
+          "sha": "5ec68adad261d5693914b240765710af9f10726b",
+          "url": "https://github.com/jmgasper/haiku/commit/5ec68adad261d5693914b240765710af9f10726b",
+          "date": "2026-10-08T19:17:00Z",
+          "subject": "Synchronize runtime loader TLS template allocation"
+        },
+        {
+          "sha": "121ded7106ab12e9df26221e1c4d1a28c403ea8b",
+          "url": "https://github.com/jmgasper/haiku/commit/121ded7106ab12e9df26221e1c4d1a28c403ea8b",
+          "date": "2026-10-08T19:45:48Z",
+          "subject": "app_server: release bitmap client address reservations"
+        },
+        {
+          "sha": "232e79e81f68a8b096f915b1790625d66e52a7f7",
+          "url": "https://github.com/jmgasper/haiku/commit/232e79e81f68a8b096f915b1790625d66e52a7f7",
+          "date": "2026-10-08T19:46:28Z",
+          "subject": "Merge rpi4: qualified native performance improvements"
+        },
+        {
+          "sha": "97840781ee65cd1841a7c3a4c19c542e528b703a",
+          "url": "https://github.com/jmgasper/haiku/commit/97840781ee65cd1841a7c3a4c19c542e528b703a",
+          "date": "2026-10-08T20:00:52Z",
+          "subject": "rpi4: record cumulative native graphics and allocator checks"
+        },
+        {
+          "sha": "0b9ff72822f350846d3fb828e7bd99292eefacf1",
+          "url": "https://github.com/jmgasper/haiku/commit/0b9ff72822f350846d3fb828e7bd99292eefacf1",
+          "date": "2026-10-08T20:19:45Z",
+          "subject": "rpi4: cache fixed AirTop panel labels after native qualification"
+        },
+        {
+          "sha": "abbb335ddeac3d133a57794a3e5b63dfe74654e0",
+          "url": "https://github.com/jmgasper/haiku/commit/abbb335ddeac3d133a57794a3e5b63dfe74654e0",
+          "date": "2026-10-08T20:29:03Z",
+          "subject": "Merge rpi4: cumulative validation and AirTop fixed-label cache"
+        },
+        {
+          "sha": "523ad2ef7ff56a6fed5398b8015a2bad8c94f4f3",
+          "url": "https://github.com/jmgasper/haiku/commit/523ad2ef7ff56a6fed5398b8015a2bad8c94f4f3",
+          "date": "2026-10-08T20:50:03Z",
+          "subject": "rpi4: collect AirTop process details only for an open dashboard"
+        },
+        {
+          "sha": "ad8789eb3dd30e546bd828b9259e8884d542b143",
+          "url": "https://github.com/jmgasper/haiku/commit/ad8789eb3dd30e546bd828b9259e8884d542b143",
+          "date": "2026-10-08T20:50:28Z",
+          "subject": "Merge Raspberry Pi AirTop process sampling improvement"
+        },
+        {
+          "sha": "c3716ca8f10a51919a0b9ea0393f0c6f05ea60b8",
+          "url": "https://github.com/jmgasper/haiku/commit/c3716ca8f10a51919a0b9ea0393f0c6f05ea60b8",
+          "date": "2026-10-08T21:23:45Z",
+          "subject": "rpi4: complete twelve-hour native performance validation"
+        },
+        {
+          "sha": "c382028196e6325b402f4fb3e80cf1b4a4f0e74d",
+          "url": "https://github.com/jmgasper/haiku/commit/c382028196e6325b402f4fb3e80cf1b4a4f0e74d",
+          "date": "2026-10-08T21:23:45Z",
+          "subject": "Merge completed Raspberry Pi performance validation"
+        },
+        {
+          "sha": "206f54fad9be69bb3fe2325de808d2b720ee7b8d",
+          "url": "https://github.com/jmgasper/haiku/commit/206f54fad9be69bb3fe2325de808d2b720ee7b8d",
+          "date": "2026-10-09T01:40:35Z",
+          "subject": "Add Haiku-style Wi-Fi application and Deskbar icons"
+        },
+        {
+          "sha": "3d29de33774e7753a320636ba40417b0727a401a",
+          "url": "https://github.com/jmgasper/haiku/commit/3d29de33774e7753a320636ba40417b0727a401a",
+          "date": "2026-10-09T01:40:35Z",
+          "subject": "Merge Wi-Fi icon and X399 review update"
+        },
+        {
+          "sha": "887a93f29cb98ccf0faa246c5bad7a875a0cf4d9",
+          "url": "https://github.com/jmgasper/haiku/commit/887a93f29cb98ccf0faa246c5bad7a875a0cf4d9",
+          "date": "2026-10-09T01:57:54Z",
+          "subject": "Integrate MCP as a default-off system service with native preferences"
+        },
+        {
+          "sha": "418ca9803158c3b203bdeeb59c896bbf39822a0e",
+          "url": "https://github.com/jmgasper/haiku/commit/418ca9803158c3b203bdeeb59c896bbf39822a0e",
+          "date": "2026-10-09T01:58:14Z",
+          "subject": "Merge native MCP system service and preferences"
+        },
+        {
+          "sha": "172a16b352c9fe2948df53168eb686297d9e5df7",
+          "url": "https://github.com/jmgasper/haiku/commit/172a16b352c9fe2948df53168eb686297d9e5df7",
+          "date": "2026-10-09T02:15:23Z",
+          "subject": "docs: record MCP image release verification"
+        },
+        {
+          "sha": "bc0d507f5e40e6c2b762e4abee842f5505bf0cb4",
+          "url": "https://github.com/jmgasper/haiku/commit/bc0d507f5e40e6c2b762e4abee842f5505bf0cb4",
+          "date": "2026-10-09T09:32:54Z",
+          "subject": "kernel: skip add-on entries that cannot be examined when listing modules"
+        },
+        {
+          "sha": "f6ad8e2554bf8346a4d7cd33b90974bc93a3d1a8",
+          "url": "https://github.com/jmgasper/haiku/commit/f6ad8e2554bf8346a4d7cd33b90974bc93a3d1a8",
+          "date": "2026-10-09T09:32:55Z",
+          "subject": "xhci: queue up to 15 transfers per endpoint"
+        },
+        {
+          "sha": "232a62851a550024d9b750861c8bd772c2121075",
+          "url": "https://github.com/jmgasper/haiku/commit/232a62851a550024d9b750861c8bd772c2121075",
+          "date": "2026-10-09T09:33:02Z",
+          "subject": "usb: tell the host controller a SuperSpeed endpoint's burst size"
+        },
+        {
+          "sha": "7771ffa726d9da5a864860b58266f3708749b4b5",
+          "url": "https://github.com/jmgasper/haiku/commit/7771ffa726d9da5a864860b58266f3708749b4b5",
+          "date": "2026-10-09T09:33:12Z",
+          "subject": "usb_ecm: keep reads queued and send without waiting"
+        },
+        {
+          "sha": "aad1786ed62ddc989163a31feead76ef94672e23",
+          "url": "https://github.com/jmgasper/haiku/commit/aad1786ed62ddc989163a31feead76ef94672e23",
+          "date": "2026-10-09T09:33:12Z",
+          "subject": "x399-workstation: USB controller and throughput tests"
+        },
+        {
+          "sha": "88ec0215d75d1a2f16fa6d11f06b5b596b515c2f",
+          "url": "https://github.com/jmgasper/haiku/commit/88ec0215d75d1a2f16fa6d11f06b5b596b515c2f",
+          "date": "2026-10-09T11:39:39Z",
+          "subject": "x399-workstation: status of the USB port work"
+        },
+        {
+          "sha": "4f30188941b8a7d63bba1088b979dd6f8aea004b",
+          "url": "https://github.com/jmgasper/haiku/commit/4f30188941b8a7d63bba1088b979dd6f8aea004b",
+          "date": "2026-10-09T11:40:04Z",
+          "subject": "Merge x399-usb3: USB disks and network adapters attach when plugged in, SuperSpeed bursts, usb_ecm at gigabit"
+        },
+        {
+          "sha": "db80e86bf8b790c63a1fa75c7b2bd4ce93e66304",
+          "url": "https://github.com/jmgasper/haiku/commit/db80e86bf8b790c63a1fa75c7b2bd4ce93e66304",
+          "date": "2026-10-09T22:01:02Z",
+          "subject": "xhci: physical transfers: only the current fragment, no TRB across 64 KiB"
+        },
+        {
+          "sha": "1c3364e9817b4183dd95918947f2562c21293af8",
+          "url": "https://github.com/jmgasper/haiku/commit/1c3364e9817b4183dd95918947f2562c21293af8",
+          "date": "2026-10-09T22:01:02Z",
+          "subject": "usb_disk: 1 MiB commands for SuperSpeed disks, without splitting them"
+        },
+        {
+          "sha": "c6ce130766e613805faa7c4a4c495d64c2905c2d",
+          "url": "https://github.com/jmgasper/haiku/commit/c6ce130766e613805faa7c4a4c495d64c2905c2d",
+          "date": "2026-10-09T22:04:34Z",
+          "subject": "Merge x399-usb3: USB 3 disks at full speed"
+        },
+        {
+          "sha": "c3517b19ebc9bf0c33436062d6024c13b4ffd14b",
+          "url": "https://github.com/jmgasper/haiku/commit/c3517b19ebc9bf0c33436062d6024c13b4ffd14b",
+          "date": "2026-10-09T22:06:01Z",
+          "subject": "x399-workstation: USB 3 disk results and the disk check script"
+        },
+        {
+          "sha": "4c48e590b54754397ff1b7fab14a14bf20c9465f",
+          "url": "https://github.com/jmgasper/haiku/commit/4c48e590b54754397ff1b7fab14a14bf20c9465f",
+          "date": "2026-10-09T22:06:01Z",
+          "subject": "Merge x399-usb3: USB 3 disk status"
+        },
+        {
+          "sha": "06c565b7a119a94ce5420714da20a452410d8a0b",
+          "url": "https://github.com/jmgasper/haiku/commit/06c565b7a119a94ce5420714da20a452410d8a0b",
+          "date": "2026-10-09T22:10:31Z",
+          "subject": "x399-workstation: USB 3 SSD on the ASM2142's USB-A port"
+        },
+        {
+          "sha": "2ec2aac2b4a70c8ae2c3b65a45692bce1a994ea4",
+          "url": "https://github.com/jmgasper/haiku/commit/2ec2aac2b4a70c8ae2c3b65a45692bce1a994ea4",
+          "date": "2026-10-09T22:10:31Z",
+          "subject": "Merge x399-usb3: USB status, ASM2142 USB-A port"
+        },
+        {
+          "sha": "3728c04a19999dd2fd0ca0e86ffb95ad6bdab2ba",
+          "url": "https://github.com/jmgasper/haiku/commit/3728c04a19999dd2fd0ca0e86ffb95ad6bdab2ba",
+          "date": "2026-10-09T22:25:53Z",
+          "subject": "x399-workstation: the chipset controller ignores EP0 re-evaluation"
+        },
+        {
+          "sha": "826d4ebb2df770a3f1a011094bf1e4a63e47459a",
+          "url": "https://github.com/jmgasper/haiku/commit/826d4ebb2df770a3f1a011094bf1e4a63e47459a",
+          "date": "2026-10-09T22:25:53Z",
+          "subject": "Merge x399-usb3: chipset control transfer finding"
+        },
+        {
+          "sha": "158aa4121d2f185a32c4599cffe54cbe4663b8da",
+          "url": "https://github.com/jmgasper/haiku/commit/158aa4121d2f185a32c4599cffe54cbe4663b8da",
+          "date": "2026-10-09T23:08:49Z",
+          "subject": "Merge x399-workstation: runtime_loader TLS template fixes"
+        },
+        {
+          "sha": "efc7701977ed60a0ad5cb91b262b90f8ba4e1ecd",
+          "url": "https://github.com/jmgasper/haiku/commit/efc7701977ed60a0ad5cb91b262b90f8ba4e1ecd",
+          "date": "2026-10-10T00:05:30Z",
+          "subject": "nvidia_rm: shrink a region where the display engine can, checked first"
+        },
+        {
+          "sha": "77d9b070bb2796b0fe7f4c6dc060735d7940c8f7",
+          "url": "https://github.com/jmgasper/haiku/commit/77d9b070bb2796b0fe7f4c6dc060735d7940c8f7",
+          "date": "2026-10-10T00:05:30Z",
+          "subject": "app_server: draw at the largest display scale the hardware can show"
+        },
+        {
+          "sha": "c796cef66d49aa2b7d60414794a9ea3cdf2082e0",
+          "url": "https://github.com/jmgasper/haiku/commit/c796cef66d49aa2b7d60414794a9ea3cdf2082e0",
+          "date": "2026-10-10T00:34:54Z",
+          "subject": "nvidia_rm: one frame buffer mapped at a time, for the 256 MiB BAR1"
+        },
+        {
+          "sha": "8b679e7c09036e1bac57abb3777f1ccaa804e111",
+          "url": "https://github.com/jmgasper/haiku/commit/8b679e7c09036e1bac57abb3777f1ccaa804e111",
+          "date": "2026-10-10T00:49:04Z",
+          "subject": "x399-workstation: mixed-scale monitors drawn at the largest density"
+        },
+        {
+          "sha": "b6b529b4a72a5720fe2ec642767eceb659f3021f",
+          "url": "https://github.com/jmgasper/haiku/commit/b6b529b4a72a5720fe2ec642767eceb659f3021f",
+          "date": "2026-10-10T00:49:25Z",
+          "subject": "Merge x399-mixed-scale: 4K monitors stay crisp beside a 1080p one"
         }
       ],
       "url": "https://github.com/jmgasper/haiku/tree/x399-workstation"
@@ -22914,76 +24468,76 @@
   "images": [
     {
       "target": "x86_64",
-      "release": "https://github.com/jmgasper/haiku/releases/tag/image-x86_64-20261009154235-4f30188941",
-      "published": "2026-10-09T15:44:46Z",
+      "release": "https://github.com/jmgasper/haiku/releases/tag/image-x86_64-20261010010154-b6b529b4a7",
+      "published": "2026-10-10T01:04:00Z",
       "assets": [
         {
           "name": "airos-x86_64.iso.xz",
-          "size": 749740424,
-          "browser_download_url": "https://github.com/jmgasper/haiku/releases/download/image-x86_64-20261009154235-4f30188941/airos-x86_64.iso.xz",
-          "digest": "sha256:c8b997b536a9ee53605a70208c83847d631d09d4b9cb033d69d1e591c936233e"
+          "size": 749754944,
+          "browser_download_url": "https://github.com/jmgasper/haiku/releases/download/image-x86_64-20261010010154-b6b529b4a7/airos-x86_64.iso.xz",
+          "digest": "sha256:40284148b13a29bb3d6d6d631433b17963420660bbc6113409eaf72967685648"
         },
         {
           "name": "airos-x86_64.iso.xz.sha256",
           "size": 86,
-          "browser_download_url": "https://github.com/jmgasper/haiku/releases/download/image-x86_64-20261009154235-4f30188941/airos-x86_64.iso.xz.sha256",
-          "digest": "sha256:36ce9addb45f88cf390d45e892f260556a69369851a451aaf50f64250fb88f2d"
+          "browser_download_url": "https://github.com/jmgasper/haiku/releases/download/image-x86_64-20261010010154-b6b529b4a7/airos-x86_64.iso.xz.sha256",
+          "digest": "sha256:c38b7e7c94dfe78d8ab5bc1f69530323831167dabe6b798e9596786cfff57496"
         },
         {
           "name": "manifest.json",
           "size": 4206,
-          "browser_download_url": "https://github.com/jmgasper/haiku/releases/download/image-x86_64-20261009154235-4f30188941/manifest.json",
-          "digest": "sha256:fefa2503c45fe6364dd8352d34d0e16375828a2ddf15a2f1a79e5c1831a31471"
+          "browser_download_url": "https://github.com/jmgasper/haiku/releases/download/image-x86_64-20261010010154-b6b529b4a7/manifest.json",
+          "digest": "sha256:93cc56be73c0bdbdbd5871235173d8f1ec1ee85076ee625a9f4b05f44fcdd896"
         }
       ]
     },
     {
       "target": "arm64",
-      "release": "https://github.com/jmgasper/haiku/releases/tag/image-arm64-20261009153428-4f30188941",
-      "published": "2026-10-09T15:36:43Z",
+      "release": "https://github.com/jmgasper/haiku/releases/tag/image-arm64-20261010005344-b6b529b4a7",
+      "published": "2026-10-10T00:55:59Z",
       "assets": [
         {
           "name": "airos-arm64.iso.xz",
-          "size": 258649236,
-          "browser_download_url": "https://github.com/jmgasper/haiku/releases/download/image-arm64-20261009153428-4f30188941/airos-arm64.iso.xz",
-          "digest": "sha256:f9b70eef1a60ba49bdae516e270786a90787e4eb208f216e484138c74ceab071"
+          "size": 258652716,
+          "browser_download_url": "https://github.com/jmgasper/haiku/releases/download/image-arm64-20261010005344-b6b529b4a7/airos-arm64.iso.xz",
+          "digest": "sha256:a136b8b4d18a24adb6f59eef41437736497d982229c389878e03d4d1bf38a968"
         },
         {
           "name": "airos-arm64.iso.xz.sha256",
           "size": 85,
-          "browser_download_url": "https://github.com/jmgasper/haiku/releases/download/image-arm64-20261009153428-4f30188941/airos-arm64.iso.xz.sha256",
-          "digest": "sha256:c96c3c4807eff7b3056a2e3901ea6d36b30218b9114fedca64210b3f6971d8f2"
+          "browser_download_url": "https://github.com/jmgasper/haiku/releases/download/image-arm64-20261010005344-b6b529b4a7/airos-arm64.iso.xz.sha256",
+          "digest": "sha256:5153a11931cc8406c15a757482306519597577ca7ec7a1df936bd1c707c82618"
         },
         {
           "name": "manifest.json",
           "size": 4413,
-          "browser_download_url": "https://github.com/jmgasper/haiku/releases/download/image-arm64-20261009153428-4f30188941/manifest.json",
-          "digest": "sha256:b7d3acd44e86cacd9f2055b8548f2bb5442f232d4263c51250b139d321807db1"
+          "browser_download_url": "https://github.com/jmgasper/haiku/releases/download/image-arm64-20261010005344-b6b529b4a7/manifest.json",
+          "digest": "sha256:cfc6bb16644971f07f83df21e3913ef30f6a355b3e2db89d03d65a66195a8ec9"
         }
       ]
     },
     {
       "target": "rpi4",
-      "release": "https://github.com/jmgasper/haiku/releases/tag/image-rpi4-20261009153058-4f30188941",
-      "published": "2026-10-09T15:31:52Z",
+      "release": "https://github.com/jmgasper/haiku/releases/tag/image-rpi4-20261010010650-b6b529b4a7",
+      "published": "2026-10-10T01:07:40Z",
       "assets": [
         {
           "name": "airos-rpi4.img.xz",
-          "size": 261057480,
-          "browser_download_url": "https://github.com/jmgasper/haiku/releases/download/image-rpi4-20261009153058-4f30188941/airos-rpi4.img.xz",
-          "digest": "sha256:d1a0e30d69792ca9b65dca29cbe64c54fdc28af531f702312c20aedb103a42f8"
+          "size": 261052828,
+          "browser_download_url": "https://github.com/jmgasper/haiku/releases/download/image-rpi4-20261010010650-b6b529b4a7/airos-rpi4.img.xz",
+          "digest": "sha256:0fdaa89c89d186b9d52c2c449184ec57de1353614a78a5bd208bd6ecb624e526"
         },
         {
           "name": "airos-rpi4.img.xz.sha256",
           "size": 84,
-          "browser_download_url": "https://github.com/jmgasper/haiku/releases/download/image-rpi4-20261009153058-4f30188941/airos-rpi4.img.xz.sha256",
-          "digest": "sha256:207010f03e38f8612ad4fd5cf8adb9e7e2d1fc8e33de4848871909e4d49c80f5"
+          "browser_download_url": "https://github.com/jmgasper/haiku/releases/download/image-rpi4-20261010010650-b6b529b4a7/airos-rpi4.img.xz.sha256",
+          "digest": "sha256:746a865533b47ddb9491cb2fe891b520a71eaf2417632270cc42d77904750bbf"
         },
         {
           "name": "manifest.json",
           "size": 4547,
-          "browser_download_url": "https://github.com/jmgasper/haiku/releases/download/image-rpi4-20261009153058-4f30188941/manifest.json",
-          "digest": "sha256:6c834f7a17462774efe3911f0b83d51de5d3e11c32809ce4afe674b55d86728f"
+          "browser_download_url": "https://github.com/jmgasper/haiku/releases/download/image-rpi4-20261010010650-b6b529b4a7/manifest.json",
+          "digest": "sha256:505de0165ebb233771ea247ccc373970e899ce6b271fde0626fcee66e60e01bf"
         }
       ]
     }
